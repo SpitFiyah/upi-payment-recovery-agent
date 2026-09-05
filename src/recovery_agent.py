@@ -3,12 +3,13 @@ recovery pipeline (classify, select policy, simulate retries) and writes every
 decision to the audit log.
 
 Retry simulation note: expected_recovery_rate is applied as a per-attempt
-Bernoulli probability, and at least one simulated attempt always runs even
-for notify_user/no_retry policies (max_attempts=0), representing the chance
-the transaction resolves through that channel (e.g. the user fixes their
-mandate on their own). This is the simplest read of the spec's requirement
-that recovery rate be measured per bucket, since a policy with zero attempts
-would otherwise always show 0% regardless of its configured recovery rate.
+Bernoulli probability. For max_attempts=0 policies (notify_user/no_retry),
+one self-resolution check still runs, representing the chance the
+transaction resolves through that channel (e.g. the user fixes their
+mandate on their own) rather than trivially reporting 0% recovery for a
+policy whose recovery rate is explicitly configured as nonzero. For every
+other policy, retry_policy.should_stop() gates each attempt for real,
+checking the attempts cap, the 24h time window, and the $0.10 cost cap.
 """
 
 import asyncio
@@ -24,7 +25,7 @@ from src import classifier
 from src.audit_log import append
 from src.llm_client import LLMClient
 from src.models import AuditEntry, Transaction
-from src.retry_policy import get_policy
+from src.retry_policy import get_policy, should_stop
 
 MAX_CONCURRENT_LLM_CALLS = 10
 DATA_PATH = Path(__file__).resolve().parent.parent / "data" / "synthetic_transactions.json"
@@ -94,9 +95,15 @@ async def process_transaction(
         )
     )
 
-    attempts_to_simulate = max(policy.max_attempts, 1)
     recovered = False
-    for attempt_number in range(1, attempts_to_simulate + 1):
+    total_attempts = 0
+
+    if policy.max_attempts == 0:
+        # notify_user/no_retry strategies make no system-initiated attempt, but
+        # expected_recovery_rate is still defined for them (e.g. the user fixes
+        # their own mandate after being notified), so simulate that one
+        # self-resolution check rather than trivially reporting 0% recovery.
+        total_attempts = 1
         success = random.random() < policy.expected_recovery_rate
         append(
             AuditEntry(
@@ -107,15 +114,49 @@ async def process_transaction(
                 tier_used=None,
                 llm_provider_used=None,
                 llm_latency_ms=None,
-                input_snapshot={"attempt_number": attempt_number, "strategy": policy.strategy},
+                input_snapshot={"attempt_number": 1, "strategy": policy.strategy},
                 output_snapshot={"success": success},
-                reasoning=f"Simulated attempt {attempt_number}/{attempts_to_simulate}, success={success}",
+                reasoning=f"No system retry configured (max_attempts=0), simulated self-resolution via {policy.strategy}",
                 cost_estimate_usd=0.0,
             )
         )
-        if success:
-            recovered = True
-            break
+        recovered = success
+    else:
+        elapsed_seconds = 0.0
+        cost_so_far = result.cost_estimate_usd
+        attempt_number = 0
+        while not should_stop(attempt_number, elapsed_seconds, cost_so_far, policy):
+            interval = (
+                policy.intervals_seconds[attempt_number]
+                if attempt_number < len(policy.intervals_seconds)
+                else 0
+            )
+            elapsed_seconds += interval
+            success = random.random() < policy.expected_recovery_rate
+            attempt_number += 1
+            total_attempts = attempt_number
+            append(
+                AuditEntry(
+                    entry_id=_new_entry_id(),
+                    txn_id=transaction.txn_id,
+                    timestamp=datetime.now(),
+                    stage="retry_attempted",
+                    tier_used=None,
+                    llm_provider_used=None,
+                    llm_latency_ms=None,
+                    input_snapshot={
+                        "attempt_number": attempt_number,
+                        "strategy": policy.strategy,
+                        "elapsed_seconds": elapsed_seconds,
+                    },
+                    output_snapshot={"success": success},
+                    reasoning=f"Simulated attempt {attempt_number}, success={success}",
+                    cost_estimate_usd=0.0,
+                )
+            )
+            if success:
+                recovered = True
+                break
 
     final_stage = "recovered" if recovered else "abandoned"
     append(
@@ -129,7 +170,7 @@ async def process_transaction(
             llm_latency_ms=None,
             input_snapshot={"root_cause": result.root_cause.value},
             output_snapshot={"recovered": recovered},
-            reasoning=f"Transaction {final_stage} after {attempts_to_simulate} simulated attempt(s)",
+            reasoning=f"Transaction {final_stage} after {total_attempts} simulated attempt(s)",
             cost_estimate_usd=0.0,
         )
     )
