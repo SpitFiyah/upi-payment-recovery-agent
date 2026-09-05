@@ -10,6 +10,24 @@ batch with full audit trail.
 **Live demo:** Pending Streamlit Cloud deploy (needs a browser-based GitHub OAuth step, see Setup below to run locally in the meantime)
 **Video pitch:** TBD
 
+| | |
+|---|---|
+| **Track** | Track 3, AI Revenue Recovery |
+| **Stack** | Python 3.13, Streamlit, Gemini + Groq, sentence-transformers, pydantic v2 |
+| **Data** | 200 synthetic UPI failures, 6 root cause buckets |
+| **Storage** | Append-only JSONL, no database |
+| **Tests** | 27, `pytest tests/` |
+
+## Contents
+
+- [What this does](#what-this-does)
+- [Architecture](#architecture)
+- [How a single transaction moves through the system](#how-a-single-transaction-moves-through-the-system)
+- [Measured results](#measured-results-on-200-synthetic-transactions)
+- [Setup](#setup-under-10-minutes)
+- [Repo layout](#repo-layout)
+- [Known limitations](#known-limitations)
+
 ## What this does
 
 Indian merchants using UPI experience 4-6% payment failure rates
@@ -25,6 +43,68 @@ naive fixed-interval or nothing. This agent closes the recovery loop:
 5. Every decision logged to append-only JSONL audit trail
 6. Metrics dashboard shows recovery rate, classification accuracy, cost
    per recovery, tier routing distribution
+
+## Architecture
+
+AI is the last resort, not the first tool. Green is deterministic and free,
+orange is an LLM call, red is the fallback path when both LLM providers
+fail.
+
+```mermaid
+flowchart TD
+    TXN["Failed UPI Transaction"] --> PRE["Preprocessing<br/>regex: bank code + error code"]
+    PRE --> T1["Tier 1: Keyword Match<br/>$0 cost, under 1ms"]
+    T1 -->|match| RC["Root Cause"]
+    T1 -->|no match| T2["Tier 2: Local Embedding<br/>all-MiniLM-L6-v2, $0 cost, 5-20ms"]
+    T2 -->|similarity above 0.75| RC
+    T2 -->|below threshold| T3["Tier 3: Gemini<br/>structured JSON, ~1s"]
+    T3 -->|success| RC
+    T3 -->|timeout, rate limit, 5xx| T4["Tier 4: Groq Fallback<br/>same JSON contract"]
+    T4 -->|success| RC
+    T4 -->|both providers failed| UNK["UNKNOWN<br/>routes to notify_user"]
+    UNK --> RC
+    RC --> POL["Retry Policy Lookup<br/>deterministic constants table"]
+    POL --> LOOP["Bounded Retry Loop<br/>stopping rules: attempts cap, 24h window, $0.10 cost cap"]
+    LOOP --> AUDIT["Audit Log<br/>append-only JSONL"]
+    AUDIT --> METRICS["Metrics<br/>recovery rate, F1, tier split, cost"]
+    AUDIT --> UI["Streamlit UI<br/>4 tabs"]
+
+    style T1 fill:#e8f5e9,stroke:#2e7d32,color:#1b5e20
+    style T2 fill:#e8f5e9,stroke:#2e7d32,color:#1b5e20
+    style T3 fill:#fff3e0,stroke:#ef6c00,color:#e65100
+    style T4 fill:#fff3e0,stroke:#ef6c00,color:#e65100
+    style UNK fill:#ffebee,stroke:#c62828,color:#b71c1c
+```
+
+Measured on the current batch: keyword handled 76.5% of traffic, embedding
+13.5%, and Gemini plus Groq combined the remaining 10%. Full writeup,
+including why that is not the 60/25/15 split originally targeted, in
+[docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
+
+## How a single transaction moves through the system
+
+Every arrow below is a real line in `logs/audit.jsonl`, not just an
+in-memory step. This is the audit trail the Track 3 bar asks for.
+
+```mermaid
+sequenceDiagram
+    participant TXN as Transaction
+    participant PRE as Preprocessing
+    participant CAS as Classifier Cascade
+    participant POL as Retry Policy
+    participant LOG as Audit Log
+
+    TXN->>PRE: raw_error_message, upi_vpa
+    PRE->>LOG: stage=enriched
+    PRE->>CAS: enriched transaction
+    CAS->>LOG: stage=classified (tier_used, root_cause)
+    CAS->>POL: root_cause
+    POL->>LOG: stage=policy_selected (strategy, max_attempts)
+    loop until should_stop() returns true
+        POL->>LOG: stage=retry_attempted (success?)
+    end
+    POL->>LOG: stage=recovered or abandoned
+```
 
 ## Measured results on 200 synthetic transactions
 
@@ -67,9 +147,25 @@ Free API keys:
 - Gemini: https://aistudio.google.com
 - Groq: https://console.groq.com
 
-## Architecture
+## Repo layout
 
-See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
+```
+app.py                  Streamlit UI, the entire frontend and backend
+src/
+  models.py             pydantic schemas: Transaction, RootCause, RetryPolicy, AuditEntry
+  data_generator.py      writes data/synthetic_transactions.json
+  preprocessing.py        regex enrichment (bank code, error code)
+  tier_keyword.py          Tier 1
+  tier_embedding.py        Tier 2
+  llm_client.py             Tier 3 (Gemini) + Tier 4 (Groq)
+  classifier.py              chains all 4 tiers
+  retry_policy.py             constants table + stopping rules
+  recovery_agent.py             async batch orchestrator
+  audit_log.py                   append-only JSONL
+  metrics.py                      recovery rate, F1, cost, tier distribution
+tests/                    27 tests, one file per module above
+docs/                     ARCHITECTURE.md, DECISIONS.md, FAILURE_LOG.md, ROADMAP.md
+```
 
 ## Known limitations
 
