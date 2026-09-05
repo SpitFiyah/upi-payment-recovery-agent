@@ -8,8 +8,6 @@ is the classifier: a 4-tier cascade where the LLM is the last thing tried,
 not the first, and every single decision along the way gets written to an
 audit log so the recovery numbers below aren't just a vibe.
 
-**Live demo:** Pending Streamlit Cloud deploy (needs a browser-based GitHub OAuth step, see Setup below to run locally in the meantime)
-**Video pitch:** TBD
 
 | | |
 |---|---|
