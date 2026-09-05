@@ -59,3 +59,31 @@ belt-and-suspenders timeout that does not depend on SDK internals.
 `_call_gemini` smoke test before re-testing the full `classify()` path.
 
 **Still unsolved:** None.
+
+## FAILURE 4: 2026-09-05 Gemini failed on every single batch run despite working standalone
+
+**What happened:** A lone `_call_gemini` smoke test succeeds reliably. But every full
+200-transaction batch run so far, at both 10 and 3 concurrent LLM calls, shows 0%
+of the ~20 LLM-tier classifications landing on Gemini and 100% falling to Groq.
+Lowering concurrency from 10 to 3 changed the split from 0/20 to 1/20 gemini,
+not enough to call it a concurrency problem.
+
+**Impact:** None on correctness, since Groq caught every one of them and the
+batch completed cleanly. But it means the "LLM primary" path in the architecture
+has not actually been exercised in a full run yet, only in isolated single calls,
+so the panel's Q1 claim about Gemini being primary is honest on paper but not
+demonstrated in the numbers this batch produced.
+
+**Fix:** None applied. This looks like a rate limit or quota ceiling on the
+gemini-3.6-flash free tier for this specific API key, most likely exhausted by
+the volume of manual testing done earlier tonight while debugging Failures 1
+through 3. Not something the code can work around without adding retry-with-
+backoff logic on the Gemini call itself, which was judged out of scope for
+tonight given the deadline.
+
+**Measured improvement:** None yet.
+
+**Still unsolved:** Gemini's real-world hit rate in the demo batch is 0%, Groq is
+carrying 100% of LLM-tier traffic. Worth trying a fresh API key or waiting out
+the quota window before recording the pitch video, so the video can show at
+least one genuine Gemini success rather than only Groq.
