@@ -3,6 +3,7 @@ groq==1.7.0
 sentence-transformers==6.0.1
 pydantic==2.13.5
 streamlit==1.63.0
+pandas==3.0.5
 python-dotenv==1.2.3
 pytest==9.1.1
 pytest-asyncio==1.4.0
