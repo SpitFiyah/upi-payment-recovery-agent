@@ -1,23 +1,23 @@
 [
   {
-    "txn_id": "69cedcdb-d6da-4a71-a792-9e7ccccec145",
-    "merchant_id": "MERCH_063",
-    "amount_inr": 11238.22,
-    "upi_vpa": "moraranamika@okaxis",
-    "timestamp": "2026-09-02T15:25:54.684011",
+    "txn_id": "46e666df-639b-4a06-8f9f-88fea445cb86",
+    "merchant_id": "MERCH_036",
+    "amount_inr": 36849.91,
+    "upi_vpa": "frana@paytm",
+    "timestamp": "2026-09-03T06:01:22.856614",
     "status": "failed",
-    "raw_error_message": "Insufficient balance in account",
-    "bank_code": "AXIS",
+    "raw_error_message": "Requested amount exceeds what is currently available to move out of this account",
+    "bank_code": "PAYTM",
     "metadata": {
       "true_root_cause": "insufficient_balance"
     }
   },
   {
-    "txn_id": "d88ba8c5-aca7-4669-8b2f-ca5d244f45e5",
+    "txn_id": "432311f3-b261-4700-a4d9-7cde7ba435be",
     "merchant_id": "MERCH_009",
     "amount_inr": 1586.88,
-    "upi_vpa": "krishna78@okicici",
-    "timestamp": "2026-08-31T23:19:54.687382",
+    "upi_vpa": "vlalla@okicici",
+    "timestamp": "2026-08-31T23:46:22.856774",
     "status": "failed",
     "raw_error_message": "Insufficient balance in account",
     "bank_code": "ICICI",
@@ -26,336 +26,284 @@
     }
   },
   {
-    "txn_id": "75a0bafc-2acb-468c-808a-8ae58d053c32",
-    "merchant_id": "MERCH_144",
-    "amount_inr": 10022.0,
-    "upi_vpa": "uupadhyay@okicici",
-    "timestamp": "2026-09-05T11:17:54.687634",
+    "txn_id": "2c1b72a0-cc84-45f2-b52c-ac37802f0dc1",
+    "merchant_id": "MERCH_184",
+    "amount_inr": 32529.23,
+    "upi_vpa": "radha41@okicici",
+    "timestamp": "2026-09-03T12:41:22.856836",
     "status": "failed",
-    "raw_error_message": "Gateway timeout from issuing bank",
+    "raw_error_message": "Bank server timeout, please try again",
     "bank_code": "ICICI",
     "metadata": {
       "true_root_cause": "bank_timeout"
     }
   },
   {
-    "txn_id": "962f5ed5-029a-46ff-b2f2-0e12965f8abf",
-    "merchant_id": "MERCH_151",
-    "amount_inr": 13981.72,
-    "upi_vpa": "tarakgera@paytm",
-    "timestamp": "2026-08-31T15:52:54.687925",
+    "txn_id": "0835e120-c6f4-4659-8ed0-048f3c30deb6",
+    "merchant_id": "MERCH_195",
+    "amount_inr": 40310.38,
+    "upi_vpa": "yug65@okhdfcbank",
+    "timestamp": "2026-09-05T17:12:22.856883",
     "status": "failed",
-    "raw_error_message": "Transaction declined due to insufficient balance",
+    "raw_error_message": "Socket timeout communicating with UPI switch",
+    "bank_code": "HDFC",
+    "metadata": {
+      "true_root_cause": "network_error"
+    }
+  },
+  {
+    "txn_id": "0771922e-6983-4a58-af93-c900639c7d0b",
+    "merchant_id": "MERCH_027",
+    "amount_inr": 4728.02,
+    "upi_vpa": "djoshi@paytm",
+    "timestamp": "2026-09-01T23:04:22.856926",
+    "status": "failed",
+    "raw_error_message": "Insufficient funds to complete transaction",
     "bank_code": "PAYTM",
     "metadata": {
       "true_root_cause": "insufficient_balance"
     }
   },
   {
-    "txn_id": "4d491d1e-a637-45ee-bbbc-c71f02a18d66",
-    "merchant_id": "MERCH_088",
-    "amount_inr": 13965.78,
-    "upi_vpa": "mswaminathan@okaxis",
-    "timestamp": "2026-08-31T23:07:54.688291",
-    "status": "failed",
-    "raw_error_message": "UPI limit exceeded for this account",
-    "bank_code": "AXIS",
-    "metadata": {
-      "true_root_cause": "limit_exceeded"
-    }
-  },
-  {
-    "txn_id": "05dc77c3-ade2-4ba5-901c-841d51ebb107",
-    "merchant_id": "MERCH_098",
-    "amount_inr": 4926.15,
-    "upi_vpa": "libniraju@ybl",
-    "timestamp": "2026-09-04T17:12:54.688489",
-    "status": "failed",
-    "raw_error_message": "Transaction timed out waiting for bank response",
-    "bank_code": "YBL",
-    "metadata": {
-      "true_root_cause": "bank_timeout"
-    }
-  },
-  {
-    "txn_id": "971d60b0-667f-4bce-ae99-931bee99237c",
+    "txn_id": "b55073a5-6b7d-4b8c-9517-ddd0f17db032",
     "merchant_id": "MERCH_187",
     "amount_inr": 23025.3,
-    "upi_vpa": "borajagat@ibl",
-    "timestamp": "2026-09-05T06:40:54.688770",
+    "upi_vpa": "baradpraneel@okhdfcbank",
+    "timestamp": "2026-09-05T07:07:22.856972",
     "status": "failed",
-    "raw_error_message": "Per-transaction limit exceeded (BLR-091)",
-    "bank_code": "IBL",
-    "metadata": {
-      "true_root_cause": "limit_exceeded"
-    }
-  },
-  {
-    "txn_id": "3aca8fc8-5b32-408f-9037-549b1a69f561",
-    "merchant_id": "MERCH_076",
-    "amount_inr": 41487.29,
-    "upi_vpa": "ishaan04@ybl",
-    "timestamp": "2026-08-30T11:47:54.689066",
-    "status": "failed",
-    "raw_error_message": "Bank server not responding (E091)",
-    "bank_code": "YBL",
+    "raw_error_message": "Gateway timeout from issuing bank",
+    "bank_code": "HDFC",
     "metadata": {
       "true_root_cause": "bank_timeout"
     }
   },
   {
-    "txn_id": "298c24ea-3bdd-40a3-9a80-b2779ed4a22f",
-    "merchant_id": "MERCH_181",
-    "amount_inr": 3570.8,
-    "upi_vpa": "jainjatin@okicici",
-    "timestamp": "2026-09-03T14:01:54.689286",
+    "txn_id": "cbdce3d9-050a-4936-bb71-942a0b678d7f",
+    "merchant_id": "MERCH_161",
+    "amount_inr": 30964.14,
+    "upi_vpa": "leena04@okicici",
+    "timestamp": "2026-09-02T10:55:22.857011",
     "status": "failed",
-    "raw_error_message": "Available balance too low for this transaction",
+    "raw_error_message": "Bank server timeout, please try again",
+    "bank_code": "ICICI",
+    "metadata": {
+      "true_root_cause": "bank_timeout"
+    }
+  },
+  {
+    "txn_id": "35ffe141-fe24-4849-ac36-917fda684be7",
+    "merchant_id": "MERCH_198",
+    "amount_inr": 14540.46,
+    "upi_vpa": "jagrati61@ybl",
+    "timestamp": "2026-09-03T04:45:22.857048",
+    "status": "failed",
+    "raw_error_message": "Daily transaction limit exceeded",
+    "bank_code": "YBL",
+    "metadata": {
+      "true_root_cause": "limit_exceeded"
+    }
+  },
+  {
+    "txn_id": "49ef2aaa-4092-49d8-b316-5603b7411fdd",
+    "merchant_id": "MERCH_117",
+    "amount_inr": 31820.65,
+    "upi_vpa": "qvarghese@oksbi",
+    "timestamp": "2026-09-02T15:04:22.857086",
+    "status": "failed",
+    "raw_error_message": "Bank server timeout, please try again",
+    "bank_code": "SBI",
+    "metadata": {
+      "true_root_cause": "bank_timeout"
+    }
+  },
+  {
+    "txn_id": "044d6e7a-873d-4fff-9d20-7273314ae84e",
+    "merchant_id": "MERCH_180",
+    "amount_inr": 46839.06,
+    "upi_vpa": "pranit14@okaxis",
+    "timestamp": "2026-09-02T18:04:22.857120",
+    "status": "failed",
+    "raw_error_message": "PSP down for maintenance for 4 hours",
+    "bank_code": "AXIS",
+    "metadata": {
+      "true_root_cause": "network_error"
+    }
+  },
+  {
+    "txn_id": "574f6ac9-c361-46cd-8105-dec4bef90c07",
+    "merchant_id": "MERCH_042",
+    "amount_inr": 23166.78,
+    "upi_vpa": "urishilla09@okicici",
+    "timestamp": "2026-09-03T00:08:22.857154",
+    "status": "failed",
+    "raw_error_message": "Insufficient funds to complete transaction",
     "bank_code": "ICICI",
     "metadata": {
       "true_root_cause": "insufficient_balance"
     }
   },
   {
-    "txn_id": "03eeb06a-0989-41a1-a7c3-e01c5b2e2e48",
-    "merchant_id": "MERCH_026",
-    "amount_inr": 19068.3,
-    "upi_vpa": "nathan27@ybl",
-    "timestamp": "2026-09-03T02:57:54.689531",
-    "status": "failed",
-    "raw_error_message": "Available balance too low for this transaction",
-    "bank_code": "YBL",
-    "metadata": {
-      "true_root_cause": "insufficient_balance"
-    }
-  },
-  {
-    "txn_id": "834ab925-62fb-4a11-a156-7fb4c74db28d",
-    "merchant_id": "MERCH_091",
-    "amount_inr": 10554.4,
-    "upi_vpa": "godapranav@paytm",
-    "timestamp": "2026-09-01T13:26:54.689794",
-    "status": "failed",
-    "raw_error_message": "Connection to payment switch lost",
-    "bank_code": "PAYTM",
-    "metadata": {
-      "true_root_cause": "network_error"
-    }
-  },
-  {
-    "txn_id": "d6f8f73e-6b20-4293-90c2-0d182db37995",
-    "merchant_id": "MERCH_156",
-    "amount_inr": 31785.42,
-    "upi_vpa": "rraman@okaxis",
-    "timestamp": "2026-09-04T23:02:54.690204",
+    "txn_id": "4bf7e606-6616-4de3-b5c5-6a1ee28db2fe",
+    "merchant_id": "MERCH_176",
+    "amount_inr": 16281.71,
+    "upi_vpa": "lakshitkalita@okicici",
+    "timestamp": "2026-09-03T07:00:22.857191",
     "status": "failed",
     "raw_error_message": "No response from bank within timeout window",
-    "bank_code": "AXIS",
+    "bank_code": "ICICI",
     "metadata": {
       "true_root_cause": "bank_timeout"
     }
   },
   {
-    "txn_id": "b2b0539a-511a-42a3-b413-761e1dfbcc22",
-    "merchant_id": "MERCH_098",
-    "amount_inr": 13570.4,
-    "upi_vpa": "kashvi63@paytm",
-    "timestamp": "2026-08-31T12:18:54.690434",
-    "status": "failed",
-    "raw_error_message": "PSP down for maintenance for 4 hours",
-    "bank_code": "PAYTM",
-    "metadata": {
-      "true_root_cause": "network_error"
-    }
-  },
-  {
-    "txn_id": "dc36749a-d908-4d86-a052-6109d97f563e",
-    "merchant_id": "MERCH_197",
-    "amount_inr": 38822.4,
-    "upi_vpa": "neelimacheema@okaxis",
-    "timestamp": "2026-09-02T01:58:54.690544",
-    "status": "failed",
-    "raw_error_message": "Mandate expired, cannot process debit",
-    "bank_code": "AXIS",
-    "metadata": {
-      "true_root_cause": "mandate_error"
-    }
-  },
-  {
-    "txn_id": "10cd8dcd-379b-4e81-9add-60ad6a6f04e7",
+    "txn_id": "de3481d6-dc55-4ed3-bb7c-6044c615aba9",
     "merchant_id": "MERCH_103",
     "amount_inr": 13460.27,
-    "upi_vpa": "sarrafbhavna@ibl",
-    "timestamp": "2026-09-02T04:23:54.690600",
+    "upi_vpa": "arin31@ibl",
+    "timestamp": "2026-09-02T04:50:22.857228",
     "status": "failed",
-    "raw_error_message": "Bank server timeout, please try again",
+    "raw_error_message": "Risk engine flagged unusually high transaction velocity for this profile and paused further debits",
     "bank_code": "IBL",
     "metadata": {
-      "true_root_cause": "bank_timeout"
+      "true_root_cause": "limit_exceeded"
     }
   },
   {
-    "txn_id": "aff7946e-776b-4a6c-9aa4-43832e97d8e2",
-    "merchant_id": "MERCH_055",
-    "amount_inr": 32806.39,
-    "upi_vpa": "ymunshi@okaxis",
-    "timestamp": "2026-09-02T04:36:54.690742",
+    "txn_id": "d4424bf7-e693-49c4-8305-da46d073886a",
+    "merchant_id": "MERCH_168",
+    "amount_inr": 25011.64,
+    "upi_vpa": "anvi67@okhdfcbank",
+    "timestamp": "2026-09-03T08:55:22.857263",
     "status": "failed",
-    "raw_error_message": "Gateway timeout from issuing bank",
-    "bank_code": "AXIS",
+    "raw_error_message": "No response from bank within timeout window",
+    "bank_code": "HDFC",
     "metadata": {
       "true_root_cause": "bank_timeout"
     }
   },
   {
-    "txn_id": "54466d92-2cb5-462b-9346-f65436dc83f1",
-    "merchant_id": "MERCH_068",
-    "amount_inr": 7067.55,
-    "upi_vpa": "jkala@oksbi",
-    "timestamp": "2026-09-04T03:31:54.690799",
+    "txn_id": "beb0a5e7-00c4-4fcb-8aab-32460d05cbb6",
+    "merchant_id": "MERCH_064",
+    "amount_inr": 37274.95,
+    "upi_vpa": "eta34@okhdfcbank",
+    "timestamp": "2026-09-04T04:51:22.857297",
     "status": "failed",
-    "raw_error_message": "Temporary network glitch, retry recommended",
-    "bank_code": "SBI",
+    "raw_error_message": "Mandate expired, cannot process debit",
+    "bank_code": "HDFC",
+    "metadata": {
+      "true_root_cause": "mandate_error"
+    }
+  },
+  {
+    "txn_id": "29f324ad-8444-4d86-abe7-8d99fc0dbb9b",
+    "merchant_id": "MERCH_093",
+    "amount_inr": 11044.11,
+    "upi_vpa": "sunderavi@okicici",
+    "timestamp": "2026-09-01T05:55:22.857332",
+    "status": "failed",
+    "raw_error_message": "NPCI network unreachable",
+    "bank_code": "ICICI",
     "metadata": {
       "true_root_cause": "network_error"
     }
   },
   {
-    "txn_id": "630e0e84-7d6b-49f1-8b90-d9cb729e4add",
-    "merchant_id": "MERCH_110",
-    "amount_inr": 44901.36,
-    "upi_vpa": "dgoyal@okaxis",
-    "timestamp": "2026-08-30T02:54:54.690911",
+    "txn_id": "3bbc853e-ee11-4806-97d4-e2c442b986d5",
+    "merchant_id": "MERCH_029",
+    "amount_inr": 7726.78,
+    "upi_vpa": "ranveer61@ibl",
+    "timestamp": "2026-09-05T06:07:22.857364",
+    "status": "failed",
+    "raw_error_message": "Transaction failed due to unspecified error",
+    "bank_code": "IBL",
+    "metadata": {
+      "true_root_cause": "unknown"
+    }
+  },
+  {
+    "txn_id": "cae05a1c-51fd-4872-9142-ab07d09b3dbe",
+    "merchant_id": "MERCH_098",
+    "amount_inr": 29834.83,
+    "upi_vpa": "bavanirja@ybl",
+    "timestamp": "2026-09-01T09:54:22.857399",
+    "status": "failed",
+    "raw_error_message": "Gateway timeout from issuing bank",
+    "bank_code": "YBL",
+    "metadata": {
+      "true_root_cause": "bank_timeout"
+    }
+  },
+  {
+    "txn_id": "48dd2ad9-3f32-49b1-bf25-372cb6e4d5c8",
+    "merchant_id": "MERCH_175",
+    "amount_inr": 36064.02,
+    "upi_vpa": "daksheshranganathan@ibl",
+    "timestamp": "2026-09-05T15:50:22.857438",
+    "status": "failed",
+    "raw_error_message": "Socket timeout communicating with UPI switch",
+    "bank_code": "IBL",
+    "metadata": {
+      "true_root_cause": "network_error"
+    }
+  },
+  {
+    "txn_id": "2933e514-6cb8-4e8a-a3fa-e7b71f8d46dc",
+    "merchant_id": "MERCH_029",
+    "amount_inr": 14745.66,
+    "upi_vpa": "eesha67@ibl",
+    "timestamp": "2026-09-01T22:05:22.857473",
     "status": "failed",
     "raw_error_message": "Available balance too low for this transaction",
-    "bank_code": "AXIS",
+    "bank_code": "IBL",
     "metadata": {
       "true_root_cause": "insufficient_balance"
     }
   },
   {
-    "txn_id": "127e6785-0382-479d-a3c7-4825ed31e256",
-    "merchant_id": "MERCH_127",
-    "amount_inr": 4636.38,
-    "upi_vpa": "nirjahans@paytm",
-    "timestamp": "2026-08-30T23:23:54.691299",
+    "txn_id": "de076a16-ab88-4ee9-81bd-3c143bd997bb",
+    "merchant_id": "MERCH_130",
+    "amount_inr": 45640.13,
+    "upi_vpa": "vedant92@okicici",
+    "timestamp": "2026-09-03T18:11:22.857512",
     "status": "failed",
-    "raw_error_message": "PSP down for maintenance for 4 hours",
-    "bank_code": "PAYTM",
-    "metadata": {
-      "true_root_cause": "network_error"
-    }
-  },
-  {
-    "txn_id": "15e4a008-db55-4045-a8c5-519ccc2bf401",
-    "merchant_id": "MERCH_175",
-    "amount_inr": 21165.78,
-    "upi_vpa": "utkarsh00@paytm",
-    "timestamp": "2026-09-03T22:50:54.692024",
-    "status": "failed",
-    "raw_error_message": "Bank server timeout, please try again",
-    "bank_code": "PAYTM",
-    "metadata": {
-      "true_root_cause": "bank_timeout"
-    }
-  },
-  {
-    "txn_id": "15fa59a9-3853-43c8-8093-d9c2ac7cf4bf",
-    "merchant_id": "MERCH_136",
-    "amount_inr": 12645.56,
-    "upi_vpa": "pnagy@okicici",
-    "timestamp": "2026-08-31T10:43:54.693446",
-    "status": "failed",
-    "raw_error_message": "Bank server not responding (E091)",
+    "raw_error_message": "Settlement corridor to this bank is experiencing severe processing lag today",
     "bank_code": "ICICI",
     "metadata": {
       "true_root_cause": "bank_timeout"
     }
   },
   {
-    "txn_id": "f25c4cb1-a507-4fa2-a1be-16d686691c64",
-    "merchant_id": "MERCH_175",
-    "amount_inr": 44250.94,
-    "upi_vpa": "ansh49@okaxis",
-    "timestamp": "2026-09-04T11:15:54.693803",
+    "txn_id": "51e7360d-75d2-4388-a13a-3ced8ee50423",
+    "merchant_id": "MERCH_196",
+    "amount_inr": 8161.3,
+    "upi_vpa": "baniksaumya@paytm",
+    "timestamp": "2026-09-01T12:52:22.857552",
     "status": "failed",
-    "raw_error_message": "Insufficient balance in account",
-    "bank_code": "AXIS",
+    "raw_error_message": "Mandate expired, cannot process debit",
+    "bank_code": "PAYTM",
     "metadata": {
-      "true_root_cause": "insufficient_balance"
+      "true_root_cause": "mandate_error"
     }
   },
   {
-    "txn_id": "2abb201b-7e68-4f8c-904d-f09790c823ee",
-    "merchant_id": "MERCH_112",
-    "amount_inr": 7992.07,
-    "upi_vpa": "sanihenry@ybl",
-    "timestamp": "2026-09-02T10:23:54.694016",
-    "status": "failed",
-    "raw_error_message": "Per-transaction limit exceeded (BLR-091)",
-    "bank_code": "YBL",
-    "metadata": {
-      "true_root_cause": "limit_exceeded"
-    }
-  },
-  {
-    "txn_id": "d2aee7aa-2da3-405b-a3cb-34a7f1aefebd",
-    "merchant_id": "MERCH_129",
-    "amount_inr": 38121.91,
-    "upi_vpa": "sathvik71@okaxis",
-    "timestamp": "2026-09-02T18:36:54.694194",
-    "status": "failed",
-    "raw_error_message": "No response from bank within timeout window",
-    "bank_code": "AXIS",
-    "metadata": {
-      "true_root_cause": "bank_timeout"
-    }
-  },
-  {
-    "txn_id": "e0778408-eda0-4ca9-b545-92744a4b539b",
-    "merchant_id": "MERCH_164",
-    "amount_inr": 25432.38,
-    "upi_vpa": "pantowen@ibl",
-    "timestamp": "2026-09-02T09:02:54.694384",
-    "status": "failed",
-    "raw_error_message": "Network error, connection reset by peer",
-    "bank_code": "IBL",
-    "metadata": {
-      "true_root_cause": "network_error"
-    }
-  },
-  {
-    "txn_id": "aa47345f-7bad-4d73-805d-c9deb092a11e",
-    "merchant_id": "MERCH_139",
-    "amount_inr": 47679.64,
-    "upi_vpa": "cdave@ibl",
-    "timestamp": "2026-09-03T22:25:54.694549",
-    "status": "failed",
-    "raw_error_message": "Transaction timed out waiting for bank response",
-    "bank_code": "IBL",
-    "metadata": {
-      "true_root_cause": "bank_timeout"
-    }
-  },
-  {
-    "txn_id": "c6c1fbbe-121f-4cd6-81ec-894e4db5ab2c",
+    "txn_id": "5ae2e25b-6a43-4a11-af19-3ee780428775",
     "merchant_id": "MERCH_126",
     "amount_inr": 1071.89,
-    "upi_vpa": "bachittar33@okicici",
-    "timestamp": "2026-09-02T02:01:54.694724",
+    "upi_vpa": "unagarajan@okicici",
+    "timestamp": "2026-09-02T02:28:22.857589",
     "status": "failed",
-    "raw_error_message": "Mandate not found for this transaction",
+    "raw_error_message": "Transaction failed due to unspecified error",
     "bank_code": "ICICI",
     "metadata": {
-      "true_root_cause": "mandate_error"
+      "true_root_cause": "unknown"
     }
   },
   {
-    "txn_id": "27916d3c-f325-4e5e-9846-9a52ac2c4ccf",
+    "txn_id": "47551f9d-0c7d-480c-8936-b430ff1a8a0f",
     "merchant_id": "MERCH_062",
     "amount_inr": 43912.68,
-    "upi_vpa": "paninisani@paytm",
-    "timestamp": "2026-09-05T02:42:54.694932",
+    "upi_vpa": "modyfrederick@paytm",
+    "timestamp": "2026-09-05T03:09:22.857626",
     "status": "failed",
     "raw_error_message": "Invalid mandate reference",
     "bank_code": "PAYTM",
@@ -364,219 +312,180 @@
     }
   },
   {
-    "txn_id": "d9081d8d-2950-4d87-9895-05e2160dd30f",
-    "merchant_id": "MERCH_018",
-    "amount_inr": 48901.43,
-    "upi_vpa": "rnarayanan@okaxis",
-    "timestamp": "2026-08-31T05:49:54.695120",
+    "txn_id": "d0f74ec7-dceb-4b31-bcf6-5579f7d1aa86",
+    "merchant_id": "MERCH_195",
+    "amount_inr": 26682.04,
+    "upi_vpa": "chardalbir@ibl",
+    "timestamp": "2026-09-05T00:05:22.857660",
     "status": "failed",
-    "raw_error_message": "Mandate not found for this transaction",
-    "bank_code": "AXIS",
+    "raw_error_message": "Standing authorization for this merchant could not be located in bank records",
+    "bank_code": "IBL",
     "metadata": {
       "true_root_cause": "mandate_error"
     }
   },
   {
-    "txn_id": "a5eb9b3e-bb53-4f90-9a92-47efcd8e6c2e",
-    "merchant_id": "MERCH_141",
-    "amount_inr": 8339.84,
-    "upi_vpa": "tristankala@paytm",
-    "timestamp": "2026-08-31T08:44:54.695286",
+    "txn_id": "da982a59-dbdd-4361-8fd3-c72da1cfcfa8",
+    "merchant_id": "MERCH_136",
+    "amount_inr": 43634.41,
+    "upi_vpa": "ydevan@paytm",
+    "timestamp": "2026-09-02T18:36:22.857694",
     "status": "failed",
-    "raw_error_message": "PSP down for maintenance for 4 hours",
+    "raw_error_message": "Gateway timeout from issuing bank",
     "bank_code": "PAYTM",
     "metadata": {
-      "true_root_cause": "network_error"
+      "true_root_cause": "bank_timeout"
     }
   },
   {
-    "txn_id": "a02e8a79-9df3-40f0-b166-61645702daae",
-    "merchant_id": "MERCH_139",
-    "amount_inr": 37787.73,
-    "upi_vpa": "banjeetuppal@oksbi",
-    "timestamp": "2026-09-03T08:41:54.695597",
+    "txn_id": "2163f5fb-09bb-446d-9160-34ed52cb68fe",
+    "merchant_id": "MERCH_183",
+    "amount_inr": 15654.64,
+    "upi_vpa": "zmangal@ibl",
+    "timestamp": "2026-09-03T12:03:22.857728",
     "status": "failed",
     "raw_error_message": "Socket timeout communicating with UPI switch",
-    "bank_code": "SBI",
+    "bank_code": "IBL",
     "metadata": {
       "true_root_cause": "network_error"
     }
   },
   {
-    "txn_id": "bfbcb9ed-0b73-4686-8750-fe1fcaa3fe59",
-    "merchant_id": "MERCH_113",
-    "amount_inr": 44990.74,
-    "upi_vpa": "sendarpan@oksbi",
-    "timestamp": "2026-09-01T12:33:54.695839",
+    "txn_id": "6d652229-29b8-4ea1-a83d-4a636ddf73f8",
+    "merchant_id": "MERCH_031",
+    "amount_inr": 12470.49,
+    "upi_vpa": "ggala@okicici",
+    "timestamp": "2026-08-31T15:41:22.857763",
     "status": "failed",
-    "raw_error_message": "Available balance too low for this transaction",
-    "bank_code": "SBI",
+    "raw_error_message": "Processing failed, contact support",
+    "bank_code": "ICICI",
     "metadata": {
-      "true_root_cause": "insufficient_balance"
+      "true_root_cause": "unknown"
     }
   },
   {
-    "txn_id": "42391057-d0c3-4cbc-a190-6f35241d15b7",
-    "merchant_id": "MERCH_087",
-    "amount_inr": 1149.61,
-    "upi_vpa": "ishwarbuch@paytm",
-    "timestamp": "2026-09-05T01:02:54.696059",
+    "txn_id": "0ff70cf5-027b-4d37-be63-e0c1d1c4274c",
+    "merchant_id": "MERCH_002",
+    "amount_inr": 3642.55,
+    "upi_vpa": "joshua30@okicici",
+    "timestamp": "2026-09-03T06:50:22.857798",
     "status": "failed",
-    "raw_error_message": "PSP down for maintenance for 4 hours",
-    "bank_code": "PAYTM",
+    "raw_error_message": "Response from partner bank arrived after the acceptable window had already closed",
+    "bank_code": "ICICI",
     "metadata": {
-      "true_root_cause": "network_error"
+      "true_root_cause": "bank_timeout"
     }
   },
   {
-    "txn_id": "86f8ffb7-061c-4296-8c8f-567a97faa4ee",
-    "merchant_id": "MERCH_182",
-    "amount_inr": 31592.04,
-    "upi_vpa": "sprabhakar@ybl",
-    "timestamp": "2026-09-04T23:08:54.696320",
-    "status": "failed",
-    "raw_error_message": "Insufficient funds to complete transaction",
-    "bank_code": "YBL",
-    "metadata": {
-      "true_root_cause": "insufficient_balance"
-    }
-  },
-  {
-    "txn_id": "933ca197-f83e-462d-a86a-45ab2fa8522c",
+    "txn_id": "81e90811-29a4-45fb-9b53-4e0a408e0a80",
     "merchant_id": "MERCH_019",
     "amount_inr": 25756.39,
-    "upi_vpa": "valayutika@ibl",
-    "timestamp": "2026-09-02T00:18:54.696694",
-    "status": "failed",
-    "raw_error_message": "Bank server timeout, please try again",
-    "bank_code": "IBL",
-    "metadata": {
-      "true_root_cause": "bank_timeout"
-    }
-  },
-  {
-    "txn_id": "2f9c3ac8-d48e-40ff-8c34-ae9517a05db2",
-    "merchant_id": "MERCH_034",
-    "amount_inr": 36195.29,
-    "upi_vpa": "xraj@paytm",
-    "timestamp": "2026-08-30T15:17:54.696813",
-    "status": "failed",
-    "raw_error_message": "Bank server not responding (E091)",
-    "bank_code": "PAYTM",
-    "metadata": {
-      "true_root_cause": "bank_timeout"
-    }
-  },
-  {
-    "txn_id": "58b4e499-1f60-4f80-8c12-550038ae0253",
-    "merchant_id": "MERCH_105",
-    "amount_inr": 9601.45,
-    "upi_vpa": "omya97@paytm",
-    "timestamp": "2026-08-31T09:22:54.696900",
-    "status": "failed",
-    "raw_error_message": "Mandate revoked by customer",
-    "bank_code": "PAYTM",
-    "metadata": {
-      "true_root_cause": "mandate_error"
-    }
-  },
-  {
-    "txn_id": "62f12c9b-9367-42d8-9ebd-a2bddb14bda0",
-    "merchant_id": "MERCH_106",
-    "amount_inr": 23404.53,
-    "upi_vpa": "aarnasibal@okhdfcbank",
-    "timestamp": "2026-08-31T22:52:54.697168",
-    "status": "failed",
-    "raw_error_message": "Bank server not responding (E091)",
-    "bank_code": "HDFC",
-    "metadata": {
-      "true_root_cause": "bank_timeout"
-    }
-  },
-  {
-    "txn_id": "c833ed03-74cf-4623-87ce-88c09f8a9e9d",
-    "merchant_id": "MERCH_187",
-    "amount_inr": 17031.2,
-    "upi_vpa": "zroy@ybl",
-    "timestamp": "2026-09-01T04:35:54.697387",
+    "upi_vpa": "asabharwal@ibl",
+    "timestamp": "2026-09-02T00:45:22.857831",
     "status": "failed",
     "raw_error_message": "Insufficient balance in account",
-    "bank_code": "YBL",
+    "bank_code": "IBL",
     "metadata": {
       "true_root_cause": "insufficient_balance"
     }
   },
   {
-    "txn_id": "641ba0b3-9a2e-480d-9f8e-86116f46605f",
+    "txn_id": "1ae8158f-940c-48d4-b055-e2d847fe960e",
+    "merchant_id": "MERCH_148",
+    "amount_inr": 23686.28,
+    "upi_vpa": "kiaanbiswas@paytm",
+    "timestamp": "2026-08-30T07:03:22.857871",
+    "status": "failed",
+    "raw_error_message": "Gateway timeout from issuing bank",
+    "bank_code": "PAYTM",
+    "metadata": {
+      "true_root_cause": "bank_timeout"
+    }
+  },
+  {
+    "txn_id": "d608f755-79a2-49d9-8ba5-935e193115cc",
+    "merchant_id": "MERCH_169",
+    "amount_inr": 21609.45,
+    "upi_vpa": "qarin10@ybl",
+    "timestamp": "2026-09-04T16:30:22.857903",
+    "status": "failed",
+    "raw_error_message": "UPI limit exceeded for this account",
+    "bank_code": "YBL",
+    "metadata": {
+      "true_root_cause": "limit_exceeded"
+    }
+  },
+  {
+    "txn_id": "de531e77-a0aa-4739-96f2-4012c8423474",
+    "merchant_id": "MERCH_016",
+    "amount_inr": 20190.8,
+    "upi_vpa": "dharradha@ybl",
+    "timestamp": "2026-09-04T16:06:22.857936",
+    "status": "failed",
+    "raw_error_message": "Temporary network glitch, retry recommended",
+    "bank_code": "YBL",
+    "metadata": {
+      "true_root_cause": "network_error"
+    }
+  },
+  {
+    "txn_id": "aa2338a4-742e-4415-a599-2fa0194197ec",
     "merchant_id": "MERCH_138",
     "amount_inr": 22485.82,
-    "upi_vpa": "pratyushgara@paytm",
-    "timestamp": "2026-09-03T14:35:54.697577",
+    "upi_vpa": "abdulsoman@paytm",
+    "timestamp": "2026-09-03T15:02:22.857981",
     "status": "failed",
-    "raw_error_message": "UPI limit exceeded for this account",
+    "raw_error_message": "PSP down for maintenance for 4 hours",
     "bank_code": "PAYTM",
-    "metadata": {
-      "true_root_cause": "limit_exceeded"
-    }
-  },
-  {
-    "txn_id": "54b74663-b484-41d4-8857-2dfb424de495",
-    "merchant_id": "MERCH_020",
-    "amount_inr": 22212.22,
-    "upi_vpa": "nandinioak@oksbi",
-    "timestamp": "2026-09-02T22:19:54.697808",
-    "status": "failed",
-    "raw_error_message": "Connection to payment switch lost",
-    "bank_code": "SBI",
     "metadata": {
       "true_root_cause": "network_error"
     }
   },
   {
-    "txn_id": "5b13fee5-8166-4fbd-9529-70966c7ecece",
-    "merchant_id": "MERCH_004",
-    "amount_inr": 48452.91,
-    "upi_vpa": "odutta@ybl",
-    "timestamp": "2026-08-30T14:55:54.697910",
+    "txn_id": "a8c75420-ba79-4cda-a52c-7f529a4a1b0c",
+    "merchant_id": "MERCH_114",
+    "amount_inr": 40420.31,
+    "upi_vpa": "dugarreva@ibl",
+    "timestamp": "2026-09-04T22:23:22.858048",
     "status": "failed",
-    "raw_error_message": "Daily transaction limit exceeded",
+    "raw_error_message": "PSP down for maintenance for 4 hours",
+    "bank_code": "IBL",
+    "metadata": {
+      "true_root_cause": "network_error"
+    }
+  },
+  {
+    "txn_id": "5bb530d6-f672-4985-8531-b865f34b170c",
+    "merchant_id": "MERCH_043",
+    "amount_inr": 20380.06,
+    "upi_vpa": "yohannanxiti@ybl",
+    "timestamp": "2026-09-03T02:26:22.858102",
+    "status": "failed",
+    "raw_error_message": "Risk engine flagged unusually high transaction velocity for this profile and paused further debits",
     "bank_code": "YBL",
     "metadata": {
       "true_root_cause": "limit_exceeded"
     }
   },
   {
-    "txn_id": "b22406bc-28cd-49fe-8a3d-c79ca6c65232",
-    "merchant_id": "MERCH_125",
-    "amount_inr": 24119.79,
-    "upi_vpa": "tshenoy@paytm",
-    "timestamp": "2026-09-01T03:33:54.697976",
-    "status": "failed",
-    "raw_error_message": "Mandate expired, cannot process debit",
-    "bank_code": "PAYTM",
-    "metadata": {
-      "true_root_cause": "mandate_error"
-    }
-  },
-  {
-    "txn_id": "ac41ebb1-b8d6-47a1-b048-e58365e3828a",
+    "txn_id": "7deccf14-e391-49f7-a40e-568272095402",
     "merchant_id": "MERCH_001",
     "amount_inr": 49266.91,
-    "upi_vpa": "wlanka@paytm",
-    "timestamp": "2026-09-01T11:02:54.698128",
+    "upi_vpa": "zansi04@paytm",
+    "timestamp": "2026-09-01T11:29:22.858161",
     "status": "failed",
-    "raw_error_message": "Daily transaction limit exceeded",
+    "raw_error_message": "Network error, connection reset by peer",
     "bank_code": "PAYTM",
     "metadata": {
-      "true_root_cause": "limit_exceeded"
+      "true_root_cause": "network_error"
     }
   },
   {
-    "txn_id": "d3f99312-ed0f-4543-a4e8-fc51d50dcb75",
+    "txn_id": "7e56abf1-c4b0-4390-b4f9-fe8d325de8a3",
     "merchant_id": "MERCH_179",
     "amount_inr": 47870.15,
-    "upi_vpa": "atwalvedhika@okhdfcbank",
-    "timestamp": "2026-08-31T23:01:54.698301",
+    "upi_vpa": "oeshiparekh@okhdfcbank",
+    "timestamp": "2026-08-31T23:28:22.858199",
     "status": "failed",
     "raw_error_message": "Bank server not responding (E091)",
     "bank_code": "HDFC",
@@ -585,11 +494,11 @@
     }
   },
   {
-    "txn_id": "29b076e7-9769-4dde-b09f-a004f92158cc",
+    "txn_id": "3467c729-da26-4ca8-b0ba-ef1c3202c019",
     "merchant_id": "MERCH_076",
     "amount_inr": 10963.27,
-    "upi_vpa": "advay64@paytm",
-    "timestamp": "2026-09-03T14:40:54.698391",
+    "upi_vpa": "veer52@paytm",
+    "timestamp": "2026-09-03T15:07:22.858236",
     "status": "failed",
     "raw_error_message": "Processing failed, contact support",
     "bank_code": "PAYTM",
@@ -598,154 +507,128 @@
     }
   },
   {
-    "txn_id": "653bc138-55ca-4709-b781-c2317071ff18",
-    "merchant_id": "MERCH_192",
-    "amount_inr": 15748.88,
-    "upi_vpa": "devanzashil@okicici",
-    "timestamp": "2026-09-05T01:53:54.698550",
+    "txn_id": "a813dcd9-edce-4ea3-bfd7-5fe56b2a297f",
+    "merchant_id": "MERCH_015",
+    "amount_inr": 2602.1,
+    "upi_vpa": "wriddhishkumer@okaxis",
+    "timestamp": "2026-09-02T05:20:22.858271",
     "status": "failed",
-    "raw_error_message": "No response from bank within timeout window",
-    "bank_code": "ICICI",
+    "raw_error_message": "Bank server timeout, please try again",
+    "bank_code": "AXIS",
     "metadata": {
       "true_root_cause": "bank_timeout"
     }
   },
   {
-    "txn_id": "959b4373-24cb-401c-b166-a714d26c4890",
-    "merchant_id": "MERCH_041",
-    "amount_inr": 2938.29,
-    "upi_vpa": "nidramalhotra@okicici",
-    "timestamp": "2026-08-30T17:30:54.698724",
+    "txn_id": "bc807a9e-eb93-4e8a-ad2c-72eccaf5a4e4",
+    "merchant_id": "MERCH_131",
+    "amount_inr": 4097.56,
+    "upi_vpa": "dakshbalay@paytm",
+    "timestamp": "2026-09-05T03:27:22.858306",
     "status": "failed",
-    "raw_error_message": "Bank server not responding (E091)",
-    "bank_code": "ICICI",
-    "metadata": {
-      "true_root_cause": "bank_timeout"
-    }
-  },
-  {
-    "txn_id": "428d3d5a-8bcd-420a-bf99-b1691af3a0d8",
-    "merchant_id": "MERCH_018",
-    "amount_inr": 33793.11,
-    "upi_vpa": "khatriyoshita@ybl",
-    "timestamp": "2026-08-30T00:02:54.698926",
-    "status": "failed",
-    "raw_error_message": "PSP down for maintenance for 4 hours",
-    "bank_code": "YBL",
+    "raw_error_message": "Socket timeout communicating with UPI switch",
+    "bank_code": "PAYTM",
     "metadata": {
       "true_root_cause": "network_error"
     }
   },
   {
-    "txn_id": "9b22f80a-ccd0-423c-846f-0ed97a9a85ff",
-    "merchant_id": "MERCH_149",
-    "amount_inr": 29766.51,
-    "upi_vpa": "faqidsandhu@okicici",
-    "timestamp": "2026-09-02T23:18:54.699060",
+    "txn_id": "08ee2163-c15c-4de1-b5ff-79d5de3f4a89",
+    "merchant_id": "MERCH_104",
+    "amount_inr": 6082.34,
+    "upi_vpa": "nidhichhabra@ibl",
+    "timestamp": "2026-09-03T02:45:22.858341",
     "status": "failed",
-    "raw_error_message": "Bank server timeout, please try again",
-    "bank_code": "ICICI",
+    "raw_error_message": "No response from bank within timeout window",
+    "bank_code": "IBL",
     "metadata": {
       "true_root_cause": "bank_timeout"
     }
   },
   {
-    "txn_id": "3dce8ade-196d-44a6-a806-9118aa2a9ec4",
-    "merchant_id": "MERCH_145",
-    "amount_inr": 26186.86,
-    "upi_vpa": "qarinbhardwaj@okaxis",
-    "timestamp": "2026-08-30T03:09:54.699133",
+    "txn_id": "1eb4d15a-dd4f-4dd9-be4d-919c6d0961f5",
+    "merchant_id": "MERCH_108",
+    "amount_inr": 32902.92,
+    "upi_vpa": "omamara@okicici",
+    "timestamp": "2026-09-04T20:35:22.858374",
     "status": "failed",
-    "raw_error_message": "Transaction declined due to insufficient balance",
-    "bank_code": "AXIS",
+    "raw_error_message": "Mandate not found for this transaction",
+    "bank_code": "ICICI",
     "metadata": {
-      "true_root_cause": "insufficient_balance"
+      "true_root_cause": "mandate_error"
     }
   },
   {
-    "txn_id": "94e187e4-2286-4dec-b33a-07c7920bf5b3",
+    "txn_id": "5386b6fb-67ab-4f95-854c-1da47c6a94e1",
     "merchant_id": "MERCH_062",
     "amount_inr": 13354.16,
-    "upi_vpa": "gmagar@okaxis",
-    "timestamp": "2026-09-02T04:44:54.699332",
+    "upi_vpa": "kevinnagi@paytm",
+    "timestamp": "2026-09-02T05:11:22.858408",
     "status": "failed",
-    "raw_error_message": "Mandate expired, cannot process debit",
-    "bank_code": "AXIS",
+    "raw_error_message": "Available balance too low for this transaction",
+    "bank_code": "PAYTM",
     "metadata": {
-      "true_root_cause": "mandate_error"
+      "true_root_cause": "insufficient_balance"
     }
   },
   {
-    "txn_id": "a582ae49-05cd-4f73-a93c-b4c65f52f37d",
-    "merchant_id": "MERCH_081",
-    "amount_inr": 46458.01,
-    "upi_vpa": "wadhwasai@okhdfcbank",
-    "timestamp": "2026-08-31T13:40:54.699477",
+    "txn_id": "0420e188-ffc7-4e6a-9423-3e2b63f7337d",
+    "merchant_id": "MERCH_003",
+    "amount_inr": 22968.45,
+    "upi_vpa": "atiparsa@okhdfcbank",
+    "timestamp": "2026-09-04T23:10:22.858444",
     "status": "failed",
-    "raw_error_message": "No response from bank within timeout window",
+    "raw_error_message": "Bank server not responding (E091)",
     "bank_code": "HDFC",
     "metadata": {
       "true_root_cause": "bank_timeout"
     }
   },
   {
-    "txn_id": "93496ffb-a46e-4a07-b965-877bfe414135",
-    "merchant_id": "MERCH_026",
-    "amount_inr": 3755.71,
-    "upi_vpa": "harishghose@oksbi",
-    "timestamp": "2026-08-30T08:47:54.699650",
-    "status": "failed",
-    "raw_error_message": "Mandate not found for this transaction",
-    "bank_code": "SBI",
-    "metadata": {
-      "true_root_cause": "mandate_error"
-    }
-  },
-  {
-    "txn_id": "f468fd03-0e85-4f2d-a87f-ef8934822eca",
-    "merchant_id": "MERCH_018",
-    "amount_inr": 43975.59,
-    "upi_vpa": "bmenon@paytm",
-    "timestamp": "2026-09-01T19:13:54.699784",
-    "status": "failed",
-    "raw_error_message": "Transaction timed out waiting for bank response",
-    "bank_code": "PAYTM",
-    "metadata": {
-      "true_root_cause": "bank_timeout"
-    }
-  },
-  {
-    "txn_id": "97ab57ab-fe55-4f87-9d44-0149ac66544b",
-    "merchant_id": "MERCH_181",
-    "amount_inr": 15195.61,
-    "upi_vpa": "ekiyasarkar@oksbi",
-    "timestamp": "2026-08-30T14:11:54.700150",
-    "status": "failed",
-    "raw_error_message": "PSP down for maintenance for 4 hours",
-    "bank_code": "SBI",
-    "metadata": {
-      "true_root_cause": "network_error"
-    }
-  },
-  {
-    "txn_id": "49f063e7-5cb9-4de3-8576-dd46cbceda85",
-    "merchant_id": "MERCH_077",
-    "amount_inr": 46594.63,
-    "upi_vpa": "yahvivarty@okaxis",
-    "timestamp": "2026-08-30T11:05:54.700290",
+    "txn_id": "2aedd660-12d3-40e9-afc3-6cf5f335cc4f",
+    "merchant_id": "MERCH_130",
+    "amount_inr": 13333.5,
+    "upi_vpa": "dasshiral@okicici",
+    "timestamp": "2026-09-03T08:46:22.858481",
     "status": "failed",
     "raw_error_message": "Transaction failed due to unspecified error",
-    "bank_code": "AXIS",
+    "bank_code": "ICICI",
     "metadata": {
       "true_root_cause": "unknown"
     }
   },
   {
-    "txn_id": "41aaf641-474a-4ef6-9115-8f5eb9d96105",
+    "txn_id": "ffc9e634-9c6b-4d6f-a0ed-a53a1a225aa5",
+    "merchant_id": "MERCH_041",
+    "amount_inr": 21965.41,
+    "upi_vpa": "hema84@okhdfcbank",
+    "timestamp": "2026-09-02T13:09:22.858515",
+    "status": "failed",
+    "raw_error_message": "Mandate expired, cannot process debit",
+    "bank_code": "HDFC",
+    "metadata": {
+      "true_root_cause": "mandate_error"
+    }
+  },
+  {
+    "txn_id": "90615c49-6c19-4852-8b80-58b01b794f3c",
+    "merchant_id": "MERCH_171",
+    "amount_inr": 40873.5,
+    "upi_vpa": "mprasad@okicici",
+    "timestamp": "2026-09-05T16:50:22.858548",
+    "status": "failed",
+    "raw_error_message": "Temporary network glitch, retry recommended",
+    "bank_code": "ICICI",
+    "metadata": {
+      "true_root_cause": "network_error"
+    }
+  },
+  {
+    "txn_id": "40031d83-3d87-458d-8464-8737915878ef",
     "merchant_id": "MERCH_028",
     "amount_inr": 37146.59,
-    "upi_vpa": "tailorsaumya@okhdfcbank",
-    "timestamp": "2026-09-04T11:00:54.700398",
+    "upi_vpa": "vinayahari@okhdfcbank",
+    "timestamp": "2026-09-04T11:27:22.858584",
     "status": "failed",
     "raw_error_message": "Upstream bank unreachable, request timed out",
     "bank_code": "HDFC",
@@ -754,76 +637,63 @@
     }
   },
   {
-    "txn_id": "b8fddf2b-b5f4-4658-828a-c6d674a98ba6",
-    "merchant_id": "MERCH_184",
-    "amount_inr": 17209.73,
-    "upi_vpa": "lekhamallick@okicici",
-    "timestamp": "2026-09-03T09:01:54.700470",
+    "txn_id": "2e13752c-3ee9-4726-8a81-4043af9932b1",
+    "merchant_id": "MERCH_053",
+    "amount_inr": 34406.11,
+    "upi_vpa": "siddharthsridhar@okaxis",
+    "timestamp": "2026-09-01T21:21:22.858618",
     "status": "failed",
-    "raw_error_message": "Transaction timed out waiting for bank response",
-    "bank_code": "ICICI",
+    "raw_error_message": "Upstream bank unreachable, request timed out",
+    "bank_code": "AXIS",
     "metadata": {
       "true_root_cause": "bank_timeout"
     }
   },
   {
-    "txn_id": "9d10c9be-ebc4-4b6c-99de-dabffc89c9d7",
-    "merchant_id": "MERCH_065",
-    "amount_inr": 45276.29,
-    "upi_vpa": "birdakshesh@okicici",
-    "timestamp": "2026-08-31T05:07:54.700533",
+    "txn_id": "cbbf2112-835d-4038-8f30-7e534808b294",
+    "merchant_id": "MERCH_024",
+    "amount_inr": 31750.79,
+    "upi_vpa": "akalla@ibl",
+    "timestamp": "2026-09-05T05:06:22.858649",
     "status": "failed",
-    "raw_error_message": "Available balance too low for this transaction",
-    "bank_code": "ICICI",
-    "metadata": {
-      "true_root_cause": "insufficient_balance"
-    }
-  },
-  {
-    "txn_id": "987d81eb-dc53-4ec0-97c6-1401c86e3f4c",
-    "merchant_id": "MERCH_071",
-    "amount_inr": 2299.93,
-    "upi_vpa": "oghose@okaxis",
-    "timestamp": "2026-08-31T22:52:54.700599",
-    "status": "failed",
-    "raw_error_message": "Daily transaction limit exceeded",
-    "bank_code": "AXIS",
+    "raw_error_message": "Per-transaction limit exceeded (BLR-091)",
+    "bank_code": "IBL",
     "metadata": {
       "true_root_cause": "limit_exceeded"
     }
   },
   {
-    "txn_id": "73e1a803-0e8e-4c61-94c9-7e4d4c8f6a3e",
-    "merchant_id": "MERCH_042",
-    "amount_inr": 37087.42,
-    "upi_vpa": "jalsa95@okaxis",
-    "timestamp": "2026-09-02T19:00:54.700718",
+    "txn_id": "49efb5a1-359b-4344-b7af-b8f196e859d3",
+    "merchant_id": "MERCH_164",
+    "amount_inr": 48991.92,
+    "upi_vpa": "unni68@ibl",
+    "timestamp": "2026-09-04T07:15:22.858685",
     "status": "failed",
-    "raw_error_message": "PSP down for maintenance for 4 hours",
-    "bank_code": "AXIS",
+    "raw_error_message": "This account has been temporarily capped after unusually frequent transfers today",
+    "bank_code": "IBL",
     "metadata": {
-      "true_root_cause": "network_error"
+      "true_root_cause": "limit_exceeded"
     }
   },
   {
-    "txn_id": "cfb09f0c-59ba-435e-a584-d3bea3224209",
-    "merchant_id": "MERCH_029",
-    "amount_inr": 3854.67,
-    "upi_vpa": "amaranair@okicici",
-    "timestamp": "2026-09-05T15:53:54.700861",
+    "txn_id": "4d8b1c53-9f68-4400-a01a-387b419511a0",
+    "merchant_id": "MERCH_003",
+    "amount_inr": 5682.51,
+    "upi_vpa": "chaitanya22@oksbi",
+    "timestamp": "2026-08-30T09:49:22.858718",
     "status": "failed",
-    "raw_error_message": "Transaction declined due to insufficient balance",
-    "bank_code": "ICICI",
+    "raw_error_message": "No response from bank within timeout window",
+    "bank_code": "SBI",
     "metadata": {
-      "true_root_cause": "insufficient_balance"
+      "true_root_cause": "bank_timeout"
     }
   },
   {
-    "txn_id": "d3c0b552-d9ef-4635-8d37-c74e757271e6",
+    "txn_id": "6fdd3e69-bb3c-4d47-b7d8-3ed14f6bd69c",
     "merchant_id": "MERCH_095",
     "amount_inr": 29167.23,
-    "upi_vpa": "xdhaliwal@okicici",
-    "timestamp": "2026-09-05T08:41:54.700945",
+    "upi_vpa": "yahvikhatri@okicici",
+    "timestamp": "2026-09-05T09:08:22.858754",
     "status": "failed",
     "raw_error_message": "Mandate expired, cannot process debit",
     "bank_code": "ICICI",
@@ -832,37 +702,24 @@
     }
   },
   {
-    "txn_id": "a2eb5147-e0c8-4324-8731-2f86b94a88df",
-    "merchant_id": "MERCH_094",
-    "amount_inr": 44959.18,
-    "upi_vpa": "thakururishilla@ybl",
-    "timestamp": "2026-09-02T06:21:54.701031",
+    "txn_id": "565f8429-e710-49c3-9307-dcb847c7a84c",
+    "merchant_id": "MERCH_092",
+    "amount_inr": 10582.82,
+    "upi_vpa": "riya92@okhdfcbank",
+    "timestamp": "2026-09-05T08:05:22.858790",
     "status": "failed",
-    "raw_error_message": "Upstream bank unreachable, request timed out",
-    "bank_code": "YBL",
+    "raw_error_message": "Transaction timed out waiting for bank response",
+    "bank_code": "HDFC",
     "metadata": {
       "true_root_cause": "bank_timeout"
     }
   },
   {
-    "txn_id": "76c2f415-d5f6-4606-a56c-a28ca740e81e",
-    "merchant_id": "MERCH_175",
-    "amount_inr": 12551.53,
-    "upi_vpa": "kevindas@okhdfcbank",
-    "timestamp": "2026-09-03T09:10:54.701105",
-    "status": "failed",
-    "raw_error_message": "Daily transaction limit exceeded",
-    "bank_code": "HDFC",
-    "metadata": {
-      "true_root_cause": "limit_exceeded"
-    }
-  },
-  {
-    "txn_id": "2822fc6d-3a3c-4263-9358-1045d5084e04",
+    "txn_id": "5b77261d-332d-4f7b-a837-85e640b08644",
     "merchant_id": "MERCH_159",
     "amount_inr": 37498.93,
-    "upi_vpa": "dhruv36@ibl",
-    "timestamp": "2026-09-01T03:33:54.701180",
+    "upi_vpa": "guptayatan@ibl",
+    "timestamp": "2026-09-01T04:00:22.858825",
     "status": "failed",
     "raw_error_message": "Gateway timeout from issuing bank",
     "bank_code": "IBL",
@@ -871,11 +728,11 @@
     }
   },
   {
-    "txn_id": "a4ee3e1f-10b9-4ffb-8f4c-e718535ff087",
-    "merchant_id": "MERCH_046",
-    "amount_inr": 44082.67,
-    "upi_vpa": "keya42@ibl",
-    "timestamp": "2026-09-03T22:09:54.701279",
+    "txn_id": "34081d24-8d98-4132-a0e8-ac9681363cbd",
+    "merchant_id": "MERCH_106",
+    "amount_inr": 1336.84,
+    "upi_vpa": "yamini08@ibl",
+    "timestamp": "2026-09-03T18:38:22.858857",
     "status": "failed",
     "raw_error_message": "Mandate expired, cannot process debit",
     "bank_code": "IBL",
@@ -884,128 +741,1025 @@
     }
   },
   {
-    "txn_id": "a5c8d3b5-15d8-414b-8f7e-842d294ff441",
-    "merchant_id": "MERCH_172",
-    "amount_inr": 43216.8,
-    "upi_vpa": "meeradalia@okhdfcbank",
-    "timestamp": "2026-09-01T02:06:54.703637",
+    "txn_id": "938b56a6-0eff-4842-a4e3-70984d0edf02",
+    "merchant_id": "MERCH_069",
+    "amount_inr": 8043.97,
+    "upi_vpa": "ekbal00@ibl",
+    "timestamp": "2026-09-02T23:13:22.858892",
     "status": "failed",
-    "raw_error_message": "No response from bank within timeout window",
-    "bank_code": "HDFC",
+    "raw_error_message": "Transaction declined due to insufficient balance",
+    "bank_code": "IBL",
     "metadata": {
-      "true_root_cause": "bank_timeout"
+      "true_root_cause": "insufficient_balance"
     }
   },
   {
-    "txn_id": "72a7094a-4b3d-4e12-9a56-a78e2c1d0e99",
-    "merchant_id": "MERCH_098",
-    "amount_inr": 43621.12,
-    "upi_vpa": "krishnantanish@paytm",
-    "timestamp": "2026-09-04T13:00:54.703800",
+    "txn_id": "33f1150d-deb8-4ac8-ad58-e4ac9552ef60",
+    "merchant_id": "MERCH_057",
+    "amount_inr": 10058.68,
+    "upi_vpa": "krishpathak@ibl",
+    "timestamp": "2026-08-31T10:27:22.858928",
     "status": "failed",
-    "raw_error_message": "Per-transaction limit exceeded (BLR-091)",
-    "bank_code": "PAYTM",
+    "raw_error_message": "Insufficient balance in account",
+    "bank_code": "IBL",
     "metadata": {
-      "true_root_cause": "limit_exceeded"
+      "true_root_cause": "insufficient_balance"
     }
   },
   {
-    "txn_id": "d95d83a0-ddc8-45ac-9177-40c7085555c3",
-    "merchant_id": "MERCH_090",
-    "amount_inr": 15329.02,
-    "upi_vpa": "deobakhshi@paytm",
-    "timestamp": "2026-08-31T12:50:54.703924",
-    "status": "failed",
-    "raw_error_message": "UPI limit exceeded for this account",
-    "bank_code": "PAYTM",
-    "metadata": {
-      "true_root_cause": "limit_exceeded"
-    }
-  },
-  {
-    "txn_id": "8a0f8584-238d-4818-953e-e0f02ea80252",
+    "txn_id": "3e8de5bb-c93d-44b8-ac92-69c6cdf8581d",
     "merchant_id": "MERCH_169",
     "amount_inr": 9737.18,
-    "upi_vpa": "eshanakurian@paytm",
-    "timestamp": "2026-09-05T12:04:54.704065",
-    "status": "failed",
-    "raw_error_message": "UPI limit exceeded for this account",
-    "bank_code": "PAYTM",
-    "metadata": {
-      "true_root_cause": "limit_exceeded"
-    }
-  },
-  {
-    "txn_id": "bc235236-fd71-4416-883a-b88fe4b53580",
-    "merchant_id": "MERCH_090",
-    "amount_inr": 32109.94,
-    "upi_vpa": "xmukherjee@ibl",
-    "timestamp": "2026-09-02T14:18:54.704165",
-    "status": "failed",
-    "raw_error_message": "Network error, connection reset by peer",
-    "bank_code": "IBL",
-    "metadata": {
-      "true_root_cause": "network_error"
-    }
-  },
-  {
-    "txn_id": "0bba4228-88a5-4921-bafa-110d6bf4194e",
-    "merchant_id": "MERCH_030",
-    "amount_inr": 43864.22,
-    "upi_vpa": "ghoshlipika@okhdfcbank",
-    "timestamp": "2026-09-05T10:59:54.704259",
-    "status": "failed",
-    "raw_error_message": "Socket timeout communicating with UPI switch",
-    "bank_code": "HDFC",
-    "metadata": {
-      "true_root_cause": "network_error"
-    }
-  },
-  {
-    "txn_id": "c1ef55ac-7118-45fc-a07e-10c74afda763",
-    "merchant_id": "MERCH_028",
-    "amount_inr": 29868.91,
-    "upi_vpa": "adhar@okhdfcbank",
-    "timestamp": "2026-09-05T08:05:54.704430",
-    "status": "failed",
-    "raw_error_message": "Gateway timeout from issuing bank",
-    "bank_code": "HDFC",
-    "metadata": {
-      "true_root_cause": "bank_timeout"
-    }
-  },
-  {
-    "txn_id": "749819ed-5738-47df-846e-6af016070df9",
-    "merchant_id": "MERCH_131",
-    "amount_inr": 5870.72,
-    "upi_vpa": "avi58@oksbi",
-    "timestamp": "2026-08-29T20:59:54.704514",
-    "status": "failed",
-    "raw_error_message": "Connection to payment switch lost",
-    "bank_code": "SBI",
-    "metadata": {
-      "true_root_cause": "network_error"
-    }
-  },
-  {
-    "txn_id": "a4c07c8a-5f45-48a0-9e1e-92b087c858e2",
-    "merchant_id": "MERCH_182",
-    "amount_inr": 21859.27,
-    "upi_vpa": "rbal@okhdfcbank",
-    "timestamp": "2026-09-05T06:24:54.704600",
+    "upi_vpa": "wridesh71@paytm",
+    "timestamp": "2026-09-05T12:31:22.858964",
     "status": "failed",
     "raw_error_message": "Mandate expired, cannot process debit",
-    "bank_code": "HDFC",
+    "bank_code": "PAYTM",
     "metadata": {
       "true_root_cause": "mandate_error"
     }
   },
   {
-    "txn_id": "4e3f5a74-3469-4682-bbcc-e49ef2360b8f",
+    "txn_id": "844f8563-1617-447d-a0e5-35fa1745e478",
+    "merchant_id": "MERCH_103",
+    "amount_inr": 34007.95,
+    "upi_vpa": "adwetabarad@okhdfcbank",
+    "timestamp": "2026-08-30T23:52:22.858999",
+    "status": "failed",
+    "raw_error_message": "Connection to payment switch lost",
+    "bank_code": "HDFC",
+    "metadata": {
+      "true_root_cause": "network_error"
+    }
+  },
+  {
+    "txn_id": "ac8c7ac4-c00c-4bd2-9a76-c79861cf1589",
+    "merchant_id": "MERCH_046",
+    "amount_inr": 29071.43,
+    "upi_vpa": "bhardwajronith@ybl",
+    "timestamp": "2026-09-02T19:39:22.859033",
+    "status": "failed",
+    "raw_error_message": "Daily transaction limit exceeded",
+    "bank_code": "YBL",
+    "metadata": {
+      "true_root_cause": "limit_exceeded"
+    }
+  },
+  {
+    "txn_id": "1a70024a-2ed1-4bcd-86cb-6444342f8f6e",
+    "merchant_id": "MERCH_112",
+    "amount_inr": 30349.82,
+    "upi_vpa": "vartyjacob@okhdfcbank",
+    "timestamp": "2026-09-02T05:19:22.859066",
+    "status": "failed",
+    "raw_error_message": "Transaction blocked by an internal compliance hold with no further detail provided",
+    "bank_code": "HDFC",
+    "metadata": {
+      "true_root_cause": "unknown"
+    }
+  },
+  {
+    "txn_id": "c44f8dbb-09ff-4793-8026-d916d28d3eef",
+    "merchant_id": "MERCH_012",
+    "amount_inr": 35468.39,
+    "upi_vpa": "sarnatripti@paytm",
+    "timestamp": "2026-09-02T21:25:22.859100",
+    "status": "failed",
+    "raw_error_message": "Socket timeout communicating with UPI switch",
+    "bank_code": "PAYTM",
+    "metadata": {
+      "true_root_cause": "network_error"
+    }
+  },
+  {
+    "txn_id": "7458a357-9b56-4f38-a7bf-bd00ad4c6a18",
     "merchant_id": "MERCH_094",
     "amount_inr": 21621.74,
-    "upi_vpa": "zayyansabharwal@okaxis",
-    "timestamp": "2026-09-03T12:43:54.704680",
+    "upi_vpa": "ubikamangat@okaxis",
+    "timestamp": "2026-09-03T13:10:22.859132",
+    "status": "failed",
+    "raw_error_message": "Gateway timeout from issuing bank",
+    "bank_code": "AXIS",
+    "metadata": {
+      "true_root_cause": "bank_timeout"
+    }
+  },
+  {
+    "txn_id": "df4a3891-a279-452a-922a-8a317676d2d0",
+    "merchant_id": "MERCH_185",
+    "amount_inr": 45012.34,
+    "upi_vpa": "tseth@okaxis",
+    "timestamp": "2026-09-04T08:57:22.859165",
+    "status": "failed",
+    "raw_error_message": "Invalid mandate reference",
+    "bank_code": "AXIS",
+    "metadata": {
+      "true_root_cause": "mandate_error"
+    }
+  },
+  {
+    "txn_id": "52983419-171a-4917-88ad-fefd9c3e854a",
+    "merchant_id": "MERCH_142",
+    "amount_inr": 6451.66,
+    "upi_vpa": "aishani12@oksbi",
+    "timestamp": "2026-09-02T10:14:22.859195",
+    "status": "failed",
+    "raw_error_message": "Connection to payment switch lost",
+    "bank_code": "SBI",
+    "metadata": {
+      "true_root_cause": "network_error"
+    }
+  },
+  {
+    "txn_id": "7b9f16ab-df77-4e0f-9998-6e7a93af74b5",
+    "merchant_id": "MERCH_158",
+    "amount_inr": 28498.35,
+    "upi_vpa": "niharikaparikh@okaxis",
+    "timestamp": "2026-09-03T19:27:22.859232",
+    "status": "failed",
+    "raw_error_message": "Temporary network glitch, retry recommended",
+    "bank_code": "AXIS",
+    "metadata": {
+      "true_root_cause": "network_error"
+    }
+  },
+  {
+    "txn_id": "4d826cc7-abba-4434-9e8e-58c8c6bc832c",
+    "merchant_id": "MERCH_111",
+    "amount_inr": 39309.37,
+    "upi_vpa": "kmalhotra@okhdfcbank",
+    "timestamp": "2026-09-03T09:35:22.859265",
+    "status": "failed",
+    "raw_error_message": "Connection to payment switch lost",
+    "bank_code": "HDFC",
+    "metadata": {
+      "true_root_cause": "network_error"
+    }
+  },
+  {
+    "txn_id": "0c08e6f6-26a7-446a-89c8-3562cb2f56f8",
+    "merchant_id": "MERCH_131",
+    "amount_inr": 23711.99,
+    "upi_vpa": "nupadhyay@oksbi",
+    "timestamp": "2026-09-03T08:37:22.859296",
+    "status": "failed",
+    "raw_error_message": "Transaction declined due to insufficient balance",
+    "bank_code": "SBI",
+    "metadata": {
+      "true_root_cause": "insufficient_balance"
+    }
+  },
+  {
+    "txn_id": "34ada926-6590-4d31-8802-d7c1921cfa31",
+    "merchant_id": "MERCH_073",
+    "amount_inr": 25821.06,
+    "upi_vpa": "jeevikamutti@okaxis",
+    "timestamp": "2026-09-04T19:49:22.859328",
+    "status": "failed",
+    "raw_error_message": "Mandate expired, cannot process debit",
+    "bank_code": "AXIS",
+    "metadata": {
+      "true_root_cause": "mandate_error"
+    }
+  },
+  {
+    "txn_id": "caeef215-1b2c-4548-aff1-c31909639f35",
+    "merchant_id": "MERCH_058",
+    "amount_inr": 40347.49,
+    "upi_vpa": "cdash@okaxis",
+    "timestamp": "2026-09-02T06:13:22.859359",
+    "status": "failed",
+    "raw_error_message": "Insufficient funds to complete transaction",
+    "bank_code": "AXIS",
+    "metadata": {
+      "true_root_cause": "insufficient_balance"
+    }
+  },
+  {
+    "txn_id": "db3cbb12-c86b-4040-8e24-fcd5b81224b3",
+    "merchant_id": "MERCH_117",
+    "amount_inr": 20780.61,
+    "upi_vpa": "enarain@okicici",
+    "timestamp": "2026-09-04T23:05:22.859394",
+    "status": "failed",
+    "raw_error_message": "Settlement corridor to this bank is experiencing severe processing lag today",
+    "bank_code": "ICICI",
+    "metadata": {
+      "true_root_cause": "bank_timeout"
+    }
+  },
+  {
+    "txn_id": "ef75884a-3a73-4377-b047-b9a61d5aef19",
+    "merchant_id": "MERCH_063",
+    "amount_inr": 7463.81,
+    "upi_vpa": "chavvi70@oksbi",
+    "timestamp": "2026-09-01T05:51:22.859425",
+    "status": "failed",
+    "raw_error_message": "Transaction declined due to insufficient balance",
+    "bank_code": "SBI",
+    "metadata": {
+      "true_root_cause": "insufficient_balance"
+    }
+  },
+  {
+    "txn_id": "ef280cb5-5519-4547-b023-5163b0693a4a",
+    "merchant_id": "MERCH_057",
+    "amount_inr": 8876.75,
+    "upi_vpa": "gprakash@ibl",
+    "timestamp": "2026-08-31T22:53:22.859456",
+    "status": "failed",
+    "raw_error_message": "Insufficient balance in account",
+    "bank_code": "IBL",
+    "metadata": {
+      "true_root_cause": "insufficient_balance"
+    }
+  },
+  {
+    "txn_id": "d7b5749b-e6a4-4aeb-a1f3-ff500ca62fc5",
+    "merchant_id": "MERCH_032",
+    "amount_inr": 22877.45,
+    "upi_vpa": "masterethan@okicici",
+    "timestamp": "2026-09-02T22:56:22.859489",
+    "status": "failed",
+    "raw_error_message": "Transaction failed due to unspecified error",
+    "bank_code": "ICICI",
+    "metadata": {
+      "true_root_cause": "unknown"
+    }
+  },
+  {
+    "txn_id": "45ef4b50-e383-4da3-984f-dff5aad56832",
+    "merchant_id": "MERCH_157",
+    "amount_inr": 40768.82,
+    "upi_vpa": "avi67@ibl",
+    "timestamp": "2026-08-31T18:07:22.859521",
+    "status": "failed",
+    "raw_error_message": "Per-transaction limit exceeded (BLR-091)",
+    "bank_code": "IBL",
+    "metadata": {
+      "true_root_cause": "limit_exceeded"
+    }
+  },
+  {
+    "txn_id": "49d43106-75be-452c-9b1c-333a055d9f65",
+    "merchant_id": "MERCH_116",
+    "amount_inr": 13033.66,
+    "upi_vpa": "aarna23@paytm",
+    "timestamp": "2026-08-31T09:21:22.859559",
+    "status": "failed",
+    "raw_error_message": "Mandate revoked by customer",
+    "bank_code": "PAYTM",
+    "metadata": {
+      "true_root_cause": "mandate_error"
+    }
+  },
+  {
+    "txn_id": "209cfbe0-63ab-4128-b712-80c7476a2f28",
+    "merchant_id": "MERCH_071",
+    "amount_inr": 22049.64,
+    "upi_vpa": "golevamakshi@oksbi",
+    "timestamp": "2026-09-03T01:39:22.859593",
+    "status": "failed",
+    "raw_error_message": "Gateway timeout from issuing bank",
+    "bank_code": "SBI",
+    "metadata": {
+      "true_root_cause": "bank_timeout"
+    }
+  },
+  {
+    "txn_id": "f3d3284a-a29b-408b-b628-e8f19b871172",
+    "merchant_id": "MERCH_021",
+    "amount_inr": 7004.87,
+    "upi_vpa": "mason57@okhdfcbank",
+    "timestamp": "2026-08-30T15:29:22.859625",
+    "status": "failed",
+    "raw_error_message": "Available balance too low for this transaction",
+    "bank_code": "HDFC",
+    "metadata": {
+      "true_root_cause": "insufficient_balance"
+    }
+  },
+  {
+    "txn_id": "fe6716e4-0ba3-4fc1-9d2d-32566e4f0f4b",
+    "merchant_id": "MERCH_107",
+    "amount_inr": 20439.21,
+    "upi_vpa": "kamalakulkarni@paytm",
+    "timestamp": "2026-09-05T01:26:22.859660",
+    "status": "failed",
+    "raw_error_message": "No response from bank within timeout window",
+    "bank_code": "PAYTM",
+    "metadata": {
+      "true_root_cause": "bank_timeout"
+    }
+  },
+  {
+    "txn_id": "f8bcf8e0-7bb0-4072-b4ca-c8757dc43c30",
+    "merchant_id": "MERCH_100",
+    "amount_inr": 45251.44,
+    "upi_vpa": "neelgulati@ibl",
+    "timestamp": "2026-09-01T00:15:22.859694",
+    "status": "failed",
+    "raw_error_message": "PSP down for maintenance for 4 hours",
+    "bank_code": "IBL",
+    "metadata": {
+      "true_root_cause": "network_error"
+    }
+  },
+  {
+    "txn_id": "8ae299ca-85c0-4107-9582-029d69778f7d",
+    "merchant_id": "MERCH_091",
+    "amount_inr": 15000.77,
+    "upi_vpa": "ladli86@oksbi",
+    "timestamp": "2026-09-05T17:22:22.859727",
+    "status": "failed",
+    "raw_error_message": "Transaction declined due to insufficient balance",
+    "bank_code": "SBI",
+    "metadata": {
+      "true_root_cause": "insufficient_balance"
+    }
+  },
+  {
+    "txn_id": "7ba37fa7-f1d3-4d76-bb2f-017d98c98318",
+    "merchant_id": "MERCH_155",
+    "amount_inr": 44900.79,
+    "upi_vpa": "vyanjanamani@okicici",
+    "timestamp": "2026-08-30T13:51:22.859760",
+    "status": "failed",
+    "raw_error_message": "NPCI network unreachable",
+    "bank_code": "ICICI",
+    "metadata": {
+      "true_root_cause": "network_error"
+    }
+  },
+  {
+    "txn_id": "8e6d579f-79e0-4afc-a7bd-caf66b782c75",
+    "merchant_id": "MERCH_087",
+    "amount_inr": 33476.79,
+    "upi_vpa": "dayita15@ybl",
+    "timestamp": "2026-09-01T08:47:22.859791",
+    "status": "failed",
+    "raw_error_message": "NPCI network unreachable",
+    "bank_code": "YBL",
+    "metadata": {
+      "true_root_cause": "network_error"
+    }
+  },
+  {
+    "txn_id": "01f07d9e-dc7f-4e06-b493-11ce41054931",
+    "merchant_id": "MERCH_007",
+    "amount_inr": 45355.75,
+    "upi_vpa": "goswamiprisha@paytm",
+    "timestamp": "2026-08-30T17:07:22.859824",
+    "status": "failed",
+    "raw_error_message": "Monthly UPI cap reached, transaction blocked",
+    "bank_code": "PAYTM",
+    "metadata": {
+      "true_root_cause": "limit_exceeded"
+    }
+  },
+  {
+    "txn_id": "992ae491-942b-442a-a072-35a2a3f115eb",
+    "merchant_id": "MERCH_035",
+    "amount_inr": 43355.88,
+    "upi_vpa": "meghabail@okaxis",
+    "timestamp": "2026-08-31T21:56:22.859856",
+    "status": "failed",
+    "raw_error_message": "Insufficient balance in account",
+    "bank_code": "AXIS",
+    "metadata": {
+      "true_root_cause": "insufficient_balance"
+    }
+  },
+  {
+    "txn_id": "4440a30d-1295-403a-8e46-7b1277f89cd7",
+    "merchant_id": "MERCH_084",
+    "amount_inr": 16941.28,
+    "upi_vpa": "bimala46@paytm",
+    "timestamp": "2026-08-31T14:49:22.859887",
+    "status": "failed",
+    "raw_error_message": "Transaction timed out waiting for bank response",
+    "bank_code": "PAYTM",
+    "metadata": {
+      "true_root_cause": "bank_timeout"
+    }
+  },
+  {
+    "txn_id": "6889a90c-8f2f-4592-9375-9f233a1d945e",
+    "merchant_id": "MERCH_121",
+    "amount_inr": 1067.23,
+    "upi_vpa": "chaitaly90@okhdfcbank",
+    "timestamp": "2026-09-04T20:37:22.859917",
+    "status": "failed",
+    "raw_error_message": "Mandate revoked by customer",
+    "bank_code": "HDFC",
+    "metadata": {
+      "true_root_cause": "mandate_error"
+    }
+  },
+  {
+    "txn_id": "f2f136a8-145f-4ad9-8758-d88b96e1ab1c",
+    "merchant_id": "MERCH_200",
+    "amount_inr": 47868.55,
+    "upi_vpa": "ekani00@paytm",
+    "timestamp": "2026-09-05T00:14:22.859947",
+    "status": "failed",
+    "raw_error_message": "Connection to payment switch lost",
+    "bank_code": "PAYTM",
+    "metadata": {
+      "true_root_cause": "network_error"
+    }
+  },
+  {
+    "txn_id": "957af898-c33e-41af-b8c2-aaeb89ade991",
+    "merchant_id": "MERCH_160",
+    "amount_inr": 7703.88,
+    "upi_vpa": "rachitpandey@paytm",
+    "timestamp": "2026-09-05T13:25:22.860000",
+    "status": "failed",
+    "raw_error_message": "Response from partner bank arrived after the acceptable window had already closed",
+    "bank_code": "PAYTM",
+    "metadata": {
+      "true_root_cause": "bank_timeout"
+    }
+  },
+  {
+    "txn_id": "d6cde225-312c-4032-92f7-c3a71cf83464",
+    "merchant_id": "MERCH_180",
+    "amount_inr": 12886.56,
+    "upi_vpa": "christophersoni@paytm",
+    "timestamp": "2026-08-31T11:59:22.860036",
+    "status": "failed",
+    "raw_error_message": "Gateway timeout from issuing bank",
+    "bank_code": "PAYTM",
+    "metadata": {
+      "true_root_cause": "bank_timeout"
+    }
+  },
+  {
+    "txn_id": "669598b4-2ed6-4e05-b2af-23a8d821c8c1",
+    "merchant_id": "MERCH_200",
+    "amount_inr": 40983.13,
+    "upi_vpa": "jyotiwable@okaxis",
+    "timestamp": "2026-09-04T11:42:22.860069",
+    "status": "failed",
+    "raw_error_message": "Temporary network glitch, retry recommended",
+    "bank_code": "AXIS",
+    "metadata": {
+      "true_root_cause": "network_error"
+    }
+  },
+  {
+    "txn_id": "a260191f-1075-4eae-8ee0-e3d39c66845f",
+    "merchant_id": "MERCH_174",
+    "amount_inr": 45410.5,
+    "upi_vpa": "ighose@okhdfcbank",
+    "timestamp": "2026-08-30T05:45:22.860102",
+    "status": "failed",
+    "raw_error_message": "Transaction failed due to unspecified error",
+    "bank_code": "HDFC",
+    "metadata": {
+      "true_root_cause": "unknown"
+    }
+  },
+  {
+    "txn_id": "77f8f150-10ff-402e-ae33-fc12129fcdb8",
+    "merchant_id": "MERCH_177",
+    "amount_inr": 41545.52,
+    "upi_vpa": "zgaba@ybl",
+    "timestamp": "2026-08-30T01:18:22.860134",
+    "status": "failed",
+    "raw_error_message": "PSP down for maintenance for 4 hours",
+    "bank_code": "YBL",
+    "metadata": {
+      "true_root_cause": "network_error"
+    }
+  },
+  {
+    "txn_id": "cfb3d565-9eeb-4210-ad50-33b6f1c57798",
+    "merchant_id": "MERCH_031",
+    "amount_inr": 39831.74,
+    "upi_vpa": "keerzaid@ibl",
+    "timestamp": "2026-08-29T23:01:22.860165",
+    "status": "failed",
+    "raw_error_message": "Transaction timed out waiting for bank response",
+    "bank_code": "IBL",
+    "metadata": {
+      "true_root_cause": "bank_timeout"
+    }
+  },
+  {
+    "txn_id": "60383d57-6a21-436a-8d3e-f7a2a1cfb29a",
+    "merchant_id": "MERCH_018",
+    "amount_inr": 25347.44,
+    "upi_vpa": "sachdevikshita@okaxis",
+    "timestamp": "2026-09-01T13:47:22.860200",
+    "status": "failed",
+    "raw_error_message": "Requested amount exceeds what is currently available to move out of this account",
+    "bank_code": "AXIS",
+    "metadata": {
+      "true_root_cause": "insufficient_balance"
+    }
+  },
+  {
+    "txn_id": "9ac26aad-090d-4888-bf01-15600e3772cb",
+    "merchant_id": "MERCH_093",
+    "amount_inr": 31815.7,
+    "upi_vpa": "mandalchavvi@ybl",
+    "timestamp": "2026-08-31T20:36:22.860234",
+    "status": "failed",
+    "raw_error_message": "NPCI network unreachable",
+    "bank_code": "YBL",
+    "metadata": {
+      "true_root_cause": "network_error"
+    }
+  },
+  {
+    "txn_id": "9e311a15-bf39-4547-80e9-5d05bc6fdbe9",
+    "merchant_id": "MERCH_167",
+    "amount_inr": 13577.11,
+    "upi_vpa": "karan20@paytm",
+    "timestamp": "2026-08-30T20:30:22.860267",
+    "status": "failed",
+    "raw_error_message": "Monthly UPI cap reached, transaction blocked",
+    "bank_code": "PAYTM",
+    "metadata": {
+      "true_root_cause": "limit_exceeded"
+    }
+  },
+  {
+    "txn_id": "43398faa-05cd-41b2-bdf3-797c4ae8d298",
+    "merchant_id": "MERCH_188",
+    "amount_inr": 29664.48,
+    "upi_vpa": "anirudh97@oksbi",
+    "timestamp": "2026-08-31T20:02:22.860298",
+    "status": "failed",
+    "raw_error_message": "Monthly UPI cap reached, transaction blocked",
+    "bank_code": "SBI",
+    "metadata": {
+      "true_root_cause": "limit_exceeded"
+    }
+  },
+  {
+    "txn_id": "6a866f39-fcda-444b-81f3-4451a8e15a69",
+    "merchant_id": "MERCH_063",
+    "amount_inr": 37548.77,
+    "upi_vpa": "aradhanakumer@okhdfcbank",
+    "timestamp": "2026-08-31T15:53:22.860332",
+    "status": "failed",
+    "raw_error_message": "Network error, connection reset by peer",
+    "bank_code": "HDFC",
+    "metadata": {
+      "true_root_cause": "network_error"
+    }
+  },
+  {
+    "txn_id": "9f0660ac-d57a-49ed-9d99-843548789973",
+    "merchant_id": "MERCH_084",
+    "amount_inr": 9173.81,
+    "upi_vpa": "goswamiteerth@ybl",
+    "timestamp": "2026-08-31T04:00:22.860366",
+    "status": "failed",
+    "raw_error_message": "Available balance too low for this transaction",
+    "bank_code": "YBL",
+    "metadata": {
+      "true_root_cause": "insufficient_balance"
+    }
+  },
+  {
+    "txn_id": "cde1f982-f60f-4db7-8a7a-fd0efdd456d0",
+    "merchant_id": "MERCH_180",
+    "amount_inr": 44017.36,
+    "upi_vpa": "vinayapall@okhdfcbank",
+    "timestamp": "2026-08-30T00:11:22.860397",
+    "status": "failed",
+    "raw_error_message": "Transaction timed out waiting for bank response",
+    "bank_code": "HDFC",
+    "metadata": {
+      "true_root_cause": "bank_timeout"
+    }
+  },
+  {
+    "txn_id": "6666cc23-ff8d-4dcd-9d2e-5a319add078c",
+    "merchant_id": "MERCH_185",
+    "amount_inr": 20380.76,
+    "upi_vpa": "tejas33@ybl",
+    "timestamp": "2026-09-03T01:04:22.860428",
+    "status": "failed",
+    "raw_error_message": "Insufficient funds to complete transaction",
+    "bank_code": "YBL",
+    "metadata": {
+      "true_root_cause": "insufficient_balance"
+    }
+  },
+  {
+    "txn_id": "a296954d-281e-4007-af27-f78d33f797fe",
+    "merchant_id": "MERCH_115",
+    "amount_inr": 39667.35,
+    "upi_vpa": "nsheth@okaxis",
+    "timestamp": "2026-08-31T04:57:22.860457",
+    "status": "failed",
+    "raw_error_message": "Transaction declined due to insufficient balance",
+    "bank_code": "AXIS",
+    "metadata": {
+      "true_root_cause": "insufficient_balance"
+    }
+  },
+  {
+    "txn_id": "89af4d59-d5cf-43ac-81c9-15c204a48d3b",
+    "merchant_id": "MERCH_170",
+    "amount_inr": 29119.62,
+    "upi_vpa": "janani07@paytm",
+    "timestamp": "2026-09-02T07:22:22.860490",
+    "status": "failed",
+    "raw_error_message": "No response from bank within timeout window",
+    "bank_code": "PAYTM",
+    "metadata": {
+      "true_root_cause": "bank_timeout"
+    }
+  },
+  {
+    "txn_id": "31425750-5c8b-430c-b793-5699709aba17",
+    "merchant_id": "MERCH_085",
+    "amount_inr": 17655.35,
+    "upi_vpa": "urvirau@okaxis",
+    "timestamp": "2026-08-30T12:41:22.860524",
+    "status": "failed",
+    "raw_error_message": "NPCI network unreachable",
+    "bank_code": "AXIS",
+    "metadata": {
+      "true_root_cause": "network_error"
+    }
+  },
+  {
+    "txn_id": "4ffc3f83-4a88-4713-9fb4-6d3a0a957e46",
+    "merchant_id": "MERCH_081",
+    "amount_inr": 6065.78,
+    "upi_vpa": "ishakota@ybl",
+    "timestamp": "2026-09-03T14:23:22.860556",
+    "status": "failed",
+    "raw_error_message": "PSP down for maintenance for 4 hours",
+    "bank_code": "YBL",
+    "metadata": {
+      "true_root_cause": "network_error"
+    }
+  },
+  {
+    "txn_id": "15fe05a0-d733-40b6-9a53-273fa66cebe3",
+    "merchant_id": "MERCH_190",
+    "amount_inr": 24261.51,
+    "upi_vpa": "ladli39@paytm",
+    "timestamp": "2026-09-03T07:53:22.860589",
+    "status": "failed",
+    "raw_error_message": "PSP down for maintenance for 4 hours",
+    "bank_code": "PAYTM",
+    "metadata": {
+      "true_root_cause": "network_error"
+    }
+  },
+  {
+    "txn_id": "cc373322-1293-42e2-9ea2-06f10938190b",
+    "merchant_id": "MERCH_076",
+    "amount_inr": 11451.41,
+    "upi_vpa": "asubramaniam@ybl",
+    "timestamp": "2026-09-03T13:58:22.860622",
+    "status": "failed",
+    "raw_error_message": "Available balance too low for this transaction",
+    "bank_code": "YBL",
+    "metadata": {
+      "true_root_cause": "insufficient_balance"
+    }
+  },
+  {
+    "txn_id": "bcc65bc7-d461-4803-8798-f4a1664311d5",
+    "merchant_id": "MERCH_014",
+    "amount_inr": 27712.61,
+    "upi_vpa": "neelimabobal@okhdfcbank",
+    "timestamp": "2026-09-05T06:33:22.860654",
+    "status": "failed",
+    "raw_error_message": "Response from partner bank arrived after the acceptable window had already closed",
+    "bank_code": "HDFC",
+    "metadata": {
+      "true_root_cause": "bank_timeout"
+    }
+  },
+  {
+    "txn_id": "cad26ff8-9534-4d8b-811b-14090f926273",
+    "merchant_id": "MERCH_147",
+    "amount_inr": 14288.53,
+    "upi_vpa": "pallabhiram@ybl",
+    "timestamp": "2026-09-05T15:38:22.860686",
+    "status": "failed",
+    "raw_error_message": "Transaction declined due to insufficient balance",
+    "bank_code": "YBL",
+    "metadata": {
+      "true_root_cause": "insufficient_balance"
+    }
+  },
+  {
+    "txn_id": "8e2a8a46-3ce5-4689-99c9-2513df790247",
+    "merchant_id": "MERCH_030",
+    "amount_inr": 41123.57,
+    "upi_vpa": "mdasgupta@okhdfcbank",
+    "timestamp": "2026-08-31T08:31:22.860716",
+    "status": "failed",
+    "raw_error_message": "Network error, connection reset by peer",
+    "bank_code": "HDFC",
+    "metadata": {
+      "true_root_cause": "network_error"
+    }
+  },
+  {
+    "txn_id": "4343b544-a75e-47c2-8407-adf5095a005e",
+    "merchant_id": "MERCH_145",
+    "amount_inr": 47461.37,
+    "upi_vpa": "bhanumatibains@paytm",
+    "timestamp": "2026-09-04T02:14:22.860751",
+    "status": "failed",
+    "raw_error_message": "Regional data center serving this corridor is experiencing intermittent packet drops of unknown origin",
+    "bank_code": "PAYTM",
+    "metadata": {
+      "true_root_cause": "network_error"
+    }
+  },
+  {
+    "txn_id": "709fc519-9fb9-4103-92a9-a4325fce3d4d",
+    "merchant_id": "MERCH_156",
+    "amount_inr": 29846.73,
+    "upi_vpa": "raksha77@ibl",
+    "timestamp": "2026-09-01T01:20:22.860783",
+    "status": "failed",
+    "raw_error_message": "Gateway timeout from issuing bank",
+    "bank_code": "IBL",
+    "metadata": {
+      "true_root_cause": "bank_timeout"
+    }
+  },
+  {
+    "txn_id": "3157d759-c1a5-43d4-8bda-64759c699a3a",
+    "merchant_id": "MERCH_077",
+    "amount_inr": 43022.32,
+    "upi_vpa": "fbhandari@oksbi",
+    "timestamp": "2026-08-31T18:05:22.860813",
+    "status": "failed",
+    "raw_error_message": "Transaction declined due to insufficient balance",
+    "bank_code": "SBI",
+    "metadata": {
+      "true_root_cause": "insufficient_balance"
+    }
+  },
+  {
+    "txn_id": "2102a491-46a2-408a-ae9c-f693a3c098ee",
+    "merchant_id": "MERCH_196",
+    "amount_inr": 10468.62,
+    "upi_vpa": "yvora@okicici",
+    "timestamp": "2026-09-04T15:53:22.860846",
+    "status": "failed",
+    "raw_error_message": "Transaction failed due to unspecified error",
+    "bank_code": "ICICI",
+    "metadata": {
+      "true_root_cause": "unknown"
+    }
+  },
+  {
+    "txn_id": "ee7635b1-12a0-476b-a652-f9a7e9e8bb3a",
+    "merchant_id": "MERCH_142",
+    "amount_inr": 3845.74,
+    "upi_vpa": "bakshimitali@paytm",
+    "timestamp": "2026-09-03T19:31:22.860880",
+    "status": "failed",
+    "raw_error_message": "Upstream bank unreachable, request timed out",
+    "bank_code": "PAYTM",
+    "metadata": {
+      "true_root_cause": "bank_timeout"
+    }
+  },
+  {
+    "txn_id": "8b4dc93f-8b4e-4ea3-a089-4a51c42b5b39",
+    "merchant_id": "MERCH_009",
+    "amount_inr": 11650.66,
+    "upi_vpa": "rbawa@oksbi",
+    "timestamp": "2026-09-02T11:27:22.860911",
+    "status": "failed",
+    "raw_error_message": "Gateway timeout from issuing bank",
+    "bank_code": "SBI",
+    "metadata": {
+      "true_root_cause": "bank_timeout"
+    }
+  },
+  {
+    "txn_id": "56406944-a56d-40bb-b4f0-e086a2457ec0",
+    "merchant_id": "MERCH_068",
+    "amount_inr": 39412.62,
+    "upi_vpa": "sandhueiravati@ybl",
+    "timestamp": "2026-09-03T03:14:22.860943",
+    "status": "failed",
+    "raw_error_message": "Transaction declined due to insufficient balance",
+    "bank_code": "YBL",
+    "metadata": {
+      "true_root_cause": "insufficient_balance"
+    }
+  },
+  {
+    "txn_id": "d52c008d-c206-4148-a68e-f3db5668fb1a",
+    "merchant_id": "MERCH_140",
+    "amount_inr": 11317.99,
+    "upi_vpa": "aarushbanerjee@oksbi",
+    "timestamp": "2026-09-04T11:38:22.860977",
+    "status": "failed",
+    "raw_error_message": "Insufficient funds to complete transaction",
+    "bank_code": "SBI",
+    "metadata": {
+      "true_root_cause": "insufficient_balance"
+    }
+  },
+  {
+    "txn_id": "e4729e9f-36f0-48bf-abb7-c5a4394069b5",
+    "merchant_id": "MERCH_043",
+    "amount_inr": 39652.17,
+    "upi_vpa": "bchokshi@ybl",
+    "timestamp": "2026-09-05T02:41:22.861010",
+    "status": "failed",
+    "raw_error_message": "Upstream bank unreachable, request timed out",
+    "bank_code": "YBL",
+    "metadata": {
+      "true_root_cause": "bank_timeout"
+    }
+  },
+  {
+    "txn_id": "4c126435-cd73-4d91-9e83-d892731807aa",
+    "merchant_id": "MERCH_120",
+    "amount_inr": 34465.03,
+    "upi_vpa": "upasna31@oksbi",
+    "timestamp": "2026-09-04T09:01:22.861042",
+    "status": "failed",
+    "raw_error_message": "Available balance too low for this transaction",
+    "bank_code": "SBI",
+    "metadata": {
+      "true_root_cause": "insufficient_balance"
+    }
+  },
+  {
+    "txn_id": "528ebdba-29ef-419e-a188-4273d6efd6fa",
+    "merchant_id": "MERCH_154",
+    "amount_inr": 2089.05,
+    "upi_vpa": "mgoel@oksbi",
+    "timestamp": "2026-09-04T21:01:22.861073",
+    "status": "failed",
+    "raw_error_message": "Transaction declined due to insufficient balance",
+    "bank_code": "SBI",
+    "metadata": {
+      "true_root_cause": "insufficient_balance"
+    }
+  },
+  {
+    "txn_id": "ee630242-42b3-4f1c-8c8e-d5224041ae3f",
+    "merchant_id": "MERCH_059",
+    "amount_inr": 48099.36,
+    "upi_vpa": "eiravatioak@ybl",
+    "timestamp": "2026-09-04T18:02:22.861108",
+    "status": "failed",
+    "raw_error_message": "Connection to payment switch lost",
+    "bank_code": "YBL",
+    "metadata": {
+      "true_root_cause": "network_error"
+    }
+  },
+  {
+    "txn_id": "5c09b8a3-7f00-4ac2-a35a-bff52f882bbb",
+    "merchant_id": "MERCH_148",
+    "amount_inr": 2107.56,
+    "upi_vpa": "gauravthaman@ibl",
+    "timestamp": "2026-09-02T17:23:22.861141",
+    "status": "failed",
+    "raw_error_message": "Daily transaction limit exceeded",
+    "bank_code": "IBL",
+    "metadata": {
+      "true_root_cause": "limit_exceeded"
+    }
+  },
+  {
+    "txn_id": "2006415e-7835-455b-a6d0-ddd5276852f3",
+    "merchant_id": "MERCH_150",
+    "amount_inr": 21850.66,
+    "upi_vpa": "jatin09@okhdfcbank",
+    "timestamp": "2026-09-03T17:25:22.861172",
+    "status": "failed",
+    "raw_error_message": "Monthly UPI cap reached, transaction blocked",
+    "bank_code": "HDFC",
+    "metadata": {
+      "true_root_cause": "limit_exceeded"
+    }
+  },
+  {
+    "txn_id": "2ae7242f-2fa1-43d2-8540-6bde06d79d75",
+    "merchant_id": "MERCH_086",
+    "amount_inr": 16120.81,
+    "upi_vpa": "prasadaditya@okhdfcbank",
+    "timestamp": "2026-09-01T03:28:22.861207",
+    "status": "failed",
+    "raw_error_message": "Monthly UPI cap reached, transaction blocked",
+    "bank_code": "HDFC",
+    "metadata": {
+      "true_root_cause": "limit_exceeded"
+    }
+  },
+  {
+    "txn_id": "9809d10b-9729-4f05-930e-8820d3b19e5f",
+    "merchant_id": "MERCH_074",
+    "amount_inr": 33162.92,
+    "upi_vpa": "tkara@okaxis",
+    "timestamp": "2026-08-31T03:41:22.861237",
+    "status": "failed",
+    "raw_error_message": "Bank server not responding (E091)",
+    "bank_code": "AXIS",
+    "metadata": {
+      "true_root_cause": "bank_timeout"
+    }
+  },
+  {
+    "txn_id": "fc240f73-8f2e-42c8-bd8f-7e7c3ec72afc",
+    "merchant_id": "MERCH_081",
+    "amount_inr": 12694.7,
+    "upi_vpa": "lthakur@oksbi",
+    "timestamp": "2026-09-04T18:56:22.861270",
+    "status": "failed",
+    "raw_error_message": "Network error, connection reset by peer",
+    "bank_code": "SBI",
+    "metadata": {
+      "true_root_cause": "network_error"
+    }
+  },
+  {
+    "txn_id": "c3ddc8af-8940-461a-9b97-6186add838e0",
+    "merchant_id": "MERCH_169",
+    "amount_inr": 43481.44,
+    "upi_vpa": "falan43@ibl",
+    "timestamp": "2026-09-05T18:40:22.861301",
+    "status": "failed",
+    "raw_error_message": "Gateway timeout from issuing bank",
+    "bank_code": "IBL",
+    "metadata": {
+      "true_root_cause": "bank_timeout"
+    }
+  },
+  {
+    "txn_id": "a608ae53-76ef-470c-915a-18a86ed4d8cd",
+    "merchant_id": "MERCH_161",
+    "amount_inr": 22157.84,
+    "upi_vpa": "agastyaramachandran@okicici",
+    "timestamp": "2026-08-31T02:51:22.861337",
+    "status": "failed",
+    "raw_error_message": "Transaction path between merchant and acquirer is currently degraded",
+    "bank_code": "ICICI",
+    "metadata": {
+      "true_root_cause": "network_error"
+    }
+  },
+  {
+    "txn_id": "ba0231b9-58b5-49fb-b096-df788c8222d6",
+    "merchant_id": "MERCH_179",
+    "amount_inr": 24287.12,
+    "upi_vpa": "nidra12@okhdfcbank",
+    "timestamp": "2026-08-31T19:20:22.861369",
+    "status": "failed",
+    "raw_error_message": "Upstream bank unreachable, request timed out",
+    "bank_code": "HDFC",
+    "metadata": {
+      "true_root_cause": "bank_timeout"
+    }
+  },
+  {
+    "txn_id": "f844811f-f47e-4cfc-b0ab-f2e759a21174",
+    "merchant_id": "MERCH_080",
+    "amount_inr": 27586.87,
+    "upi_vpa": "malhotraayushman@okaxis",
+    "timestamp": "2026-09-03T23:44:22.861404",
+    "status": "failed",
+    "raw_error_message": "Upstream bank unreachable, request timed out",
+    "bank_code": "AXIS",
+    "metadata": {
+      "true_root_cause": "bank_timeout"
+    }
+  },
+  {
+    "txn_id": "227399f5-20e9-4708-9e87-4f9eb307e302",
+    "merchant_id": "MERCH_166",
+    "amount_inr": 41623.94,
+    "upi_vpa": "upkaarnagar@oksbi",
+    "timestamp": "2026-09-04T10:54:22.861437",
+    "status": "failed",
+    "raw_error_message": "Debit could not be honored, account holder needs to top up before retrying",
+    "bank_code": "SBI",
+    "metadata": {
+      "true_root_cause": "insufficient_balance"
+    }
+  },
+  {
+    "txn_id": "93007a75-233e-4cf7-b7b3-f989bf9643d9",
+    "merchant_id": "MERCH_107",
+    "amount_inr": 41752.72,
+    "upi_vpa": "bishakha64@okaxis",
+    "timestamp": "2026-09-02T16:19:22.861470",
     "status": "failed",
     "raw_error_message": "Socket timeout communicating with UPI switch",
     "bank_code": "AXIS",
@@ -1014,466 +1768,232 @@
     }
   },
   {
-    "txn_id": "f75769bc-9d89-4562-90ca-2b0988620e0a",
-    "merchant_id": "MERCH_170",
-    "amount_inr": 42415.96,
-    "upi_vpa": "zpall@okicici",
-    "timestamp": "2026-09-02T04:48:54.704733",
+    "txn_id": "b42db95b-cb19-4733-b50f-1224a8ba997d",
+    "merchant_id": "MERCH_154",
+    "amount_inr": 25461.22,
+    "upi_vpa": "onveerbaral@oksbi",
+    "timestamp": "2026-09-03T14:56:22.861503",
+    "status": "failed",
+    "raw_error_message": "PSP returned malformed response",
+    "bank_code": "SBI",
+    "metadata": {
+      "true_root_cause": "unknown"
+    }
+  },
+  {
+    "txn_id": "2e73b007-8514-4e37-bbfe-0ea329dee3b8",
+    "merchant_id": "MERCH_088",
+    "amount_inr": 46718.99,
+    "upi_vpa": "mahika43@ibl",
+    "timestamp": "2026-09-01T01:40:22.861535",
     "status": "failed",
     "raw_error_message": "Invalid mandate reference",
-    "bank_code": "ICICI",
+    "bank_code": "IBL",
     "metadata": {
       "true_root_cause": "mandate_error"
     }
   },
   {
-    "txn_id": "fc65905c-5772-48cb-9cd4-a71f17b51dd8",
-    "merchant_id": "MERCH_171",
-    "amount_inr": 20478.81,
-    "upi_vpa": "ukhatri@okicici",
-    "timestamp": "2026-09-02T06:04:54.704782",
+    "txn_id": "6d873347-b407-416a-93f6-6cb3b10c9a16",
+    "merchant_id": "MERCH_151",
+    "amount_inr": 29038.18,
+    "upi_vpa": "zilmil37@okaxis",
+    "timestamp": "2026-09-02T09:27:22.861567",
     "status": "failed",
-    "raw_error_message": "Available balance too low for this transaction",
+    "raw_error_message": "Connection to payment switch lost",
+    "bank_code": "AXIS",
+    "metadata": {
+      "true_root_cause": "network_error"
+    }
+  },
+  {
+    "txn_id": "84b27572-a507-431a-95e7-93dd46c7319b",
+    "merchant_id": "MERCH_089",
+    "amount_inr": 16688.75,
+    "upi_vpa": "nidra89@okicici",
+    "timestamp": "2026-08-31T06:43:22.861598",
+    "status": "failed",
+    "raw_error_message": "Transaction declined due to insufficient balance",
     "bank_code": "ICICI",
     "metadata": {
       "true_root_cause": "insufficient_balance"
     }
   },
   {
-    "txn_id": "2c4ced42-f4bc-46a0-a180-4c80479da2a6",
-    "merchant_id": "MERCH_050",
-    "amount_inr": 21080.27,
-    "upi_vpa": "ttiwari@okicici",
-    "timestamp": "2026-09-04T07:46:54.704825",
-    "status": "failed",
-    "raw_error_message": "Connection to payment switch lost",
-    "bank_code": "ICICI",
-    "metadata": {
-      "true_root_cause": "network_error"
-    }
-  },
-  {
-    "txn_id": "ea318d52-1916-4f01-9d2b-97f9361233bb",
-    "merchant_id": "MERCH_078",
-    "amount_inr": 20363.15,
-    "upi_vpa": "finnvasa@okicici",
-    "timestamp": "2026-08-30T07:07:54.704878",
-    "status": "failed",
-    "raw_error_message": "Mandate expired, cannot process debit",
-    "bank_code": "ICICI",
-    "metadata": {
-      "true_root_cause": "mandate_error"
-    }
-  },
-  {
-    "txn_id": "740e6f8a-4bf3-44ee-a7b9-27849cf41980",
-    "merchant_id": "MERCH_111",
-    "amount_inr": 39309.37,
-    "upi_vpa": "tpalla@okhdfcbank",
-    "timestamp": "2026-09-03T09:08:54.704931",
+    "txn_id": "bc7ef318-5b69-4cc9-a08f-9981179f4840",
+    "merchant_id": "MERCH_179",
+    "amount_inr": 12016.4,
+    "upi_vpa": "nsaha@ibl",
+    "timestamp": "2026-09-03T15:28:22.861629",
     "status": "failed",
     "raw_error_message": "Per-transaction limit exceeded (BLR-091)",
-    "bank_code": "HDFC",
+    "bank_code": "IBL",
     "metadata": {
       "true_root_cause": "limit_exceeded"
     }
   },
   {
-    "txn_id": "cb94a78e-957b-4ed2-949b-927532f04da5",
-    "merchant_id": "MERCH_114",
-    "amount_inr": 33813.8,
-    "upi_vpa": "shivani35@oksbi",
-    "timestamp": "2026-08-31T17:53:54.704978",
+    "txn_id": "3d78f0d0-1539-415b-8a8e-a6015a3c79f2",
+    "merchant_id": "MERCH_191",
+    "amount_inr": 23701.51,
+    "upi_vpa": "kashvi18@ybl",
+    "timestamp": "2026-09-02T04:05:22.861660",
     "status": "failed",
-    "raw_error_message": "Available balance too low for this transaction",
-    "bank_code": "SBI",
-    "metadata": {
-      "true_root_cause": "insufficient_balance"
-    }
-  },
-  {
-    "txn_id": "8420ec87-b7dd-4cea-ac0a-c9c6007ce6b2",
-    "merchant_id": "MERCH_073",
-    "amount_inr": 25821.06,
-    "upi_vpa": "ridhi93@paytm",
-    "timestamp": "2026-09-04T19:22:54.705029",
-    "status": "failed",
-    "raw_error_message": "Temporary network glitch, retry recommended",
-    "bank_code": "PAYTM",
+    "raw_error_message": "NPCI network unreachable",
+    "bank_code": "YBL",
     "metadata": {
       "true_root_cause": "network_error"
     }
   },
   {
-    "txn_id": "73246a57-0a79-4115-9100-efda2c48de97",
-    "merchant_id": "MERCH_173",
-    "amount_inr": 15589.93,
-    "upi_vpa": "garima90@ybl",
-    "timestamp": "2026-09-03T02:23:54.705076",
+    "txn_id": "5ca81061-7755-4ba8-9a88-f384e67aaf56",
+    "merchant_id": "MERCH_033",
+    "amount_inr": 25164.33,
+    "upi_vpa": "etarau@oksbi",
+    "timestamp": "2026-09-05T08:52:22.861693",
     "status": "failed",
-    "raw_error_message": "Available balance too low for this transaction",
-    "bank_code": "YBL",
-    "metadata": {
-      "true_root_cause": "insufficient_balance"
-    }
-  },
-  {
-    "txn_id": "c6eafa97-cbcc-4b96-90c9-1f3d2e5958ae",
-    "merchant_id": "MERCH_063",
-    "amount_inr": 49198.41,
-    "upi_vpa": "karavritti@ybl",
-    "timestamp": "2026-09-05T05:54:54.705122",
-    "status": "failed",
-    "raw_error_message": "UPI limit exceeded for this account",
-    "bank_code": "YBL",
-    "metadata": {
-      "true_root_cause": "limit_exceeded"
-    }
-  },
-  {
-    "txn_id": "da4e5a00-7f34-41e5-a89b-831543f881b9",
-    "merchant_id": "MERCH_162",
-    "amount_inr": 28825.98,
-    "upi_vpa": "rastogivictor@oksbi",
-    "timestamp": "2026-09-01T01:21:54.705165",
-    "status": "failed",
-    "raw_error_message": "Insufficient balance in account",
+    "raw_error_message": "Mandate expired, cannot process debit",
     "bank_code": "SBI",
-    "metadata": {
-      "true_root_cause": "insufficient_balance"
-    }
-  },
-  {
-    "txn_id": "a130d06c-7450-47ee-8b53-50c41ce4022f",
-    "merchant_id": "MERCH_063",
-    "amount_inr": 7463.81,
-    "upi_vpa": "rraman@oksbi",
-    "timestamp": "2026-09-01T05:24:54.705207",
-    "status": "failed",
-    "raw_error_message": "Transaction declined due to insufficient balance",
-    "bank_code": "SBI",
-    "metadata": {
-      "true_root_cause": "insufficient_balance"
-    }
-  },
-  {
-    "txn_id": "0aa6b447-3a63-48ad-8715-3419cb45f4de",
-    "merchant_id": "MERCH_057",
-    "amount_inr": 8876.75,
-    "upi_vpa": "mitali86@ibl",
-    "timestamp": "2026-08-31T22:26:54.705252",
-    "status": "failed",
-    "raw_error_message": "Insufficient balance in account",
-    "bank_code": "IBL",
-    "metadata": {
-      "true_root_cause": "insufficient_balance"
-    }
-  },
-  {
-    "txn_id": "6b07af10-adb1-4261-accb-e23914308b94",
-    "merchant_id": "MERCH_064",
-    "amount_inr": 45881.75,
-    "upi_vpa": "chavviperi@ybl",
-    "timestamp": "2026-08-30T10:19:54.705301",
-    "status": "failed",
-    "raw_error_message": "Processing failed, contact support",
-    "bank_code": "YBL",
-    "metadata": {
-      "true_root_cause": "unknown"
-    }
-  },
-  {
-    "txn_id": "d3397a46-4af2-4515-89d5-cda0159c5fe6",
-    "merchant_id": "MERCH_171",
-    "amount_inr": 26603.48,
-    "upi_vpa": "wkonda@ibl",
-    "timestamp": "2026-08-31T11:39:54.705345",
-    "status": "failed",
-    "raw_error_message": "Upstream bank unreachable, request timed out",
-    "bank_code": "IBL",
-    "metadata": {
-      "true_root_cause": "bank_timeout"
-    }
-  },
-  {
-    "txn_id": "4401167f-f080-4d1a-bd0f-14f8d3861d18",
-    "merchant_id": "MERCH_157",
-    "amount_inr": 40768.82,
-    "upi_vpa": "oscarbhargava@ibl",
-    "timestamp": "2026-08-31T17:40:54.705391",
-    "status": "failed",
-    "raw_error_message": "Available balance too low for this transaction",
-    "bank_code": "IBL",
-    "metadata": {
-      "true_root_cause": "insufficient_balance"
-    }
-  },
-  {
-    "txn_id": "e642380a-84b2-4810-977a-4f49fd7c3682",
-    "merchant_id": "MERCH_115",
-    "amount_inr": 44870.68,
-    "upi_vpa": "dbahl@ibl",
-    "timestamp": "2026-08-30T12:55:54.705435",
-    "status": "failed",
-    "raw_error_message": "Mandate revoked by customer",
-    "bank_code": "IBL",
     "metadata": {
       "true_root_cause": "mandate_error"
     }
   },
   {
-    "txn_id": "5eb4c977-553b-452a-9507-589e58e5bf52",
-    "merchant_id": "MERCH_193",
-    "amount_inr": 12437.26,
-    "upi_vpa": "dev82@oksbi",
-    "timestamp": "2026-09-02T19:45:54.705477",
+    "txn_id": "b13eb33d-89e1-4c50-8aa3-a6b24fa426d0",
+    "merchant_id": "MERCH_117",
+    "amount_inr": 865.85,
+    "upi_vpa": "qasimratti@ybl",
+    "timestamp": "2026-08-30T19:21:22.861726",
     "status": "failed",
     "raw_error_message": "Transaction declined due to insufficient balance",
-    "bank_code": "SBI",
+    "bank_code": "YBL",
     "metadata": {
       "true_root_cause": "insufficient_balance"
     }
   },
   {
-    "txn_id": "e30aaeb2-ed3b-44f9-ac4d-1773c00640de",
-    "merchant_id": "MERCH_071",
-    "amount_inr": 22049.64,
-    "upi_vpa": "faris62@okaxis",
-    "timestamp": "2026-09-03T01:12:54.705519",
+    "txn_id": "db75e79e-7dad-420c-ab01-328b4b7c747e",
+    "merchant_id": "MERCH_068",
+    "amount_inr": 16994.21,
+    "upi_vpa": "devikaarora@ybl",
+    "timestamp": "2026-08-31T10:46:22.861765",
+    "status": "failed",
+    "raw_error_message": "Upstream bank unreachable, request timed out",
+    "bank_code": "YBL",
+    "metadata": {
+      "true_root_cause": "bank_timeout"
+    }
+  },
+  {
+    "txn_id": "5570f605-6748-434b-8bad-5ebb9878726e",
+    "merchant_id": "MERCH_098",
+    "amount_inr": 47711.57,
+    "upi_vpa": "bobalosha@ibl",
+    "timestamp": "2026-08-30T17:16:22.861798",
+    "status": "failed",
+    "raw_error_message": "Available balance too low for this transaction",
+    "bank_code": "IBL",
+    "metadata": {
+      "true_root_cause": "insufficient_balance"
+    }
+  },
+  {
+    "txn_id": "5fc414d1-e55e-4161-8f81-6659b489deff",
+    "merchant_id": "MERCH_010",
+    "amount_inr": 30911.23,
+    "upi_vpa": "psarna@ibl",
+    "timestamp": "2026-08-30T15:14:22.861829",
     "status": "failed",
     "raw_error_message": "Transaction declined due to insufficient balance",
-    "bank_code": "AXIS",
+    "bank_code": "IBL",
     "metadata": {
       "true_root_cause": "insufficient_balance"
     }
   },
   {
-    "txn_id": "e13917cb-c88f-45b1-9215-4c2ae4e0201b",
-    "merchant_id": "MERCH_082",
-    "amount_inr": 44662.04,
-    "upi_vpa": "arajan@okhdfcbank",
-    "timestamp": "2026-09-01T22:49:54.705562",
+    "txn_id": "31a50700-8e81-4e00-8eac-75e9322eba36",
+    "merchant_id": "MERCH_112",
+    "amount_inr": 48919.05,
+    "upi_vpa": "narayanamrita@paytm",
+    "timestamp": "2026-09-04T18:18:22.861862",
     "status": "failed",
-    "raw_error_message": "Insufficient funds to complete transaction",
-    "bank_code": "HDFC",
+    "raw_error_message": "Transaction timed out waiting for bank response",
+    "bank_code": "PAYTM",
     "metadata": {
-      "true_root_cause": "insufficient_balance"
+      "true_root_cause": "bank_timeout"
     }
   },
   {
-    "txn_id": "a464ead5-3641-4e6c-a13f-f2f8057667bc",
+    "txn_id": "6b9e6d76-4742-48b1-8f19-97c83589a286",
     "merchant_id": "MERCH_178",
-    "amount_inr": 7724.98,
-    "upi_vpa": "bhavnapau@paytm",
-    "timestamp": "2026-09-01T09:56:54.705607",
+    "amount_inr": 15043.36,
+    "upi_vpa": "bhavya64@oksbi",
+    "timestamp": "2026-09-03T21:33:22.861893",
     "status": "failed",
-    "raw_error_message": "Upstream bank unreachable, request timed out",
-    "bank_code": "PAYTM",
-    "metadata": {
-      "true_root_cause": "bank_timeout"
-    }
-  },
-  {
-    "txn_id": "d5f41296-01ac-4094-b41e-acc740dee282",
-    "merchant_id": "MERCH_139",
-    "amount_inr": 23349.62,
-    "upi_vpa": "aayush79@oksbi",
-    "timestamp": "2026-09-02T00:10:54.705646",
-    "status": "failed",
-    "raw_error_message": "Bank server not responding (E091)",
+    "raw_error_message": "Daily transaction limit exceeded",
     "bank_code": "SBI",
     "metadata": {
-      "true_root_cause": "bank_timeout"
+      "true_root_cause": "limit_exceeded"
     }
   },
   {
-    "txn_id": "31114f5e-125d-4ad8-a2e0-976ab2fc5cd4",
-    "merchant_id": "MERCH_179",
-    "amount_inr": 1074.64,
-    "upi_vpa": "falgunivohra@oksbi",
-    "timestamp": "2026-08-30T03:02:54.705689",
-    "status": "failed",
-    "raw_error_message": "Bank server not responding (E091)",
-    "bank_code": "SBI",
-    "metadata": {
-      "true_root_cause": "bank_timeout"
-    }
-  },
-  {
-    "txn_id": "27531c0e-f458-4687-8e88-1a14d1114d16",
-    "merchant_id": "MERCH_091",
-    "amount_inr": 15000.77,
-    "upi_vpa": "sundaramindira@oksbi",
-    "timestamp": "2026-09-05T16:55:54.705741",
-    "status": "failed",
-    "raw_error_message": "Mandate revoked by customer",
-    "bank_code": "SBI",
-    "metadata": {
-      "true_root_cause": "mandate_error"
-    }
-  },
-  {
-    "txn_id": "4621b03b-6ea1-472d-91d9-b9b892259ac3",
-    "merchant_id": "MERCH_155",
-    "amount_inr": 44900.79,
-    "upi_vpa": "edhitharay@okicici",
-    "timestamp": "2026-08-30T13:24:54.705789",
-    "status": "failed",
-    "raw_error_message": "NPCI network unreachable",
-    "bank_code": "ICICI",
-    "metadata": {
-      "true_root_cause": "network_error"
-    }
-  },
-  {
-    "txn_id": "44e3b613-1a58-47e9-9825-1620ec1ed7db",
-    "merchant_id": "MERCH_008",
-    "amount_inr": 19503.97,
-    "upi_vpa": "vamakshi10@oksbi",
-    "timestamp": "2026-08-31T05:55:54.705833",
-    "status": "failed",
-    "raw_error_message": "Connection to payment switch lost",
-    "bank_code": "SBI",
-    "metadata": {
-      "true_root_cause": "network_error"
-    }
-  },
-  {
-    "txn_id": "9a6210df-8328-4d50-9aec-d8aafb5ac6a5",
-    "merchant_id": "MERCH_120",
-    "amount_inr": 45985.13,
-    "upi_vpa": "dixitchandani@okaxis",
-    "timestamp": "2026-09-03T21:27:54.705874",
-    "status": "failed",
-    "raw_error_message": "Transaction declined due to insufficient balance",
-    "bank_code": "AXIS",
-    "metadata": {
-      "true_root_cause": "insufficient_balance"
-    }
-  },
-  {
-    "txn_id": "66bd33b4-575b-4efa-8e2b-0b5c19bb183c",
-    "merchant_id": "MERCH_145",
-    "amount_inr": 33183.69,
-    "upi_vpa": "jharushil@oksbi",
-    "timestamp": "2026-08-30T00:54:54.705916",
-    "status": "failed",
-    "raw_error_message": "Transaction failed due to unspecified error",
-    "bank_code": "SBI",
-    "metadata": {
-      "true_root_cause": "unknown"
-    }
-  },
-  {
-    "txn_id": "f12071ee-6877-431c-8a66-81a842128b0b",
-    "merchant_id": "MERCH_047",
-    "amount_inr": 2609.2,
-    "upi_vpa": "ksehgal@paytm",
-    "timestamp": "2026-08-31T12:27:54.705955",
-    "status": "failed",
-    "raw_error_message": "Bank server not responding (E091)",
-    "bank_code": "PAYTM",
-    "metadata": {
-      "true_root_cause": "bank_timeout"
-    }
-  },
-  {
-    "txn_id": "250c60cb-8a07-442d-b796-c551c6c9b275",
-    "merchant_id": "MERCH_087",
-    "amount_inr": 38085.36,
-    "upi_vpa": "pnanda@oksbi",
-    "timestamp": "2026-09-02T01:16:54.706004",
-    "status": "failed",
-    "raw_error_message": "PSP down for maintenance for 4 hours",
-    "bank_code": "SBI",
-    "metadata": {
-      "true_root_cause": "network_error"
-    }
-  },
-  {
-    "txn_id": "8fd15365-d437-404f-a356-cab244fa171a",
-    "merchant_id": "MERCH_121",
-    "amount_inr": 1067.23,
-    "upi_vpa": "khannaomya@okhdfcbank",
-    "timestamp": "2026-09-04T20:10:54.706048",
-    "status": "failed",
-    "raw_error_message": "NPCI network unreachable",
-    "bank_code": "HDFC",
-    "metadata": {
-      "true_root_cause": "network_error"
-    }
-  },
-  {
-    "txn_id": "f5679432-f108-476f-b0cf-afd26fe39cbb",
-    "merchant_id": "MERCH_200",
-    "amount_inr": 47868.55,
-    "upi_vpa": "kkant@paytm",
-    "timestamp": "2026-09-04T23:47:54.706088",
-    "status": "failed",
-    "raw_error_message": "Connection to payment switch lost",
-    "bank_code": "PAYTM",
-    "metadata": {
-      "true_root_cause": "network_error"
-    }
-  },
-  {
-    "txn_id": "97c0a4ec-b8af-430f-9939-300ab9e775b0",
-    "merchant_id": "MERCH_006",
-    "amount_inr": 31104.65,
-    "upi_vpa": "zkurian@paytm",
-    "timestamp": "2026-09-03T12:05:54.706134",
+    "txn_id": "22e60fe2-b199-4331-958b-be03a3e4b8a1",
+    "merchant_id": "MERCH_096",
+    "amount_inr": 21591.27,
+    "upi_vpa": "ddalal@okhdfcbank",
+    "timestamp": "2026-09-01T17:05:22.861926",
     "status": "failed",
     "raw_error_message": "Bank server timeout, please try again",
-    "bank_code": "PAYTM",
+    "bank_code": "HDFC",
     "metadata": {
       "true_root_cause": "bank_timeout"
     }
   },
   {
-    "txn_id": "3f22417a-06d1-4e51-b275-2d9c5a4a8c8a",
-    "merchant_id": "MERCH_145",
-    "amount_inr": 47393.08,
-    "upi_vpa": "tanmayikannan@okaxis",
-    "timestamp": "2026-09-04T11:17:54.706176",
+    "txn_id": "e9c8a2fd-09cd-4f6d-89bd-30627b316ab5",
+    "merchant_id": "MERCH_044",
+    "amount_inr": 8835.96,
+    "upi_vpa": "megha31@ibl",
+    "timestamp": "2026-09-03T17:48:22.861959",
     "status": "failed",
-    "raw_error_message": "Bank server not responding (E091)",
-    "bank_code": "AXIS",
+    "raw_error_message": "No response from bank within timeout window",
+    "bank_code": "IBL",
     "metadata": {
       "true_root_cause": "bank_timeout"
     }
   },
   {
-    "txn_id": "44a41ec8-78ea-4c1a-a452-86ee2f9e9aef",
-    "merchant_id": "MERCH_043",
-    "amount_inr": 30334.05,
-    "upi_vpa": "olad@ibl",
-    "timestamp": "2026-09-01T13:48:54.706213",
+    "txn_id": "a3d100c1-ee9b-4cce-89d1-9deacdac2d9d",
+    "merchant_id": "MERCH_037",
+    "amount_inr": 11686.2,
+    "upi_vpa": "gsehgal@oksbi",
+    "timestamp": "2026-08-30T03:44:22.861997",
     "status": "failed",
-    "raw_error_message": "Connection to payment switch lost",
-    "bank_code": "IBL",
+    "raw_error_message": "Insufficient funds to complete transaction",
+    "bank_code": "SBI",
     "metadata": {
-      "true_root_cause": "network_error"
+      "true_root_cause": "insufficient_balance"
     }
   },
   {
-    "txn_id": "39a64590-4be2-4f94-8304-b88424a572f0",
-    "merchant_id": "MERCH_080",
-    "amount_inr": 5494.13,
-    "upi_vpa": "tanvikara@ibl",
-    "timestamp": "2026-09-03T21:48:54.706254",
+    "txn_id": "1698af70-d575-4006-878b-dcacd6589a15",
+    "merchant_id": "MERCH_074",
+    "amount_inr": 33912.78,
+    "upi_vpa": "warhisubramaniam@ibl",
+    "timestamp": "2026-08-31T11:56:22.862036",
     "status": "failed",
-    "raw_error_message": "Transaction failed due to unspecified error",
+    "raw_error_message": "Insufficient balance in account",
     "bank_code": "IBL",
     "metadata": {
-      "true_root_cause": "unknown"
+      "true_root_cause": "insufficient_balance"
     }
   },
   {
-    "txn_id": "88087d49-b3aa-4ed0-8377-a90fae2cfb7e",
-    "merchant_id": "MERCH_102",
-    "amount_inr": 47079.38,
-    "upi_vpa": "magrawal@okicici",
-    "timestamp": "2026-09-01T12:02:54.706293",
+    "txn_id": "c1473c91-b84f-4703-a194-734f16509455",
+    "merchant_id": "MERCH_164",
+    "amount_inr": 48105.25,
+    "upi_vpa": "prasadneel@okicici",
+    "timestamp": "2026-09-02T09:17:22.862070",
     "status": "failed",
     "raw_error_message": "Transaction timed out waiting for bank response",
     "bank_code": "ICICI",
@@ -1482,89 +2002,206 @@
     }
   },
   {
-    "txn_id": "ee72046a-2fa6-495b-b7e8-e5cef6dd4d61",
-    "merchant_id": "MERCH_027",
-    "amount_inr": 34889.93,
-    "upi_vpa": "jonathantiwari@okaxis",
-    "timestamp": "2026-09-03T00:13:54.706335",
+    "txn_id": "bb301f07-5701-4951-aac5-ad1eee5e3184",
+    "merchant_id": "MERCH_124",
+    "amount_inr": 5422.0,
+    "upi_vpa": "onkarthaman@paytm",
+    "timestamp": "2026-09-01T09:56:22.862104",
     "status": "failed",
-    "raw_error_message": "Gateway timeout from issuing bank",
+    "raw_error_message": "Available balance too low for this transaction",
+    "bank_code": "PAYTM",
+    "metadata": {
+      "true_root_cause": "insufficient_balance"
+    }
+  },
+  {
+    "txn_id": "07b78ca9-4906-4642-b2fd-8a8bab97c360",
+    "merchant_id": "MERCH_006",
+    "amount_inr": 48899.43,
+    "upi_vpa": "isaiah73@okaxis",
+    "timestamp": "2026-09-02T10:21:22.862139",
+    "status": "failed",
+    "raw_error_message": "Connection to payment switch lost",
+    "bank_code": "AXIS",
+    "metadata": {
+      "true_root_cause": "network_error"
+    }
+  },
+  {
+    "txn_id": "3d527f49-1d4d-4868-a88a-700a045acb8b",
+    "merchant_id": "MERCH_074",
+    "amount_inr": 38809.47,
+    "upi_vpa": "jeetgarg@okicici",
+    "timestamp": "2026-08-31T03:20:22.862173",
+    "status": "failed",
+    "raw_error_message": "Insufficient balance in account",
+    "bank_code": "ICICI",
+    "metadata": {
+      "true_root_cause": "insufficient_balance"
+    }
+  },
+  {
+    "txn_id": "4ba94fde-875b-4cf7-84b8-90875c93fbdc",
+    "merchant_id": "MERCH_159",
+    "amount_inr": 12606.28,
+    "upi_vpa": "dugararjun@okaxis",
+    "timestamp": "2026-09-03T15:03:22.862207",
+    "status": "failed",
+    "raw_error_message": "Upstream bank unreachable, request timed out",
     "bank_code": "AXIS",
     "metadata": {
       "true_root_cause": "bank_timeout"
     }
   },
   {
-    "txn_id": "46eafebf-0670-4050-a4d4-fcf0a2973bc7",
-    "merchant_id": "MERCH_145",
-    "amount_inr": 39153.5,
-    "upi_vpa": "kavya56@okicici",
-    "timestamp": "2026-09-04T09:28:54.706377",
+    "txn_id": "ba6627a5-56f8-4270-9f5b-5b8381199231",
+    "merchant_id": "MERCH_161",
+    "amount_inr": 32352.4,
+    "upi_vpa": "guptahenry@okaxis",
+    "timestamp": "2026-09-04T16:27:22.862240",
     "status": "failed",
-    "raw_error_message": "Temporary network glitch, retry recommended",
-    "bank_code": "ICICI",
-    "metadata": {
-      "true_root_cause": "network_error"
-    }
-  },
-  {
-    "txn_id": "50f73f2b-8001-4c9f-8bcc-9442e77a7f7f",
-    "merchant_id": "MERCH_018",
-    "amount_inr": 25347.44,
-    "upi_vpa": "hmaharaj@okaxis",
-    "timestamp": "2026-09-01T13:20:54.706416",
-    "status": "failed",
-    "raw_error_message": "NPCI network unreachable",
+    "raw_error_message": "UPI limit exceeded for this account",
     "bank_code": "AXIS",
     "metadata": {
-      "true_root_cause": "network_error"
+      "true_root_cause": "limit_exceeded"
     }
   },
   {
-    "txn_id": "9e04b83b-db3a-4d78-8043-69342ee047dc",
-    "merchant_id": "MERCH_028",
-    "amount_inr": 21732.82,
-    "upi_vpa": "hoza@ibl",
-    "timestamp": "2026-08-31T04:40:54.706455",
+    "txn_id": "f60164ab-a333-4a65-b0cd-d6c49b75b9f4",
+    "merchant_id": "MERCH_024",
+    "amount_inr": 45490.43,
+    "upi_vpa": "triveni42@okhdfcbank",
+    "timestamp": "2026-09-04T07:05:22.862272",
     "status": "failed",
-    "raw_error_message": "NPCI network unreachable",
-    "bank_code": "IBL",
-    "metadata": {
-      "true_root_cause": "network_error"
-    }
-  },
-  {
-    "txn_id": "f51a49da-6b4c-4372-8b9c-a539bbe6a23d",
-    "merchant_id": "MERCH_112",
-    "amount_inr": 8889.23,
-    "upi_vpa": "vrindalala@okaxis",
-    "timestamp": "2026-09-04T00:45:54.706500",
-    "status": "failed",
-    "raw_error_message": "NPCI network unreachable",
-    "bank_code": "AXIS",
-    "metadata": {
-      "true_root_cause": "network_error"
-    }
-  },
-  {
-    "txn_id": "84123d89-9180-4922-a163-32d415cdb35c",
-    "merchant_id": "MERCH_199",
-    "amount_inr": 24226.53,
-    "upi_vpa": "isaac04@okhdfcbank",
-    "timestamp": "2026-08-30T15:34:54.706541",
-    "status": "failed",
-    "raw_error_message": "Temporary network glitch, retry recommended",
+    "raw_error_message": "Socket timeout communicating with UPI switch",
     "bank_code": "HDFC",
     "metadata": {
       "true_root_cause": "network_error"
     }
   },
   {
-    "txn_id": "0db4c68e-ad92-4ad3-987d-81e0fd3d87c5",
-    "merchant_id": "MERCH_083",
-    "amount_inr": 42600.49,
-    "upi_vpa": "dgade@okicici",
-    "timestamp": "2026-09-02T17:14:54.706582",
+    "txn_id": "c184e433-3631-4556-9a6a-edbceb91dae6",
+    "merchant_id": "MERCH_094",
+    "amount_inr": 26589.53,
+    "upi_vpa": "ansh35@paytm",
+    "timestamp": "2026-08-30T15:41:22.862305",
+    "status": "failed",
+    "raw_error_message": "PSP down for maintenance for 4 hours",
+    "bank_code": "PAYTM",
+    "metadata": {
+      "true_root_cause": "network_error"
+    }
+  },
+  {
+    "txn_id": "104ba302-1365-4f98-9951-d83aea87008e",
+    "merchant_id": "MERCH_076",
+    "amount_inr": 37353.31,
+    "upi_vpa": "agarwalayaan@ibl",
+    "timestamp": "2026-08-31T07:24:22.862339",
+    "status": "failed",
+    "raw_error_message": "Invalid mandate reference",
+    "bank_code": "IBL",
+    "metadata": {
+      "true_root_cause": "mandate_error"
+    }
+  },
+  {
+    "txn_id": "d013fb50-1fce-4f6e-bdc8-50acf2decf8c",
+    "merchant_id": "MERCH_174",
+    "amount_inr": 36238.41,
+    "upi_vpa": "atharvsachar@paytm",
+    "timestamp": "2026-09-03T05:22:22.862373",
+    "status": "failed",
+    "raw_error_message": "Network error, connection reset by peer",
+    "bank_code": "PAYTM",
+    "metadata": {
+      "true_root_cause": "network_error"
+    }
+  },
+  {
+    "txn_id": "2eba1a44-84e9-4c79-b246-de8c496048d4",
+    "merchant_id": "MERCH_004",
+    "amount_inr": 13296.48,
+    "upi_vpa": "mahikapatla@ybl",
+    "timestamp": "2026-09-01T07:14:22.862405",
+    "status": "failed",
+    "raw_error_message": "Unexpected error code 9999",
+    "bank_code": "YBL",
+    "metadata": {
+      "true_root_cause": "unknown"
+    }
+  },
+  {
+    "txn_id": "4aa9eb43-1f0f-4073-a5ac-679ae3e03538",
+    "merchant_id": "MERCH_150",
+    "amount_inr": 19113.17,
+    "upi_vpa": "sanghvireva@okaxis",
+    "timestamp": "2026-09-02T19:23:22.862437",
+    "status": "failed",
+    "raw_error_message": "No response from bank within timeout window",
+    "bank_code": "AXIS",
+    "metadata": {
+      "true_root_cause": "bank_timeout"
+    }
+  },
+  {
+    "txn_id": "c74d2d6f-843c-464a-95a2-fcb47f12f0f7",
+    "merchant_id": "MERCH_159",
+    "amount_inr": 44223.32,
+    "upi_vpa": "narayanchaman@oksbi",
+    "timestamp": "2026-09-05T12:08:22.862469",
+    "status": "failed",
+    "raw_error_message": "Insufficient funds to complete transaction",
+    "bank_code": "SBI",
+    "metadata": {
+      "true_root_cause": "insufficient_balance"
+    }
+  },
+  {
+    "txn_id": "861703de-708a-423a-9237-9ea77dd4a159",
+    "merchant_id": "MERCH_163",
+    "amount_inr": 41210.38,
+    "upi_vpa": "vchada@okaxis",
+    "timestamp": "2026-09-05T01:43:22.862500",
+    "status": "failed",
+    "raw_error_message": "Insufficient funds to complete transaction",
+    "bank_code": "AXIS",
+    "metadata": {
+      "true_root_cause": "insufficient_balance"
+    }
+  },
+  {
+    "txn_id": "a518a36c-8268-4f26-ac7e-e2c9fa95fe4a",
+    "merchant_id": "MERCH_012",
+    "amount_inr": 47318.45,
+    "upi_vpa": "wpillay@ybl",
+    "timestamp": "2026-09-04T04:48:22.862530",
+    "status": "failed",
+    "raw_error_message": "Mandate revoked by customer",
+    "bank_code": "YBL",
+    "metadata": {
+      "true_root_cause": "mandate_error"
+    }
+  },
+  {
+    "txn_id": "61c4db55-f989-4e24-9872-e617340f022c",
+    "merchant_id": "MERCH_035",
+    "amount_inr": 19493.43,
+    "upi_vpa": "balakrishnaninaya@paytm",
+    "timestamp": "2026-08-30T16:11:22.862565",
+    "status": "failed",
+    "raw_error_message": "Network error, connection reset by peer",
+    "bank_code": "PAYTM",
+    "metadata": {
+      "true_root_cause": "network_error"
+    }
+  },
+  {
+    "txn_id": "394f1a09-b4b8-48d7-8786-9e1c179f726e",
+    "merchant_id": "MERCH_151",
+    "amount_inr": 37139.22,
+    "upi_vpa": "daskamya@okicici",
+    "timestamp": "2026-09-01T00:32:22.862596",
     "status": "failed",
     "raw_error_message": "Temporary network glitch, retry recommended",
     "bank_code": "ICICI",
@@ -1573,11 +2210,219 @@
     }
   },
   {
-    "txn_id": "a395049c-a8dc-4dd9-be9d-b893efbcead9",
-    "merchant_id": "MERCH_063",
-    "amount_inr": 37548.77,
-    "upi_vpa": "prakashtristan@okhdfcbank",
-    "timestamp": "2026-08-31T15:26:54.706626",
+    "txn_id": "64656189-1f8c-4140-a98a-eb82ab1b2a1f",
+    "merchant_id": "MERCH_158",
+    "amount_inr": 20464.98,
+    "upi_vpa": "lpalla@ibl",
+    "timestamp": "2026-08-31T05:21:22.862626",
+    "status": "failed",
+    "raw_error_message": "Bank server timeout, please try again",
+    "bank_code": "IBL",
+    "metadata": {
+      "true_root_cause": "bank_timeout"
+    }
+  },
+  {
+    "txn_id": "d76261e1-e831-4230-9bba-0657b0077a84",
+    "merchant_id": "MERCH_114",
+    "amount_inr": 47532.7,
+    "upi_vpa": "vincentpurohit@paytm",
+    "timestamp": "2026-08-31T17:54:22.862660",
+    "status": "failed",
+    "raw_error_message": "Transaction blocked by an internal compliance hold with no further detail provided",
+    "bank_code": "PAYTM",
+    "metadata": {
+      "true_root_cause": "unknown"
+    }
+  },
+  {
+    "txn_id": "760b1001-5790-4d4a-8610-9628e8cf38e7",
+    "merchant_id": "MERCH_016",
+    "amount_inr": 19967.17,
+    "upi_vpa": "ysur@okicici",
+    "timestamp": "2026-09-01T17:02:22.862690",
+    "status": "failed",
+    "raw_error_message": "This account has been temporarily capped after unusually frequent transfers today",
+    "bank_code": "ICICI",
+    "metadata": {
+      "true_root_cause": "limit_exceeded"
+    }
+  },
+  {
+    "txn_id": "db33126f-0a41-4190-8486-a6dfb8a4b128",
+    "merchant_id": "MERCH_165",
+    "amount_inr": 32010.7,
+    "upi_vpa": "agarwaldaksha@ybl",
+    "timestamp": "2026-09-03T09:03:22.862725",
+    "status": "failed",
+    "raw_error_message": "Bank server not responding (E091)",
+    "bank_code": "YBL",
+    "metadata": {
+      "true_root_cause": "bank_timeout"
+    }
+  },
+  {
+    "txn_id": "c8914641-3616-4160-aad4-ee875a1470f6",
+    "merchant_id": "MERCH_145",
+    "amount_inr": 10339.76,
+    "upi_vpa": "pchaudhary@paytm",
+    "timestamp": "2026-09-04T08:35:22.862758",
+    "status": "failed",
+    "raw_error_message": "Transaction blocked by an internal compliance hold with no further detail provided",
+    "bank_code": "PAYTM",
+    "metadata": {
+      "true_root_cause": "unknown"
+    }
+  },
+  {
+    "txn_id": "aeaa28dc-15fe-4d8d-9f79-1df43cfbdf32",
+    "merchant_id": "MERCH_085",
+    "amount_inr": 38740.99,
+    "upi_vpa": "warjasganguly@ibl",
+    "timestamp": "2026-09-03T03:21:22.862794",
+    "status": "failed",
+    "raw_error_message": "UPI limit exceeded for this account",
+    "bank_code": "IBL",
+    "metadata": {
+      "true_root_cause": "limit_exceeded"
+    }
+  },
+  {
+    "txn_id": "6766af78-2089-4091-bd3f-d392a09550b8",
+    "merchant_id": "MERCH_034",
+    "amount_inr": 27056.75,
+    "upi_vpa": "liambhargava@ibl",
+    "timestamp": "2026-09-04T03:28:22.862829",
+    "status": "failed",
+    "raw_error_message": "Per-transaction limit exceeded (BLR-091)",
+    "bank_code": "IBL",
+    "metadata": {
+      "true_root_cause": "limit_exceeded"
+    }
+  },
+  {
+    "txn_id": "0ee32e83-f428-40a6-b95c-e9b26cc17a26",
+    "merchant_id": "MERCH_092",
+    "amount_inr": 39520.23,
+    "upi_vpa": "dgandhi@paytm",
+    "timestamp": "2026-09-05T14:55:22.862860",
+    "status": "failed",
+    "raw_error_message": "Daily transaction limit exceeded",
+    "bank_code": "PAYTM",
+    "metadata": {
+      "true_root_cause": "limit_exceeded"
+    }
+  },
+  {
+    "txn_id": "884bad18-c269-4b25-b58c-a146aefb57be",
+    "merchant_id": "MERCH_033",
+    "amount_inr": 37111.73,
+    "upi_vpa": "chakradharrajagopalan@okhdfcbank",
+    "timestamp": "2026-09-05T04:40:22.862896",
+    "status": "failed",
+    "raw_error_message": "Upstream bank unreachable, request timed out",
+    "bank_code": "HDFC",
+    "metadata": {
+      "true_root_cause": "bank_timeout"
+    }
+  },
+  {
+    "txn_id": "868e7988-0100-4e5b-b994-3d4a6a158794",
+    "merchant_id": "MERCH_132",
+    "amount_inr": 29723.93,
+    "upi_vpa": "ksetty@oksbi",
+    "timestamp": "2026-09-01T16:07:22.862929",
+    "status": "failed",
+    "raw_error_message": "NPCI network unreachable",
+    "bank_code": "SBI",
+    "metadata": {
+      "true_root_cause": "network_error"
+    }
+  },
+  {
+    "txn_id": "5b2e6f3c-f4ff-47b7-845b-75817d26597c",
+    "merchant_id": "MERCH_078",
+    "amount_inr": 22956.32,
+    "upi_vpa": "advik26@ybl",
+    "timestamp": "2026-08-30T20:35:22.862964",
+    "status": "failed",
+    "raw_error_message": "Socket timeout communicating with UPI switch",
+    "bank_code": "YBL",
+    "metadata": {
+      "true_root_cause": "network_error"
+    }
+  },
+  {
+    "txn_id": "6ebbd4c6-a099-4b05-a089-f9113ac121ea",
+    "merchant_id": "MERCH_110",
+    "amount_inr": 34336.27,
+    "upi_vpa": "xdivan@ibl",
+    "timestamp": "2026-09-01T05:18:22.862995",
+    "status": "failed",
+    "raw_error_message": "Transaction blocked by an internal compliance hold with no further detail provided",
+    "bank_code": "IBL",
+    "metadata": {
+      "true_root_cause": "unknown"
+    }
+  },
+  {
+    "txn_id": "efa8181e-1442-43ad-96bf-6c8d802a2160",
+    "merchant_id": "MERCH_156",
+    "amount_inr": 7501.86,
+    "upi_vpa": "boza@ybl",
+    "timestamp": "2026-09-02T03:01:22.863025",
+    "status": "failed",
+    "raw_error_message": "Network error, connection reset by peer",
+    "bank_code": "YBL",
+    "metadata": {
+      "true_root_cause": "network_error"
+    }
+  },
+  {
+    "txn_id": "90b7e94d-e927-4f4c-92bc-c71d8056ddb2",
+    "merchant_id": "MERCH_098",
+    "amount_inr": 49731.93,
+    "upi_vpa": "janani11@okicici",
+    "timestamp": "2026-09-02T02:11:22.863057",
+    "status": "failed",
+    "raw_error_message": "Gateway timeout from issuing bank",
+    "bank_code": "ICICI",
+    "metadata": {
+      "true_root_cause": "bank_timeout"
+    }
+  },
+  {
+    "txn_id": "4db88e43-65f6-425c-8cb3-80d75c3d3961",
+    "merchant_id": "MERCH_180",
+    "amount_inr": 5809.26,
+    "upi_vpa": "pillaihritik@oksbi",
+    "timestamp": "2026-09-04T15:54:22.863089",
+    "status": "failed",
+    "raw_error_message": "Socket timeout communicating with UPI switch",
+    "bank_code": "SBI",
+    "metadata": {
+      "true_root_cause": "network_error"
+    }
+  },
+  {
+    "txn_id": "a4c31ceb-1e92-4bf4-8655-35b5632474d1",
+    "merchant_id": "MERCH_059",
+    "amount_inr": 20749.3,
+    "upi_vpa": "chandranpuri@oksbi",
+    "timestamp": "2026-08-31T15:40:22.863124",
+    "status": "failed",
+    "raw_error_message": "Insufficient funds to complete transaction",
+    "bank_code": "SBI",
+    "metadata": {
+      "true_root_cause": "insufficient_balance"
+    }
+  },
+  {
+    "txn_id": "a08f997d-b09e-490b-8cc5-adc5414da0ed",
+    "merchant_id": "MERCH_081",
+    "amount_inr": 33288.88,
+    "upi_vpa": "nitarakrish@okhdfcbank",
+    "timestamp": "2026-08-31T22:26:22.863158",
     "status": "failed",
     "raw_error_message": "Daily transaction limit exceeded",
     "bank_code": "HDFC",
@@ -1586,1017 +2431,172 @@
     }
   },
   {
-    "txn_id": "08b174a6-a864-47e7-80fb-e21274eea811",
-    "merchant_id": "MERCH_127",
-    "amount_inr": 42562.55,
-    "upi_vpa": "priya34@okhdfcbank",
-    "timestamp": "2026-09-05T10:41:54.706672",
-    "status": "failed",
-    "raw_error_message": "Transaction declined due to insufficient balance",
-    "bank_code": "HDFC",
-    "metadata": {
-      "true_root_cause": "insufficient_balance"
-    }
-  },
-  {
-    "txn_id": "4efb5c63-14cd-4f57-97bc-2a24d7ecb3d4",
-    "merchant_id": "MERCH_088",
-    "amount_inr": 14054.96,
-    "upi_vpa": "deviyashvi@okhdfcbank",
-    "timestamp": "2026-09-02T19:59:54.706714",
-    "status": "failed",
-    "raw_error_message": "Upstream bank unreachable, request timed out",
-    "bank_code": "HDFC",
-    "metadata": {
-      "true_root_cause": "bank_timeout"
-    }
-  },
-  {
-    "txn_id": "14e7ee7c-3ef6-4184-9aea-1b44137f8372",
-    "merchant_id": "MERCH_133",
-    "amount_inr": 47408.32,
-    "upi_vpa": "varenyabutala@okicici",
-    "timestamp": "2026-09-05T15:45:54.706758",
-    "status": "failed",
-    "raw_error_message": "Available balance too low for this transaction",
-    "bank_code": "ICICI",
-    "metadata": {
-      "true_root_cause": "insufficient_balance"
-    }
-  },
-  {
-    "txn_id": "5b36e83e-d923-43c1-a4da-a7a4d808d294",
-    "merchant_id": "MERCH_143",
-    "amount_inr": 37932.42,
-    "upi_vpa": "zghosh@oksbi",
-    "timestamp": "2026-08-31T05:07:54.706797",
-    "status": "failed",
-    "raw_error_message": "No response from bank within timeout window",
-    "bank_code": "SBI",
-    "metadata": {
-      "true_root_cause": "bank_timeout"
-    }
-  },
-  {
-    "txn_id": "7755514f-d783-44f4-9fcc-891e48ce3750",
-    "merchant_id": "MERCH_024",
-    "amount_inr": 14782.36,
-    "upi_vpa": "gardebalhaar@oksbi",
-    "timestamp": "2026-09-05T13:49:54.706837",
-    "status": "failed",
-    "raw_error_message": "Transaction declined due to insufficient balance",
-    "bank_code": "SBI",
-    "metadata": {
-      "true_root_cause": "insufficient_balance"
-    }
-  },
-  {
-    "txn_id": "ca9dcd29-d2f8-4805-b836-426bbaca2363",
-    "merchant_id": "MERCH_095",
-    "amount_inr": 23715.7,
-    "upi_vpa": "rattayashodhara@okhdfcbank",
-    "timestamp": "2026-08-30T03:43:54.706880",
-    "status": "failed",
-    "raw_error_message": "PSP down for maintenance for 4 hours",
-    "bank_code": "HDFC",
-    "metadata": {
-      "true_root_cause": "network_error"
-    }
-  },
-  {
-    "txn_id": "d0f7a448-f97b-4a5a-bfd5-433e69447dc6",
-    "merchant_id": "MERCH_085",
-    "amount_inr": 17655.35,
-    "upi_vpa": "mallnachiket@okaxis",
-    "timestamp": "2026-08-30T12:14:54.706918",
+    "txn_id": "0d69a543-63b8-42fb-99d0-2a02d06e5129",
+    "merchant_id": "MERCH_022",
+    "amount_inr": 4752.18,
+    "upi_vpa": "ikbalbhavsar@ybl",
+    "timestamp": "2026-09-04T18:04:22.863190",
     "status": "failed",
     "raw_error_message": "NPCI network unreachable",
-    "bank_code": "AXIS",
-    "metadata": {
-      "true_root_cause": "network_error"
-    }
-  },
-  {
-    "txn_id": "bf3406d7-019d-4edc-927f-2d90e7c401f5",
-    "merchant_id": "MERCH_031",
-    "amount_inr": 36092.09,
-    "upi_vpa": "ibarad@okhdfcbank",
-    "timestamp": "2026-09-03T03:34:54.706956",
-    "status": "failed",
-    "raw_error_message": "Connection to payment switch lost",
-    "bank_code": "HDFC",
-    "metadata": {
-      "true_root_cause": "network_error"
-    }
-  },
-  {
-    "txn_id": "fb66e8da-a908-4083-8a8e-2c37707ce586",
-    "merchant_id": "MERCH_050",
-    "amount_inr": 10897.59,
-    "upi_vpa": "laban58@okicici",
-    "timestamp": "2026-09-03T15:58:54.706995",
-    "status": "failed",
-    "raw_error_message": "Temporary network glitch, retry recommended",
-    "bank_code": "ICICI",
-    "metadata": {
-      "true_root_cause": "network_error"
-    }
-  },
-  {
-    "txn_id": "95ae7a75-4de4-47f7-bb94-a121df0bf9e2",
-    "merchant_id": "MERCH_153",
-    "amount_inr": 14221.64,
-    "upi_vpa": "ekavir60@okicici",
-    "timestamp": "2026-08-30T19:16:54.707034",
-    "status": "failed",
-    "raw_error_message": "Temporary network glitch, retry recommended",
-    "bank_code": "ICICI",
-    "metadata": {
-      "true_root_cause": "network_error"
-    }
-  },
-  {
-    "txn_id": "125e2ea5-ecd6-4fb1-a3a0-5ee58347231e",
-    "merchant_id": "MERCH_093",
-    "amount_inr": 9054.13,
-    "upi_vpa": "bhanumatinarayanan@okhdfcbank",
-    "timestamp": "2026-09-03T04:24:54.707076",
-    "status": "failed",
-    "raw_error_message": "Upstream bank unreachable, request timed out",
-    "bank_code": "HDFC",
-    "metadata": {
-      "true_root_cause": "bank_timeout"
-    }
-  },
-  {
-    "txn_id": "e740ba32-64fd-4461-ac4f-28158afbc03e",
-    "merchant_id": "MERCH_012",
-    "amount_inr": 48717.32,
-    "upi_vpa": "advikadhar@paytm",
-    "timestamp": "2026-09-02T15:37:54.707121",
-    "status": "failed",
-    "raw_error_message": "Gateway timeout from issuing bank",
-    "bank_code": "PAYTM",
-    "metadata": {
-      "true_root_cause": "bank_timeout"
-    }
-  },
-  {
-    "txn_id": "c1486b1d-365e-43eb-8d2e-49e002558be1",
-    "merchant_id": "MERCH_027",
-    "amount_inr": 43648.71,
-    "upi_vpa": "triveniganesh@okaxis",
-    "timestamp": "2026-08-31T04:29:54.707160",
-    "status": "failed",
-    "raw_error_message": "Insufficient funds to complete transaction",
-    "bank_code": "AXIS",
-    "metadata": {
-      "true_root_cause": "insufficient_balance"
-    }
-  },
-  {
-    "txn_id": "873b38ca-861d-4fbe-a073-dff39bce17f8",
-    "merchant_id": "MERCH_088",
-    "amount_inr": 9299.75,
-    "upi_vpa": "ygera@oksbi",
-    "timestamp": "2026-08-31T18:15:54.707198",
-    "status": "failed",
-    "raw_error_message": "Transaction declined due to insufficient balance",
-    "bank_code": "SBI",
-    "metadata": {
-      "true_root_cause": "insufficient_balance"
-    }
-  },
-  {
-    "txn_id": "607749f1-ae34-450f-998c-79b5a2fc7910",
-    "merchant_id": "MERCH_103",
-    "amount_inr": 24638.15,
-    "upi_vpa": "jhavedika@ybl",
-    "timestamp": "2026-09-05T00:41:54.707239",
-    "status": "failed",
-    "raw_error_message": "Bank server not responding (E091)",
     "bank_code": "YBL",
     "metadata": {
-      "true_root_cause": "bank_timeout"
-    }
-  },
-  {
-    "txn_id": "5a87dbdb-7211-44ec-ad66-c7f11104f257",
-    "merchant_id": "MERCH_145",
-    "amount_inr": 47461.37,
-    "upi_vpa": "ronith06@paytm",
-    "timestamp": "2026-09-04T01:47:54.707276",
-    "status": "failed",
-    "raw_error_message": "Insufficient balance in account",
-    "bank_code": "PAYTM",
-    "metadata": {
-      "true_root_cause": "insufficient_balance"
-    }
-  },
-  {
-    "txn_id": "bd58c16b-4cdc-4a5d-871e-a0ea463e2014",
-    "merchant_id": "MERCH_196",
-    "amount_inr": 20867.08,
-    "upi_vpa": "diya98@ybl",
-    "timestamp": "2026-08-30T10:08:54.707314",
-    "status": "failed",
-    "raw_error_message": "Upstream bank unreachable, request timed out",
-    "bank_code": "YBL",
-    "metadata": {
-      "true_root_cause": "bank_timeout"
-    }
-  },
-  {
-    "txn_id": "3be192fe-525d-4c83-9a5d-541fe224af4d",
-    "merchant_id": "MERCH_098",
-    "amount_inr": 22580.67,
-    "upi_vpa": "shivanikade@ibl",
-    "timestamp": "2026-08-30T19:50:54.707357",
-    "status": "failed",
-    "raw_error_message": "Insufficient funds to complete transaction",
-    "bank_code": "IBL",
-    "metadata": {
-      "true_root_cause": "insufficient_balance"
-    }
-  },
-  {
-    "txn_id": "18fc57fa-bbbf-42ae-b858-fff29e679987",
-    "merchant_id": "MERCH_146",
-    "amount_inr": 31089.26,
-    "upi_vpa": "taradeshmukh@oksbi",
-    "timestamp": "2026-09-02T07:08:54.707401",
-    "status": "failed",
-    "raw_error_message": "Socket timeout communicating with UPI switch",
-    "bank_code": "SBI",
-    "metadata": {
       "true_root_cause": "network_error"
     }
   },
   {
-    "txn_id": "47392b8d-f179-42a4-8152-5a4aa030ffe9",
-    "merchant_id": "MERCH_161",
-    "amount_inr": 10630.16,
-    "upi_vpa": "brarnidra@ibl",
-    "timestamp": "2026-09-03T09:47:54.707444",
-    "status": "failed",
-    "raw_error_message": "Insufficient balance in account",
-    "bank_code": "IBL",
-    "metadata": {
-      "true_root_cause": "insufficient_balance"
-    }
-  },
-  {
-    "txn_id": "33f43ec0-1189-41a8-ba2a-55507889e4fd",
-    "merchant_id": "MERCH_142",
-    "amount_inr": 3845.74,
-    "upi_vpa": "upasnachadha@paytm",
-    "timestamp": "2026-09-03T19:04:54.707482",
-    "status": "failed",
-    "raw_error_message": "Insufficient funds to complete transaction",
-    "bank_code": "PAYTM",
-    "metadata": {
-      "true_root_cause": "insufficient_balance"
-    }
-  },
-  {
-    "txn_id": "825fd38f-9421-4a83-8aac-e952d4566a4d",
-    "merchant_id": "MERCH_121",
-    "amount_inr": 14633.84,
-    "upi_vpa": "pallavibrahmbhatt@okaxis",
-    "timestamp": "2026-08-30T00:22:54.707520",
-    "status": "failed",
-    "raw_error_message": "Bank server not responding (E091)",
-    "bank_code": "AXIS",
-    "metadata": {
-      "true_root_cause": "bank_timeout"
-    }
-  },
-  {
-    "txn_id": "8beef494-14d2-45f8-be5c-273898a9333a",
-    "merchant_id": "MERCH_019",
-    "amount_inr": 34400.51,
-    "upi_vpa": "xiti37@okhdfcbank",
-    "timestamp": "2026-08-31T14:33:54.707558",
-    "status": "failed",
-    "raw_error_message": "No response from bank within timeout window",
-    "bank_code": "HDFC",
-    "metadata": {
-      "true_root_cause": "bank_timeout"
-    }
-  },
-  {
-    "txn_id": "d0222f31-dbb5-44cf-b551-386f4c3fe5ad",
-    "merchant_id": "MERCH_140",
-    "amount_inr": 11317.99,
-    "upi_vpa": "baghyawatikara@oksbi",
-    "timestamp": "2026-09-04T11:11:54.707604",
-    "status": "failed",
-    "raw_error_message": "Mandate expired, cannot process debit",
-    "bank_code": "SBI",
-    "metadata": {
-      "true_root_cause": "mandate_error"
-    }
-  },
-  {
-    "txn_id": "1c5eaf30-d3be-4d2d-8378-e6897cafa563",
-    "merchant_id": "MERCH_019",
-    "amount_inr": 3075.94,
-    "upi_vpa": "girindraom@ibl",
-    "timestamp": "2026-09-04T03:41:54.707645",
-    "status": "failed",
-    "raw_error_message": "Transaction timed out waiting for bank response",
-    "bank_code": "IBL",
-    "metadata": {
-      "true_root_cause": "bank_timeout"
-    }
-  },
-  {
-    "txn_id": "44f74905-88fb-4acd-b2d1-edbe683a55a9",
-    "merchant_id": "MERCH_120",
-    "amount_inr": 34465.03,
-    "upi_vpa": "lopa96@oksbi",
-    "timestamp": "2026-09-04T08:34:54.707685",
-    "status": "failed",
-    "raw_error_message": "Per-transaction limit exceeded (BLR-091)",
-    "bank_code": "SBI",
-    "metadata": {
-      "true_root_cause": "limit_exceeded"
-    }
-  },
-  {
-    "txn_id": "f10800cf-a895-4c3f-890e-bf960897237a",
-    "merchant_id": "MERCH_127",
-    "amount_inr": 21944.17,
-    "upi_vpa": "lkara@okicici",
-    "timestamp": "2026-08-30T15:04:54.707725",
-    "status": "failed",
-    "raw_error_message": "Available balance too low for this transaction",
-    "bank_code": "ICICI",
-    "metadata": {
-      "true_root_cause": "insufficient_balance"
-    }
-  },
-  {
-    "txn_id": "589592f2-6383-4765-a150-189dd1fcf83b",
-    "merchant_id": "MERCH_155",
-    "amount_inr": 12593.36,
-    "upi_vpa": "varsha02@okaxis",
-    "timestamp": "2026-09-02T02:31:54.707766",
-    "status": "failed",
-    "raw_error_message": "Transaction declined due to insufficient balance",
-    "bank_code": "AXIS",
-    "metadata": {
-      "true_root_cause": "insufficient_balance"
-    }
-  },
-  {
-    "txn_id": "708c0d6f-0155-44d4-8628-449fd4b3683b",
+    "txn_id": "f6ba0c19-d700-4d8e-93a6-a3ecce3d61b2",
     "merchant_id": "MERCH_151",
-    "amount_inr": 47544.24,
-    "upi_vpa": "shauryabhat@ibl",
-    "timestamp": "2026-08-30T05:27:54.707808",
-    "status": "failed",
-    "raw_error_message": "No response from bank within timeout window",
-    "bank_code": "IBL",
-    "metadata": {
-      "true_root_cause": "bank_timeout"
-    }
-  },
-  {
-    "txn_id": "31a1e3d7-d3b9-4441-8391-abbadd34ebb5",
-    "merchant_id": "MERCH_196",
-    "amount_inr": 37837.81,
-    "upi_vpa": "chanchalkunda@okicici",
-    "timestamp": "2026-09-05T07:32:54.707849",
-    "status": "failed",
-    "raw_error_message": "Unexpected error code 9999",
-    "bank_code": "ICICI",
-    "metadata": {
-      "true_root_cause": "unknown"
-    }
-  },
-  {
-    "txn_id": "ad088957-9bc6-4a1e-a095-cd8d0a489df7",
-    "merchant_id": "MERCH_047",
-    "amount_inr": 49847.58,
-    "upi_vpa": "kapoorjanani@oksbi",
-    "timestamp": "2026-09-02T14:34:54.707889",
-    "status": "failed",
-    "raw_error_message": "Temporary network glitch, retry recommended",
-    "bank_code": "SBI",
-    "metadata": {
-      "true_root_cause": "network_error"
-    }
-  },
-  {
-    "txn_id": "fb7e926f-4329-4fd0-9108-b907c7ceb933",
-    "merchant_id": "MERCH_090",
-    "amount_inr": 20476.57,
-    "upi_vpa": "rastogikiaan@ybl",
-    "timestamp": "2026-08-31T10:11:54.707929",
-    "status": "failed",
-    "raw_error_message": "NPCI network unreachable",
-    "bank_code": "YBL",
-    "metadata": {
-      "true_root_cause": "network_error"
-    }
-  },
-  {
-    "txn_id": "214a1af7-86d1-4db8-8966-589db190f43f",
-    "merchant_id": "MERCH_085",
-    "amount_inr": 20641.09,
-    "upi_vpa": "raghav38@ibl",
-    "timestamp": "2026-09-03T22:37:54.707970",
-    "status": "failed",
-    "raw_error_message": "Network error, connection reset by peer",
-    "bank_code": "IBL",
-    "metadata": {
-      "true_root_cause": "network_error"
-    }
-  },
-  {
-    "txn_id": "41afcb00-7066-4fee-9045-ec1bca310c90",
-    "merchant_id": "MERCH_010",
-    "amount_inr": 22795.81,
-    "upi_vpa": "dyohannan@oksbi",
-    "timestamp": "2026-08-30T12:19:54.708015",
-    "status": "failed",
-    "raw_error_message": "Temporary network glitch, retry recommended",
-    "bank_code": "SBI",
-    "metadata": {
-      "true_root_cause": "network_error"
-    }
-  },
-  {
-    "txn_id": "b46daca6-858f-4b8e-a56f-a83faca9eebc",
-    "merchant_id": "MERCH_132",
-    "amount_inr": 41263.87,
-    "upi_vpa": "tanaychawla@ybl",
-    "timestamp": "2026-09-01T04:09:54.708058",
-    "status": "failed",
-    "raw_error_message": "Connection to payment switch lost",
-    "bank_code": "YBL",
-    "metadata": {
-      "true_root_cause": "network_error"
-    }
-  },
-  {
-    "txn_id": "3d649654-b1e9-4063-a73a-53c415d2598d",
-    "merchant_id": "MERCH_014",
-    "amount_inr": 9460.37,
-    "upi_vpa": "tejasbanerjee@oksbi",
-    "timestamp": "2026-09-01T01:41:54.708097",
-    "status": "failed",
-    "raw_error_message": "Gateway timeout from issuing bank",
-    "bank_code": "SBI",
-    "metadata": {
-      "true_root_cause": "bank_timeout"
-    }
-  },
-  {
-    "txn_id": "c1ee89a4-7dc3-48d2-92b0-2f1ba3f3af36",
-    "merchant_id": "MERCH_195",
-    "amount_inr": 2675.43,
-    "upi_vpa": "ladgaurang@okaxis",
-    "timestamp": "2026-08-31T17:49:54.708138",
-    "status": "failed",
-    "raw_error_message": "NPCI network unreachable",
-    "bank_code": "AXIS",
-    "metadata": {
-      "true_root_cause": "network_error"
-    }
-  },
-  {
-    "txn_id": "ced76495-bf73-4a12-b76f-94fdb18e2cfb",
-    "merchant_id": "MERCH_179",
-    "amount_inr": 24287.12,
-    "upi_vpa": "andrew27@okhdfcbank",
-    "timestamp": "2026-08-31T18:53:54.708188",
+    "amount_inr": 47835.57,
+    "upi_vpa": "auroraandrew@okicici",
+    "timestamp": "2026-09-05T02:36:22.863223",
     "status": "failed",
     "raw_error_message": "Upstream bank unreachable, request timed out",
-    "bank_code": "HDFC",
-    "metadata": {
-      "true_root_cause": "bank_timeout"
-    }
-  },
-  {
-    "txn_id": "2dce3bc6-f245-4f9a-989e-5e0c009980db",
-    "merchant_id": "MERCH_182",
-    "amount_inr": 8003.07,
-    "upi_vpa": "bahlridhi@okicici",
-    "timestamp": "2026-09-03T01:11:54.708228",
-    "status": "failed",
-    "raw_error_message": "No response from bank within timeout window",
     "bank_code": "ICICI",
     "metadata": {
       "true_root_cause": "bank_timeout"
     }
   },
   {
-    "txn_id": "98aada10-bf5b-4774-ab43-a56a4d326248",
-    "merchant_id": "MERCH_030",
-    "amount_inr": 23126.25,
-    "upi_vpa": "dasadvaith@ybl",
-    "timestamp": "2026-09-03T05:10:54.708268",
+    "txn_id": "f426a448-2f61-4ffc-a054-f2762c34c913",
+    "merchant_id": "MERCH_185",
+    "amount_inr": 2667.16,
+    "upi_vpa": "naveen01@okhdfcbank",
+    "timestamp": "2026-08-31T23:29:22.863253",
     "status": "failed",
     "raw_error_message": "Transaction declined due to insufficient balance",
-    "bank_code": "YBL",
+    "bank_code": "HDFC",
     "metadata": {
       "true_root_cause": "insufficient_balance"
     }
   },
   {
-    "txn_id": "35c683c9-4f24-4a63-8484-fc477a77155a",
-    "merchant_id": "MERCH_131",
-    "amount_inr": 35300.04,
-    "upi_vpa": "taggarwal@oksbi",
-    "timestamp": "2026-09-02T10:50:54.708308",
-    "status": "failed",
-    "raw_error_message": "Upstream bank unreachable, request timed out",
-    "bank_code": "SBI",
-    "metadata": {
-      "true_root_cause": "bank_timeout"
-    }
-  },
-  {
-    "txn_id": "d41ff394-3a8c-4835-b01c-1b8cda354da4",
-    "merchant_id": "MERCH_117",
-    "amount_inr": 27608.13,
-    "upi_vpa": "morarchandani@oksbi",
-    "timestamp": "2026-09-02T23:58:54.708350",
-    "status": "failed",
-    "raw_error_message": "NPCI network unreachable",
-    "bank_code": "SBI",
-    "metadata": {
-      "true_root_cause": "network_error"
-    }
-  },
-  {
-    "txn_id": "5bf1f866-32f9-49fd-b112-8fe1abe4a9c9",
-    "merchant_id": "MERCH_018",
-    "amount_inr": 13884.75,
-    "upi_vpa": "harrison99@okicici",
-    "timestamp": "2026-09-04T05:15:54.708389",
-    "status": "failed",
-    "raw_error_message": "Socket timeout communicating with UPI switch",
-    "bank_code": "ICICI",
-    "metadata": {
-      "true_root_cause": "network_error"
-    }
-  },
-  {
-    "txn_id": "8e0fb517-9789-4bac-8b82-2fe0370b9ebc",
-    "merchant_id": "MERCH_069",
-    "amount_inr": 41045.42,
-    "upi_vpa": "abhiramchauhan@okhdfcbank",
-    "timestamp": "2026-08-30T23:53:54.708431",
-    "status": "failed",
-    "raw_error_message": "Monthly UPI cap reached, transaction blocked",
-    "bank_code": "HDFC",
-    "metadata": {
-      "true_root_cause": "limit_exceeded"
-    }
-  },
-  {
-    "txn_id": "2b939b56-aa7e-428e-ae05-322e2cff5332",
-    "merchant_id": "MERCH_149",
-    "amount_inr": 49945.23,
-    "upi_vpa": "bhattacharyyaekaraj@ibl",
-    "timestamp": "2026-08-30T02:15:54.708472",
-    "status": "failed",
-    "raw_error_message": "Transaction timed out waiting for bank response",
-    "bank_code": "IBL",
-    "metadata": {
-      "true_root_cause": "bank_timeout"
-    }
-  },
-  {
-    "txn_id": "2751e174-1cd4-4226-85a0-24bb17f11229",
-    "merchant_id": "MERCH_124",
-    "amount_inr": 17321.68,
-    "upi_vpa": "qtak@oksbi",
-    "timestamp": "2026-08-30T15:27:54.708508",
-    "status": "failed",
-    "raw_error_message": "PSP down for maintenance for 4 hours",
-    "bank_code": "SBI",
-    "metadata": {
-      "true_root_cause": "network_error"
-    }
-  },
-  {
-    "txn_id": "4e444afe-f1f3-4d15-ab99-1333c0d1bda1",
-    "merchant_id": "MERCH_049",
-    "amount_inr": 49040.65,
-    "upi_vpa": "dugarnitara@oksbi",
-    "timestamp": "2026-09-02T02:39:54.708549",
-    "status": "failed",
-    "raw_error_message": "Transaction declined due to insufficient balance",
-    "bank_code": "SBI",
-    "metadata": {
-      "true_root_cause": "insufficient_balance"
-    }
-  },
-  {
-    "txn_id": "765d14f8-4a80-49d8-823b-7441f53fa059",
-    "merchant_id": "MERCH_012",
-    "amount_inr": 15977.0,
-    "upi_vpa": "thari@paytm",
-    "timestamp": "2026-09-01T02:21:54.708586",
-    "status": "failed",
-    "raw_error_message": "Bank server not responding (E091)",
-    "bank_code": "PAYTM",
-    "metadata": {
-      "true_root_cause": "bank_timeout"
-    }
-  },
-  {
-    "txn_id": "b1a82468-ff0b-4832-81d2-f5482d53c3ef",
-    "merchant_id": "MERCH_127",
-    "amount_inr": 48244.74,
-    "upi_vpa": "sharafchakradev@oksbi",
-    "timestamp": "2026-09-04T00:59:54.708627",
-    "status": "failed",
-    "raw_error_message": "NPCI network unreachable",
-    "bank_code": "SBI",
-    "metadata": {
-      "true_root_cause": "network_error"
-    }
-  },
-  {
-    "txn_id": "41c840c4-d951-4dd6-a391-bfcd294fd00a",
-    "merchant_id": "MERCH_113",
-    "amount_inr": 5075.61,
-    "upi_vpa": "ekbalbasak@okhdfcbank",
-    "timestamp": "2026-09-04T15:07:54.708666",
-    "status": "failed",
-    "raw_error_message": "Gateway timeout from issuing bank",
-    "bank_code": "HDFC",
-    "metadata": {
-      "true_root_cause": "bank_timeout"
-    }
-  },
-  {
-    "txn_id": "9c3361fa-b9ca-47f3-a206-49653bcf053e",
-    "merchant_id": "MERCH_105",
-    "amount_inr": 43559.56,
-    "upi_vpa": "manyakapoor@okaxis",
-    "timestamp": "2026-09-04T03:10:54.708712",
-    "status": "failed",
-    "raw_error_message": "Mandate not found for this transaction",
-    "bank_code": "AXIS",
-    "metadata": {
-      "true_root_cause": "mandate_error"
-    }
-  },
-  {
-    "txn_id": "259ea24d-7e78-406b-9c3b-9cee97f738b0",
-    "merchant_id": "MERCH_087",
-    "amount_inr": 31200.64,
-    "upi_vpa": "jacob42@oksbi",
-    "timestamp": "2026-09-02T18:09:54.708753",
-    "status": "failed",
-    "raw_error_message": "Transaction failed due to unspecified error",
-    "bank_code": "SBI",
-    "metadata": {
-      "true_root_cause": "unknown"
-    }
-  },
-  {
-    "txn_id": "4fdea7f2-2dd6-478d-81fe-222c8e7cb179",
-    "merchant_id": "MERCH_173",
-    "amount_inr": 42981.17,
-    "upi_vpa": "bajajsamesh@ibl",
-    "timestamp": "2026-09-02T00:48:54.708793",
-    "status": "failed",
-    "raw_error_message": "Network error, connection reset by peer",
-    "bank_code": "IBL",
-    "metadata": {
-      "true_root_cause": "network_error"
-    }
-  },
-  {
-    "txn_id": "86c4adc6-fc4f-4ec5-996e-bfa3d3c05456",
-    "merchant_id": "MERCH_139",
-    "amount_inr": 1891.37,
-    "upi_vpa": "qasim59@okaxis",
-    "timestamp": "2026-08-31T05:17:54.708830",
-    "status": "failed",
-    "raw_error_message": "Connection to payment switch lost",
-    "bank_code": "AXIS",
-    "metadata": {
-      "true_root_cause": "network_error"
-    }
-  },
-  {
-    "txn_id": "79b36bd6-8c82-4694-af8b-99e7984c2649",
-    "merchant_id": "MERCH_059",
-    "amount_inr": 37363.64,
-    "upi_vpa": "upanchal@okaxis",
-    "timestamp": "2026-09-02T12:03:54.708868",
-    "status": "failed",
-    "raw_error_message": "No response from bank within timeout window",
-    "bank_code": "AXIS",
-    "metadata": {
-      "true_root_cause": "bank_timeout"
-    }
-  },
-  {
-    "txn_id": "a29ba435-0d5b-45c0-9fba-281609934132",
-    "merchant_id": "MERCH_114",
-    "amount_inr": 8401.6,
-    "upi_vpa": "mohammedgopal@ibl",
-    "timestamp": "2026-09-04T15:05:54.708911",
-    "status": "failed",
-    "raw_error_message": "Network error, connection reset by peer",
-    "bank_code": "IBL",
-    "metadata": {
-      "true_root_cause": "network_error"
-    }
-  },
-  {
-    "txn_id": "1ad31b96-318d-43dc-8ce7-93755083de0d",
-    "merchant_id": "MERCH_015",
-    "amount_inr": 14739.05,
-    "upi_vpa": "enair@ybl",
-    "timestamp": "2026-09-02T01:57:54.708949",
+    "txn_id": "c8b6c9c0-0892-48e6-b5fe-f06a7d093faa",
+    "merchant_id": "MERCH_055",
+    "amount_inr": 7821.04,
+    "upi_vpa": "zachariawarinder@okicici",
+    "timestamp": "2026-08-31T00:25:22.863288",
     "status": "failed",
     "raw_error_message": "Bank server timeout, please try again",
-    "bank_code": "YBL",
-    "metadata": {
-      "true_root_cause": "bank_timeout"
-    }
-  },
-  {
-    "txn_id": "0cc306d4-c3f2-44b9-af3b-7f9c24492920",
-    "merchant_id": "MERCH_106",
-    "amount_inr": 28339.81,
-    "upi_vpa": "krishamaharaj@paytm",
-    "timestamp": "2026-08-30T17:29:54.708991",
-    "status": "failed",
-    "raw_error_message": "PSP down for maintenance for 4 hours",
-    "bank_code": "PAYTM",
-    "metadata": {
-      "true_root_cause": "network_error"
-    }
-  },
-  {
-    "txn_id": "f0400b41-d6c8-4eb4-8274-811c512fe1c5",
-    "merchant_id": "MERCH_157",
-    "amount_inr": 43554.9,
-    "upi_vpa": "meera29@paytm",
-    "timestamp": "2026-09-04T20:58:54.709029",
-    "status": "failed",
-    "raw_error_message": "UPI limit exceeded for this account",
-    "bank_code": "PAYTM",
-    "metadata": {
-      "true_root_cause": "limit_exceeded"
-    }
-  },
-  {
-    "txn_id": "0faf415a-ae02-4065-858c-f95047ba535d",
-    "merchant_id": "MERCH_037",
-    "amount_inr": 11686.2,
-    "upi_vpa": "sachi58@oksbi",
-    "timestamp": "2026-08-30T03:17:54.709069",
-    "status": "failed",
-    "raw_error_message": "Insufficient funds to complete transaction",
-    "bank_code": "SBI",
-    "metadata": {
-      "true_root_cause": "insufficient_balance"
-    }
-  },
-  {
-    "txn_id": "4cf39661-e9af-48bf-9ff8-93031da8b44d",
-    "merchant_id": "MERCH_120",
-    "amount_inr": 45070.35,
-    "upi_vpa": "zayan14@okhdfcbank",
-    "timestamp": "2026-09-05T15:58:54.709105",
-    "status": "failed",
-    "raw_error_message": "Transaction declined due to insufficient balance",
-    "bank_code": "HDFC",
-    "metadata": {
-      "true_root_cause": "insufficient_balance"
-    }
-  },
-  {
-    "txn_id": "9b03f746-e6b7-4a23-b657-027545f7ea46",
-    "merchant_id": "MERCH_089",
-    "amount_inr": 49383.82,
-    "upi_vpa": "odika19@ybl",
-    "timestamp": "2026-08-31T17:54:54.709145",
-    "status": "failed",
-    "raw_error_message": "Insufficient funds to complete transaction",
-    "bank_code": "YBL",
-    "metadata": {
-      "true_root_cause": "insufficient_balance"
-    }
-  },
-  {
-    "txn_id": "aab23789-2cef-4fde-9ed2-a749ac85a199",
-    "merchant_id": "MERCH_117",
-    "amount_inr": 42280.67,
-    "upi_vpa": "kabirbhattacharyya@okaxis",
-    "timestamp": "2026-09-02T22:14:54.709191",
-    "status": "failed",
-    "raw_error_message": "Bank server not responding (E091)",
-    "bank_code": "AXIS",
-    "metadata": {
-      "true_root_cause": "bank_timeout"
-    }
-  },
-  {
-    "txn_id": "76a0c1be-ed3a-419a-8d30-02de19f241b7",
-    "merchant_id": "MERCH_028",
-    "amount_inr": 11936.56,
-    "upi_vpa": "mukherjeeqarin@ibl",
-    "timestamp": "2026-08-31T06:35:54.709234",
-    "status": "failed",
-    "raw_error_message": "Bank server not responding (E091)",
-    "bank_code": "IBL",
-    "metadata": {
-      "true_root_cause": "bank_timeout"
-    }
-  },
-  {
-    "txn_id": "3d8e6953-9829-4800-adb8-fd2832811ddc",
-    "merchant_id": "MERCH_006",
-    "amount_inr": 48899.43,
-    "upi_vpa": "hemalmisra@okaxis",
-    "timestamp": "2026-09-02T09:54:54.709274",
-    "status": "failed",
-    "raw_error_message": "Available balance too low for this transaction",
-    "bank_code": "AXIS",
-    "metadata": {
-      "true_root_cause": "insufficient_balance"
-    }
-  },
-  {
-    "txn_id": "9be29057-4bb1-4b2d-bbfb-53d19ffd2f50",
-    "merchant_id": "MERCH_176",
-    "amount_inr": 38937.75,
-    "upi_vpa": "tellahenry@ybl",
-    "timestamp": "2026-08-30T07:59:54.709312",
-    "status": "failed",
-    "raw_error_message": "Available balance too low for this transaction",
-    "bank_code": "YBL",
-    "metadata": {
-      "true_root_cause": "insufficient_balance"
-    }
-  },
-  {
-    "txn_id": "ca6ac967-cce2-44cb-8f20-eb6a2aa12404",
-    "merchant_id": "MERCH_199",
-    "amount_inr": 39963.12,
-    "upi_vpa": "anay01@ibl",
-    "timestamp": "2026-09-02T12:22:54.709349",
-    "status": "failed",
-    "raw_error_message": "Processing failed, contact support",
-    "bank_code": "IBL",
-    "metadata": {
-      "true_root_cause": "unknown"
-    }
-  },
-  {
-    "txn_id": "ec376032-ded1-4e3b-962a-e2bbce0f7d2a",
-    "merchant_id": "MERCH_159",
-    "amount_inr": 12606.28,
-    "upi_vpa": "brijeshtalwar@paytm",
-    "timestamp": "2026-09-03T14:36:54.709392",
-    "status": "failed",
-    "raw_error_message": "Available balance too low for this transaction",
-    "bank_code": "PAYTM",
-    "metadata": {
-      "true_root_cause": "insufficient_balance"
-    }
-  },
-  {
-    "txn_id": "aabbd7f8-99b3-4185-944c-57d2dd173124",
-    "merchant_id": "MERCH_161",
-    "amount_inr": 32352.4,
-    "upi_vpa": "ssampath@okaxis",
-    "timestamp": "2026-09-04T16:00:54.709433",
-    "status": "failed",
-    "raw_error_message": "UPI limit exceeded for this account",
-    "bank_code": "AXIS",
-    "metadata": {
-      "true_root_cause": "limit_exceeded"
-    }
-  },
-  {
-    "txn_id": "2aefbec3-3322-41d6-b849-129d4b7f2d94",
-    "merchant_id": "MERCH_094",
-    "amount_inr": 36644.75,
-    "upi_vpa": "zpal@ybl",
-    "timestamp": "2026-08-30T04:16:54.709471",
-    "status": "failed",
-    "raw_error_message": "NPCI network unreachable",
-    "bank_code": "YBL",
-    "metadata": {
-      "true_root_cause": "network_error"
-    }
-  },
-  {
-    "txn_id": "7246d64e-d73c-443c-a43f-9f14915c8053",
-    "merchant_id": "MERCH_045",
-    "amount_inr": 10119.66,
-    "upi_vpa": "ssandhu@okhdfcbank",
-    "timestamp": "2026-09-01T01:04:54.709510",
-    "status": "failed",
-    "raw_error_message": "Transaction timed out waiting for bank response",
-    "bank_code": "HDFC",
-    "metadata": {
-      "true_root_cause": "bank_timeout"
-    }
-  },
-  {
-    "txn_id": "641b6f90-f282-4480-8e74-d1c08b1b8be1",
-    "merchant_id": "MERCH_070",
-    "amount_inr": 41540.58,
-    "upi_vpa": "dsolanki@okicici",
-    "timestamp": "2026-08-31T01:30:54.709550",
-    "status": "failed",
-    "raw_error_message": "Per-transaction limit exceeded (BLR-091)",
     "bank_code": "ICICI",
     "metadata": {
-      "true_root_cause": "limit_exceeded"
-    }
-  },
-  {
-    "txn_id": "bf63f999-d207-42c0-a932-213f53eb7894",
-    "merchant_id": "MERCH_192",
-    "amount_inr": 43532.81,
-    "upi_vpa": "aachalpillai@ibl",
-    "timestamp": "2026-09-02T09:56:54.709590",
-    "status": "failed",
-    "raw_error_message": "Bank server not responding (E091)",
-    "bank_code": "IBL",
-    "metadata": {
       "true_root_cause": "bank_timeout"
     }
   },
   {
-    "txn_id": "f009de52-d358-4970-a8c3-739a2e812654",
-    "merchant_id": "MERCH_194",
-    "amount_inr": 48328.36,
-    "upi_vpa": "vbansal@ybl",
-    "timestamp": "2026-09-04T04:05:54.709627",
-    "status": "failed",
-    "raw_error_message": "Monthly UPI cap reached, transaction blocked",
-    "bank_code": "YBL",
-    "metadata": {
-      "true_root_cause": "limit_exceeded"
-    }
-  },
-  {
-    "txn_id": "e4109bd0-5010-4c35-9329-7b0442f83121",
-    "merchant_id": "MERCH_094",
-    "amount_inr": 4606.11,
-    "upi_vpa": "daraavni@ibl",
-    "timestamp": "2026-08-30T10:20:54.709670",
-    "status": "failed",
-    "raw_error_message": "Monthly UPI cap reached, transaction blocked",
-    "bank_code": "IBL",
-    "metadata": {
-      "true_root_cause": "limit_exceeded"
-    }
-  },
-  {
-    "txn_id": "36c37c11-1eac-4834-a775-d3e5680a7962",
-    "merchant_id": "MERCH_117",
-    "amount_inr": 18492.42,
-    "upi_vpa": "taragrewal@okicici",
-    "timestamp": "2026-09-04T08:47:54.709710",
+    "txn_id": "2fa7d626-b69b-40d0-8a4b-07cd982d3dad",
+    "merchant_id": "MERCH_095",
+    "amount_inr": 5832.78,
+    "upi_vpa": "kparikh@ibl",
+    "timestamp": "2026-08-30T11:05:22.863319",
     "status": "failed",
     "raw_error_message": "Connection to payment switch lost",
-    "bank_code": "ICICI",
+    "bank_code": "IBL",
     "metadata": {
       "true_root_cause": "network_error"
     }
   },
   {
-    "txn_id": "84d74e87-9d6a-4eb8-8be0-237649802994",
-    "merchant_id": "MERCH_164",
-    "amount_inr": 47020.57,
-    "upi_vpa": "tbath@okicici",
-    "timestamp": "2026-09-01T10:29:54.709746",
+    "txn_id": "0f95ce46-fd70-434b-a427-1928c01c4794",
+    "merchant_id": "MERCH_197",
+    "amount_inr": 40939.5,
+    "upi_vpa": "bassibrijesh@ibl",
+    "timestamp": "2026-08-30T09:48:22.863352",
     "status": "failed",
-    "raw_error_message": "Available balance too low for this transaction",
+    "raw_error_message": "Bank server not responding (E091)",
+    "bank_code": "IBL",
+    "metadata": {
+      "true_root_cause": "bank_timeout"
+    }
+  },
+  {
+    "txn_id": "826831d6-9972-4aec-ab90-77787e57a6c5",
+    "merchant_id": "MERCH_008",
+    "amount_inr": 9102.76,
+    "upi_vpa": "kiaanpatla@okicici",
+    "timestamp": "2026-09-02T17:57:22.863384",
+    "status": "failed",
+    "raw_error_message": "Insufficient balance in account",
     "bank_code": "ICICI",
     "metadata": {
       "true_root_cause": "insufficient_balance"
     }
   },
   {
-    "txn_id": "aeefd7c4-ae8e-4bfc-b8ed-3ac5d27c1d7b",
-    "merchant_id": "MERCH_159",
-    "amount_inr": 44223.32,
-    "upi_vpa": "biyer@oksbi",
-    "timestamp": "2026-09-05T11:41:54.709784",
+    "txn_id": "93ff7b54-8c79-4133-99b8-de196a0109b1",
+    "merchant_id": "MERCH_047",
+    "amount_inr": 43506.15,
+    "upi_vpa": "ikhatri@okhdfcbank",
+    "timestamp": "2026-09-05T17:18:22.863416",
     "status": "failed",
-    "raw_error_message": "Upstream bank unreachable, request timed out",
-    "bank_code": "SBI",
+    "raw_error_message": "Available balance too low for this transaction",
+    "bank_code": "HDFC",
+    "metadata": {
+      "true_root_cause": "insufficient_balance"
+    }
+  },
+  {
+    "txn_id": "a8cd1398-13be-455c-bfc6-e4e876c7aae9",
+    "merchant_id": "MERCH_024",
+    "amount_inr": 37330.98,
+    "upi_vpa": "karankarnik@okaxis",
+    "timestamp": "2026-09-05T10:36:22.863449",
+    "status": "failed",
+    "raw_error_message": "Insufficient funds to complete transaction",
+    "bank_code": "AXIS",
+    "metadata": {
+      "true_root_cause": "insufficient_balance"
+    }
+  },
+  {
+    "txn_id": "45816b8d-336f-4947-98f2-0385fcd8e2ab",
+    "merchant_id": "MERCH_080",
+    "amount_inr": 36107.64,
+    "upi_vpa": "fgulati@paytm",
+    "timestamp": "2026-09-01T13:56:22.863478",
+    "status": "failed",
+    "raw_error_message": "Transaction timed out waiting for bank response",
+    "bank_code": "PAYTM",
     "metadata": {
       "true_root_cause": "bank_timeout"
+    }
+  },
+  {
+    "txn_id": "f40837c3-03b5-40a0-bb47-bab5c3e01a4c",
+    "merchant_id": "MERCH_041",
+    "amount_inr": 37746.35,
+    "upi_vpa": "abhakale@ybl",
+    "timestamp": "2026-09-04T00:29:22.863510",
+    "status": "failed",
+    "raw_error_message": "Daily transaction limit exceeded",
+    "bank_code": "YBL",
+    "metadata": {
+      "true_root_cause": "limit_exceeded"
+    }
+  },
+  {
+    "txn_id": "b768d969-f86e-4068-b63a-760ed8ea9ea5",
+    "merchant_id": "MERCH_125",
+    "amount_inr": 30393.09,
+    "upi_vpa": "brindavohra@okaxis",
+    "timestamp": "2026-08-31T23:11:22.863543",
+    "status": "failed",
+    "raw_error_message": "Settlement corridor to this bank is experiencing severe processing lag today",
+    "bank_code": "AXIS",
+    "metadata": {
+      "true_root_cause": "bank_timeout"
+    }
+  },
+  {
+    "txn_id": "ae8ba715-f84c-4c33-b9ff-eb5445d51b13",
+    "merchant_id": "MERCH_111",
+    "amount_inr": 5633.4,
+    "upi_vpa": "ekantika16@ybl",
+    "timestamp": "2026-09-01T20:43:22.863577",
+    "status": "failed",
+    "raw_error_message": "Socket timeout communicating with UPI switch",
+    "bank_code": "YBL",
+    "metadata": {
+      "true_root_cause": "network_error"
     }
   }
 ]

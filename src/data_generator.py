@@ -64,6 +64,41 @@ ERROR_TEMPLATES: dict[RootCause, list[str]] = {
     ],
 }
 
+# Phrased differently enough from both the keyword substrings above and the
+# labeled examples in data/labeled_examples.json that they clear neither Tier 1
+# nor Tier 2 and reach the LLM. Confirmed empirically before wiring these in,
+# see FAILURE_LOG for why this was needed: the original templates overlapped
+# so heavily with the deterministic tiers that zero transactions ever reached
+# the LLM, which undercuts the whole "AI as last resort" architecture.
+NOVEL_TEMPLATES: dict[RootCause, list[str]] = {
+    RootCause.BANK_TIMEOUT: [
+        "Response from partner bank arrived after the acceptable window had already closed",
+        "Settlement corridor to this bank is experiencing severe processing lag today",
+    ],
+    RootCause.NETWORK_ERROR: [
+        "Regional data center serving this corridor is experiencing intermittent packet drops of unknown origin",
+        "Transaction path between merchant and acquirer is currently degraded",
+    ],
+    RootCause.INSUFFICIENT_BALANCE: [
+        "Debit could not be honored, account holder needs to top up before retrying",
+        "Requested amount exceeds what is currently available to move out of this account",
+    ],
+    RootCause.LIMIT_EXCEEDED: [
+        "Risk engine flagged unusually high transaction velocity for this profile and paused further debits",
+        "This account has been temporarily capped after unusually frequent transfers today",
+    ],
+    RootCause.MANDATE_ERROR: [
+        "Recurring collection could not proceed, prior consent record appears stale",
+        "Standing authorization for this merchant could not be located in bank records",
+    ],
+    RootCause.UNKNOWN: [
+        "Beneficiary account frozen pending KYC review by regulator",
+        "Transaction blocked by an internal compliance hold with no further detail provided",
+    ],
+}
+
+NOVEL_MESSAGE_PROBABILITY = 0.10
+
 # weights bias toward BANK_TIMEOUT and NETWORK_ERROR per spec
 ROOT_CAUSE_WEIGHTS = {
     RootCause.BANK_TIMEOUT: 30,
@@ -85,7 +120,10 @@ def generate_transaction() -> Transaction:
     root_cause = random.choices(
         list(ROOT_CAUSE_WEIGHTS.keys()), weights=list(ROOT_CAUSE_WEIGHTS.values())
     )[0]
-    error_message = random.choice(ERROR_TEMPLATES[root_cause])
+    if random.random() < NOVEL_MESSAGE_PROBABILITY:
+        error_message = random.choice(NOVEL_TEMPLATES[root_cause])
+    else:
+        error_message = random.choice(ERROR_TEMPLATES[root_cause])
     vpa, bank_code = _random_vpa()
     timestamp = datetime.now() - timedelta(minutes=random.randint(0, 60 * 24 * 7))
 
