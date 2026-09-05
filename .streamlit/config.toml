@@ -1,6 +1,7 @@
 [server]
 headless = true
 enableCORS = false
+fileWatcherType = "none"
 
 [theme]
 base = "light"
