@@ -132,7 +132,7 @@ project's own rule that measured claims have to be measured.
 
 Full breakdown in [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
 
-## Setup (under 10 minutes)
+## Setup 
 
 Prerequisites: Python 3.12+ and git. Nothing else to install, no Docker,
 no database.
