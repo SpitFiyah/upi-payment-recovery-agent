@@ -13,19 +13,11 @@ from pathlib import Path
 from faker import Faker
 
 from src.models import RootCause, Transaction
+from src.preprocessing import VPA_SUFFIX_TO_BANK_CODE
 
 fake = Faker("en_IN")
 
-BANK_SUFFIXES = ["ybl", "paytm", "okhdfcbank", "oksbi", "okicici", "okaxis", "ibl"]
-BANK_CODE_MAP = {
-    "ybl": "YBL",
-    "paytm": "PAYTM",
-    "okhdfcbank": "HDFC",
-    "oksbi": "SBI",
-    "okicici": "ICICI",
-    "okaxis": "AXIS",
-    "ibl": "IBL",
-}
+BANK_SUFFIXES = list(VPA_SUFFIX_TO_BANK_CODE.keys())
 
 # error message templates per RootCause. Some include an embedded bank error code,
 # most do not, matching how upstream messages actually look.
@@ -86,7 +78,7 @@ ROOT_CAUSE_WEIGHTS = {
 def _random_vpa() -> str:
     suffix = random.choice(BANK_SUFFIXES)
     username = fake.user_name().replace(".", "").replace("_", "")
-    return f"{username}@{suffix}", BANK_CODE_MAP[suffix]
+    return f"{username}@{suffix}", VPA_SUFFIX_TO_BANK_CODE[suffix]
 
 
 def generate_transaction() -> Transaction:
