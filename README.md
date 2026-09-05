@@ -1,11 +1,12 @@
 # UPI Payment Failure Recovery Agent
 
-Track 3 submission for the Razorpay AI Buildathon 2026.
+My Track 3 submission for the Razorpay AI Buildathon 2026.
 
-Detects UPI payment failures, classifies root cause via a multi-tier
-cascade with LLM as last resort, executes a bounded retry strategy with
-deterministic stopping rules, and reports measured recovery across a
-batch with full audit trail.
+Every failed UPI transaction gets enriched, classified, and run through a
+retry policy that actually knows when to stop trying. The interesting part
+is the classifier: a 4-tier cascade where the LLM is the last thing tried,
+not the first, and every single decision along the way gets written to an
+audit log so the recovery numbers below aren't just a vibe.
 
 **Live demo:** Pending Streamlit Cloud deploy (needs a browser-based GitHub OAuth step, see Setup below to run locally in the meantime)
 **Video pitch:** TBD
@@ -30,9 +31,10 @@ batch with full audit trail.
 
 ## What this does
 
-Indian merchants using UPI experience 4-6% payment failure rates
-publicly reported by NPCI. Most retry logic in production is either
-naive fixed-interval or nothing. This agent closes the recovery loop:
+Indian merchants on UPI lose 4-6% of transaction volume to payment
+failures, a number NPCI itself publishes. Most merchants deal with this by
+retrying blindly on a fixed timer, or not retrying at all. Both quietly
+leak money. This agent tries to close that gap properly:
 
 1. Preprocessing enriches every transaction with bank code from UPI VPA
 2. 4-tier cascade classifies root cause: keyword match, then local
@@ -46,9 +48,10 @@ naive fixed-interval or nothing. This agent closes the recovery loop:
 
 ## Architecture
 
-AI is the last resort, not the first tool. Green is deterministic and free,
-orange is an LLM call, red is the fallback path when both LLM providers
-fail.
+The whole design bet here is that AI should be the last resort, not the
+first tool you reach for. Green below is deterministic and free, orange
+means an LLM actually got called, and red is what happens when both LLM
+providers fail at the same time.
 
 ```mermaid
 flowchart TD
@@ -83,8 +86,9 @@ including why that is not the 60/25/15 split originally targeted, in
 
 ## How a single transaction moves through the system
 
-Every arrow below is a real line in `logs/audit.jsonl`, not just an
-in-memory step. This is the audit trail the Track 3 bar asks for.
+Every arrow below is a real line written to `logs/audit.jsonl`, not just
+something that happened in memory and got forgotten. This is the audit
+trail the Track 3 bar asks for.
 
 ```mermaid
 sequenceDiagram
@@ -130,7 +134,8 @@ Full breakdown in [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
 
 ## Setup (under 10 minutes)
 
-Prerequisites: Python 3.12+, git.
+Prerequisites: Python 3.12+ and git. Nothing else to install, no Docker,
+no database.
 
     git clone https://github.com/SpitFiyah/upi-payment-recovery-agent.git
     cd upi-payment-recovery-agent
