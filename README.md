@@ -9,7 +9,7 @@ not the first, and every single decision along the way gets written to an
 audit log so the recovery numbers below aren't just a vibe.
 
 
-| | |
+|  |
 |---|---|
 | **Track** | Track 3, AI Revenue Recovery |
 | **Stack** | Python 3.13, Streamlit, Gemini + Groq, sentence-transformers, pydantic v2 |
